@@ -1,0 +1,27 @@
+[MAJU2685]
+Job Description = "MAJUMEC"
+sampleNo = "bh3"
+depth = "2"
+height = "76"
+diameter = "38"
+
+[111]
+Job Description = "permeability"
+sampleNo = "1"
+depth = "4"
+height = "38"
+diameter = "38"
+
+[GSP002S2]
+Job Description = "SABAH GREEN STEEL"
+sampleNo = "NNO1U3"
+depth = "18.50-19.00"
+height = "76"
+diameter = "38"
+
+[GSP002S3]
+Job Description = "SABAH GREEN STEEL"
+sampleNo = "NN02U2"
+depth = "12.50-13.00"
+height = "76"
+diameter = "38"
