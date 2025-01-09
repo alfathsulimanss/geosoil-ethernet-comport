@@ -338,7 +338,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/ralfsuliman/Desktop/EXE/Geosoil New Controller Ethernet</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{FEADE620-7DED-4497-8ED4-6A56AAE1F777}</Property>
-				<Property Name="Bld_version.build" Type="Int">296</Property>
+				<Property Name="Bld_version.build" Type="Int">297</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">BSGS DAQ.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/ralfsuliman/Desktop/EXE/Geosoil New Controller Ethernet/BSGS DAQ.exe</Property>
