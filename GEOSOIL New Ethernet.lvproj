@@ -338,7 +338,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/ralfsuliman/Desktop/EXE/Geosoil New Controller Multi Comm</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{FEADE620-7DED-4497-8ED4-6A56AAE1F777}</Property>
-				<Property Name="Bld_version.build" Type="Int">351</Property>
+				<Property Name="Bld_version.build" Type="Int">417</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">SoilTech DAQ.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/ralfsuliman/Desktop/EXE/Geosoil New Controller Multi Comm/SoilTech DAQ.exe</Property>
@@ -675,12 +675,12 @@
 				<Property Name="DistPartCount" Type="Int">3</Property>
 				<Property Name="INST_author" Type="Str">IDS INTEGRATED SOLUTIONS SDN BHD</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
-				<Property Name="INST_buildLocation" Type="Path">/C/Users/alfat/Desktop/Installer/Geosoil/New Controller</Property>
+				<Property Name="INST_buildLocation" Type="Path">/C/Users/ralfsuliman/Desktop/Installer/Geosoil/Ethernet</Property>
 				<Property Name="INST_buildSpecName" Type="Str">My Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{CE2C4DF3-7B0C-4283-BDDC-28290205AD8D}</Property>
 				<Property Name="INST_installerName" Type="Str">BSGS DAQ Installer.exe</Property>
 				<Property Name="INST_productName" Type="Str">My Installer</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.10</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.11</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">19008005</Property>
 				<Property Name="MSI_arpCompany" Type="Str">IDS INTEGRATED SOLUTIONS SDN BHD</Property>
@@ -694,7 +694,7 @@
 				<Property Name="RegDestCount" Type="Int">1</Property>
 				<Property Name="Source[0].dest" Type="Str">{CE2C4DF3-7B0C-4283-BDDC-28290205AD8D}</Property>
 				<Property Name="Source[0].File[0].dest" Type="Str">{CE2C4DF3-7B0C-4283-BDDC-28290205AD8D}</Property>
-				<Property Name="Source[0].File[0].name" Type="Str">BSGS DAQ.exe</Property>
+				<Property Name="Source[0].File[0].name" Type="Str">SoilTech DAQ.exe</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">2</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">BSGS DAQ</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">My Installer</Property>
@@ -768,7 +768,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9080DA46-7D33-468B-A72D-10EDC2013B70}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Test VISA.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/test VISA/Test VISA.exe</Property>
