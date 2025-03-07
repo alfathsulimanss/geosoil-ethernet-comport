@@ -328,6 +328,7 @@
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{664852E1-DD27-47D3-A53F-EA3872939FD0}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{6D40DBDE-B268-44D7-AC8D-2F2D3D4EEAF8}</Property>
+				<Property Name="App_INI_itemID" Type="Ref">/My Computer/data/SoilTech DAQ.ini</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{0DD3987A-8519-458C-8408-AB1BED7DF817}</Property>
@@ -338,7 +339,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/ralfsuliman/Desktop/EXE/Geosoil New Controller Multi Comm</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{FEADE620-7DED-4497-8ED4-6A56AAE1F777}</Property>
-				<Property Name="Bld_version.build" Type="Int">421</Property>
+				<Property Name="Bld_version.build" Type="Int">428</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">SoilTech DAQ.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/ralfsuliman/Desktop/EXE/Geosoil New Controller Multi Comm/SoilTech DAQ.exe</Property>
@@ -359,7 +360,7 @@
 				<Property Name="Destination[4].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">5</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Documents/favicon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{DC13BF74-E56C-43A1-AC3E-E020F448DFFF}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9BD1FF09-3CE9-4A7B-8DF9-BD782337EA73}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
