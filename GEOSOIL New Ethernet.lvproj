@@ -37,6 +37,7 @@
 		<Item Name="Variables" Type="Folder" URL="../Variables">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="License Activator.vi" Type="VI" URL="../License Activator.vi"/>
 		<Item Name="License Generator.vi" Type="VI" URL="../License Generator.vi"/>
 		<Item Name="Main 2.0.vi" Type="VI" URL="../Main 2.0.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
@@ -341,7 +342,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/ralfsuliman/Desktop/EXE/Geosoil New Controller Multi Comm</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{FEADE620-7DED-4497-8ED4-6A56AAE1F777}</Property>
-				<Property Name="Bld_version.build" Type="Int">445</Property>
+				<Property Name="Bld_version.build" Type="Int">447</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">SoilTech DAQ.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/ralfsuliman/Desktop/EXE/Geosoil New Controller Multi Comm/SoilTech DAQ.exe</Property>
