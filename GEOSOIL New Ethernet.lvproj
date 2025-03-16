@@ -37,6 +37,8 @@
 		<Item Name="Variables" Type="Folder" URL="../Variables">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="License Generator.vi" Type="VI" URL="../License Generator.vi"/>
+		<Item Name="Main 2.0.vi" Type="VI" URL="../Main 2.0.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -339,7 +341,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/ralfsuliman/Desktop/EXE/Geosoil New Controller Multi Comm</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{FEADE620-7DED-4497-8ED4-6A56AAE1F777}</Property>
-				<Property Name="Bld_version.build" Type="Int">428</Property>
+				<Property Name="Bld_version.build" Type="Int">445</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">SoilTech DAQ.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/ralfsuliman/Desktop/EXE/Geosoil New Controller Multi Comm/SoilTech DAQ.exe</Property>
@@ -360,11 +362,10 @@
 				<Property Name="Destination[4].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">5</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Documents/favicon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{9BD1FF09-3CE9-4A7B-8DF9-BD782337EA73}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{50870E3C-BC67-4D53-AF21-871FEFF399C6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[10].itemID" Type="Ref">/My Computer/SubVIs/InstrumentCalibration - Displacement Calibration (SubVI).vi</Property>
@@ -596,6 +597,10 @@
 				<Property Name="Source[63].itemID" Type="Ref">/My Computer/API/report.php</Property>
 				<Property Name="Source[64].destinationIndex" Type="Int">4</Property>
 				<Property Name="Source[64].itemID" Type="Ref">/My Computer/API/tdms-to-excel.py</Property>
+				<Property Name="Source[65].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[65].itemID" Type="Ref">/My Computer/Main 2.0.vi</Property>
+				<Property Name="Source[65].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[65].type" Type="Str">VI</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[7].itemID" Type="Ref">/My Computer/SubVIs/Communication - Initialize SV (SubVI).vi</Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
@@ -608,7 +613,7 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/SubVIs/Initialize Close Variables.vi</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">65</Property>
+				<Property Name="SourceCount" Type="Int">66</Property>
 				<Property Name="TgtF_companyName" Type="Str">BSGS Scientific</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">DAQ</Property>
 				<Property Name="TgtF_internalName" Type="Str">BSGS Scientific</Property>
