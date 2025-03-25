@@ -40,13 +40,13 @@ if (isset($data['testtype']) && isset($data['testname']) && isset($data['fileid'
 
     switch ($testtype) {
         case 1:
-            $columns = "`timestamp`, `elapsetime`, `Cell Pressure`, `Pore Pressure`, `Back Pressure`, `Volume Change`, `Load`, `Displacement`, `Change of Pore Pressure`, `Change in Volume`, `Axial Load Change`, `Change in Length`, `Deviator Stress`, `Axial Strain`";
-            $dataFields = ['Cell Pressure', 'Pore Pressure', 'Back Pressure', 'Volume Change', 'Load', 'Displacement', 'Change of Pore Pressure', 'Change in Volume', 'Axial Load Change', 'Change in Length', 'Deviator Stress', 'Axial Strain'];
+            $columns = "`timestamp`, `elapsetime`, `Cell Pressure`, `Back Pressure`, `Volume Change`, `Load`, `Displacement`, `Pore Pressure`, `Change of Pore Pressure`, `Change in Volume`, `Axial Load Change`, `Change in Length`, `Deviator Stress`, `Axial Strain`";
+            $dataFields = ['Cell Pressure', 'Back Pressure', 'Volume Change', 'Load', 'Displacement', 'Pore Pressure', 'Change of Pore Pressure', 'Change in Volume', 'Axial Load Change', 'Change in Length', 'Deviator Stress', 'Axial Strain'];
             break;
 
         case 2:
-            $columns = "`timestamp`, `elapsetime`, `Cell Pressure`, `Pore Pressure`, `Vertical Load`, `Displacement`, `Change Pore Pressure`, `Axial Load Change`, `Change in Length`, `Deviator Stress`, `Axial Strain`";
-            $dataFields = ['Cell Pressure', 'Pore Pressure', 'Vertical Load', 'Displacement', 'Change Pore Pressure', 'Axial Load Change', 'Change in Length', 'Deviator Stress', 'Axial Strain'];
+            $columns = "`timestamp`, `elapsetime`, `Cell Pressure`, `Vertical Load`, `Displacement`, `Pore Pressure`, `Change Pore Pressure`, `Axial Load Change`, `Change in Length`, `Deviator Stress`, `Axial Strain`";
+            $dataFields = ['Cell Pressure', 'Vertical Load', 'Displacement', 'Pore Pressure', 'Change Pore Pressure', 'Axial Load Change', 'Change in Length', 'Deviator Stress', 'Axial Strain'];
             break;
 
         case 3:
@@ -65,8 +65,8 @@ if (isset($data['testtype']) && isset($data['testname']) && isset($data['fileid'
             break;
 
         case 6:
-            $columns = "`timestamp`, `elapsetime`, `Cell Pressure`, `Pore Pressure`, `Back Pressure`, `Volume Change`, `B-Value`";
-            $dataFields = ['Cell Pressure', 'Pore Pressure', 'Back Pressure', 'Volume Change', 'B-Value'];
+            $columns = "`timestamp`, `elapsetime`, `Cell Pressure`, `Back Pressure`, `Volume Change`, `Pore Pressure`, `B-Value`, `Change Pore Pressure`, `Change in Volume`, `Pore Pressure Dissipation`";
+            $dataFields = ['Cell Pressure', 'Back Pressure', 'Volume Change', 'Pore Pressure', 'B-Value', 'Change Pore Pressure', 'Change in Volume', 'Pore Pressure Dissipation'];
             break;
 
         case 7:
@@ -80,8 +80,8 @@ if (isset($data['testtype']) && isset($data['testname']) && isset($data['fileid'
             break;
 		
 		case 9:
-            $columns = "`timestamp`, `elapsetime`, `Cell Pressure`, `Pore Pressure`, `Back Pressure`, `Volume Change`, `Change Pore Pressure`, `Change in Volume`, `Pore Pressure Dissipation`";
-            $dataFields = ['Cell Pressure', 'Pore Pressure', 'Back Pressure', 'Volume Change', 'Change Pore Pressure', 'Change in Volume', 'Pore Pressure Dissipation'];
+            $columns = "`timestamp`, `elapsetime`, `Cell Pressure`, `Back Pressure`, `Volume Change`, `Pore Pressure`, `Change Pore Pressure`, `Change in Volume`, `Pore Pressure Dissipation`";
+            $dataFields = ['Cell Pressure', 'Back Pressure', 'Volume Change', 'Pore Pressure', 'Change Pore Pressure', 'Change in Volume', 'Pore Pressure Dissipation'];
             break;
 
         default:

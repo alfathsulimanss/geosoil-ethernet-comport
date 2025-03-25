@@ -255,7 +255,6 @@
 				<Item Name="LabVIEWHTTPClient.lvlib" Type="Library" URL="/&lt;vilib&gt;/httpClient/LabVIEWHTTPClient.lvlib"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
-				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
@@ -331,7 +330,6 @@
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{664852E1-DD27-47D3-A53F-EA3872939FD0}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{6D40DBDE-B268-44D7-AC8D-2F2D3D4EEAF8}</Property>
-				<Property Name="App_INI_itemID" Type="Ref">/My Computer/data/SoilTech DAQ.ini</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{0DD3987A-8519-458C-8408-AB1BED7DF817}</Property>
@@ -342,10 +340,10 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/ralfsuliman/Desktop/EXE/Geosoil New Controller Multi Comm</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{FEADE620-7DED-4497-8ED4-6A56AAE1F777}</Property>
-				<Property Name="Bld_version.build" Type="Int">447</Property>
+				<Property Name="Bld_version.build" Type="Int">21</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">SoilTech DAQ.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Users/ralfsuliman/Desktop/EXE/Geosoil New Controller Multi Comm/SoilTech DAQ.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">GeoLogic.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/ralfsuliman/Desktop/EXE/Geosoil New Controller Multi Comm/GeoLogic.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -363,7 +361,7 @@
 				<Property Name="Destination[4].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">5</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Documents/favicon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{50870E3C-BC67-4D53-AF21-871FEFF399C6}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{94363E7F-D48E-45D5-B8FE-DB4381EB6615}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
@@ -532,7 +530,7 @@
 				<Property Name="Source[45].type" Type="Str">VI</Property>
 				<Property Name="Source[46].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[46].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[46].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[46].destinationIndex" Type="Int">1</Property>
 				<Property Name="Source[46].itemID" Type="Ref">/My Computer/data</Property>
 				<Property Name="Source[46].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[46].type" Type="Str">Container</Property>
@@ -544,68 +542,81 @@
 				<Property Name="Source[48].itemID" Type="Ref">/My Computer/SubVIs/Run Test - Remove NaN Value (SubVI).vi</Property>
 				<Property Name="Source[48].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[48].type" Type="Str">VI</Property>
-				<Property Name="Source[49].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[49].itemID" Type="Ref">/My Computer/data/Plan Template/1dconsol.gs</Property>
+				<Property Name="Source[49].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[49].itemID" Type="Ref">/My Computer/data/ErrorLog.ini</Property>
 				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Controls</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">Container</Property>
-				<Property Name="Source[50].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[50].itemID" Type="Ref">/My Computer/data/Plan Template/test1.gs</Property>
-				<Property Name="Source[51].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[51].itemID" Type="Ref">/My Computer/data/Plan Template/uctcompressiontest.gs</Property>
-				<Property Name="Source[52].destinationIndex" Type="Int">3</Property>
-				<Property Name="Source[52].itemID" Type="Ref">/My Computer/data/ErrorLog.ini</Property>
-				<Property Name="Source[53].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[53].itemID" Type="Ref">/My Computer/SubVIs/FTDI - Read Registry.vi</Property>
+				<Property Name="Source[50].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[50].itemID" Type="Ref">/My Computer/SubVIs/FTDI - Read Registry.vi</Property>
+				<Property Name="Source[50].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[50].type" Type="Str">VI</Property>
+				<Property Name="Source[51].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[51].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[51].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[51].itemID" Type="Ref">/My Computer/data/Log File</Property>
+				<Property Name="Source[51].type" Type="Str">Container</Property>
+				<Property Name="Source[52].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[52].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[52].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[52].itemID" Type="Ref">/My Computer/data/Plan Template</Property>
+				<Property Name="Source[52].type" Type="Str">Container</Property>
+				<Property Name="Source[53].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[53].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[53].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[53].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[53].itemID" Type="Ref">/My Computer/API</Property>
 				<Property Name="Source[53].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[53].type" Type="Str">VI</Property>
-				<Property Name="Source[54].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[54].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[54].destinationIndex" Type="Int">3</Property>
-				<Property Name="Source[54].itemID" Type="Ref">/My Computer/data/Log File</Property>
-				<Property Name="Source[54].type" Type="Str">Container</Property>
-				<Property Name="Source[55].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[55].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[55].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[55].itemID" Type="Ref">/My Computer/data/Plan Template</Property>
-				<Property Name="Source[55].type" Type="Str">Container</Property>
-				<Property Name="Source[56].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[56].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[56].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[56].itemID" Type="Ref">/My Computer/API</Property>
-				<Property Name="Source[56].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[56].type" Type="Str">Container</Property>
+				<Property Name="Source[53].type" Type="Str">Container</Property>
+				<Property Name="Source[54].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[54].itemID" Type="Ref">/My Computer/API/.env</Property>
+				<Property Name="Source[55].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[55].itemID" Type="Ref">/My Computer/API/BackendAPI.php</Property>
+				<Property Name="Source[56].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[56].itemID" Type="Ref">/My Computer/API/convert.php</Property>
 				<Property Name="Source[57].destinationIndex" Type="Int">4</Property>
-				<Property Name="Source[57].itemID" Type="Ref">/My Computer/API/.env</Property>
+				<Property Name="Source[57].itemID" Type="Ref">/My Computer/API/filename.php</Property>
 				<Property Name="Source[58].destinationIndex" Type="Int">4</Property>
-				<Property Name="Source[58].itemID" Type="Ref">/My Computer/API/BackendAPI.php</Property>
+				<Property Name="Source[58].itemID" Type="Ref">/My Computer/API/getdata.php</Property>
 				<Property Name="Source[59].destinationIndex" Type="Int">4</Property>
-				<Property Name="Source[59].itemID" Type="Ref">/My Computer/API/convert.php</Property>
+				<Property Name="Source[59].itemID" Type="Ref">/My Computer/API/getfileid.php</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[6].itemID" Type="Ref">/My Computer/SubVIs/Calibration - Config (SubVI).vi</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
 				<Property Name="Source[60].destinationIndex" Type="Int">4</Property>
-				<Property Name="Source[60].itemID" Type="Ref">/My Computer/API/filename.php</Property>
+				<Property Name="Source[60].itemID" Type="Ref">/My Computer/API/report.php</Property>
 				<Property Name="Source[61].destinationIndex" Type="Int">4</Property>
-				<Property Name="Source[61].itemID" Type="Ref">/My Computer/API/getdata.php</Property>
-				<Property Name="Source[62].destinationIndex" Type="Int">4</Property>
-				<Property Name="Source[62].itemID" Type="Ref">/My Computer/API/getfileid.php</Property>
-				<Property Name="Source[63].destinationIndex" Type="Int">4</Property>
-				<Property Name="Source[63].itemID" Type="Ref">/My Computer/API/report.php</Property>
-				<Property Name="Source[64].destinationIndex" Type="Int">4</Property>
-				<Property Name="Source[64].itemID" Type="Ref">/My Computer/API/tdms-to-excel.py</Property>
-				<Property Name="Source[65].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[65].itemID" Type="Ref">/My Computer/Main 2.0.vi</Property>
-				<Property Name="Source[65].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[65].type" Type="Str">VI</Property>
+				<Property Name="Source[61].itemID" Type="Ref">/My Computer/API/tdms-to-excel.py</Property>
+				<Property Name="Source[62].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[62].itemID" Type="Ref">/My Computer/Main 2.0.vi</Property>
+				<Property Name="Source[62].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[62].type" Type="Str">VI</Property>
+				<Property Name="Source[63].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[63].itemID" Type="Ref">/My Computer/data/.env</Property>
+				<Property Name="Source[64].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[64].itemID" Type="Ref"></Property>
+				<Property Name="Source[65].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[65].itemID" Type="Ref">/My Computer/data/Device.ini</Property>
+				<Property Name="Source[66].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[66].itemID" Type="Ref">/My Computer/data/DeviceV1.ini</Property>
+				<Property Name="Source[67].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[67].itemID" Type="Ref">/My Computer/data/Job-default.ini</Property>
+				<Property Name="Source[68].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[68].itemID" Type="Ref">/My Computer/data/Job.ini</Property>
+				<Property Name="Source[69].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[69].itemID" Type="Ref"></Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[7].itemID" Type="Ref">/My Computer/SubVIs/Communication - Initialize SV (SubVI).vi</Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].type" Type="Str">VI</Property>
+				<Property Name="Source[70].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[70].itemID" Type="Ref">/My Computer/data/Setting.ini</Property>
+				<Property Name="Source[71].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[71].itemID" Type="Ref">/My Computer/data/Station.ini</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[8].itemID" Type="Ref">/My Computer/SubVIs/Gen - Decimal Place.vi</Property>
 				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
@@ -614,18 +625,18 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/SubVIs/Initialize Close Variables.vi</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">66</Property>
-				<Property Name="TgtF_companyName" Type="Str">BSGS Scientific</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">DAQ</Property>
-				<Property Name="TgtF_internalName" Type="Str">BSGS Scientific</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2023 </Property>
-				<Property Name="TgtF_productName" Type="Str">BSGS Scientific</Property>
+				<Property Name="SourceCount" Type="Int">72</Property>
+				<Property Name="TgtF_companyName" Type="Str">SOILTECHNICS</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Soil and Rock Testing System</Property>
+				<Property Name="TgtF_internalName" Type="Str">SOILTECHNICS</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2025 </Property>
+				<Property Name="TgtF_productName" Type="Str">GeoLogic</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{30820E2A-221C-4B3A-8FE5-5751EC722707}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">SoilTech DAQ.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">GeoLogic.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 			<Item Name="My Installer" Type="Installer">
-				<Property Name="Destination[0].name" Type="Str">BSGS Scientific</Property>
+				<Property Name="Destination[0].name" Type="Str">SoilTechnics</Property>
 				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
 				<Property Name="Destination[0].tag" Type="Str">{CE2C4DF3-7B0C-4283-BDDC-28290205AD8D}</Property>
 				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
@@ -685,12 +696,12 @@
 				<Property Name="INST_buildLocation" Type="Path">/C/Users/ralfsuliman/Desktop/Installer/Geosoil/Ethernet</Property>
 				<Property Name="INST_buildSpecName" Type="Str">My Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{CE2C4DF3-7B0C-4283-BDDC-28290205AD8D}</Property>
-				<Property Name="INST_installerName" Type="Str">BSGS DAQ Installer.exe</Property>
+				<Property Name="INST_installerName" Type="Str">GeoLogic Installer.exe</Property>
 				<Property Name="INST_productName" Type="Str">My Installer</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.11</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.12</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">19008005</Property>
-				<Property Name="MSI_arpCompany" Type="Str">IDS INTEGRATED SOLUTIONS SDN BHD</Property>
+				<Property Name="MSI_arpCompany" Type="Str">SOILTECHNICS TECHNOLOGIES SDN BHD</Property>
 				<Property Name="MSI_distID" Type="Str">{D7C2710F-B24A-4993-AD0E-DC0338F6CF24}</Property>
 				<Property Name="MSI_hideNonRuntimes" Type="Bool">true</Property>
 				<Property Name="MSI_osCheck" Type="Int">0</Property>
@@ -701,16 +712,24 @@
 				<Property Name="RegDestCount" Type="Int">1</Property>
 				<Property Name="Source[0].dest" Type="Str">{CE2C4DF3-7B0C-4283-BDDC-28290205AD8D}</Property>
 				<Property Name="Source[0].File[0].dest" Type="Str">{CE2C4DF3-7B0C-4283-BDDC-28290205AD8D}</Property>
-				<Property Name="Source[0].File[0].name" Type="Str">SoilTech DAQ.exe</Property>
+				<Property Name="Source[0].File[0].name" Type="Str">GeoLogic.exe</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">2</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">BSGS DAQ</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">My Installer</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">GeoLogic</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str"></Property>
 				<Property Name="Source[0].File[0].Shortcut[1].destIndex" Type="Int">1</Property>
-				<Property Name="Source[0].File[0].Shortcut[1].name" Type="Str">BSGS DAQ</Property>
-				<Property Name="Source[0].File[0].Shortcut[1].subDir" Type="Str">My Installer</Property>
+				<Property Name="Source[0].File[0].Shortcut[1].name" Type="Str">GeoLogic</Property>
+				<Property Name="Source[0].File[0].Shortcut[1].subDir" Type="Str"></Property>
 				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">2</Property>
 				<Property Name="Source[0].File[0].tag" Type="Str">{30820E2A-221C-4B3A-8FE5-5751EC722707}</Property>
-				<Property Name="Source[0].FileCount" Type="Int">1</Property>
+				<Property Name="Source[0].File[1].attributes" Type="Int">5</Property>
+				<Property Name="Source[0].File[1].dest" Type="Str">{CE2C4DF3-7B0C-4283-BDDC-28290205AD8D}</Property>
+				<Property Name="Source[0].File[1].name" Type="Str">System.ccl</Property>
+				<Property Name="Source[0].File[1].tag" Type="Ref"></Property>
+				<Property Name="Source[0].File[2].attributes" Type="Int">5</Property>
+				<Property Name="Source[0].File[2].dest" Type="Str">{CE2C4DF3-7B0C-4283-BDDC-28290205AD8D}</Property>
+				<Property Name="Source[0].File[2].name" Type="Str">System.ccp</Property>
+				<Property Name="Source[0].File[2].tag" Type="Ref"></Property>
+				<Property Name="Source[0].FileCount" Type="Int">3</Property>
 				<Property Name="Source[0].name" Type="Str">My Application</Property>
 				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/My Application</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
@@ -797,6 +816,46 @@
 				<Property Name="TgtF_productName" Type="Str">test VISA</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{E28E7C24-C245-43D9-8C5E-E773DCF136EC}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Test VISA.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="License Generator" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{B3EE0BB9-A8AD-4D53-AAB5-7F73AB7A5B5D}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{3197E44C-B096-432F-9BE5-59477827CD67}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{6B52B09B-BF49-4FAE-906D-6297C6E46D06}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">License Generator</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/ralfsuliman/Desktop/EXE/Geosoil LicenseKey Generator</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{3FBF9049-0589-4697-B52A-5B9740A0DC30}</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Key Generate.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/ralfsuliman/Desktop/EXE/Geosoil LicenseKey Generator/Key Generate.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/ralfsuliman/Desktop/EXE/Geosoil LicenseKey Generator/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{CBF1C4F6-E09F-4443-9BE6-D8D4DB403B7E}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/License Generator.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">License Generator</Property>
+				<Property Name="TgtF_internalName" Type="Str">License Generator</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2025 </Property>
+				<Property Name="TgtF_productName" Type="Str">License Generator</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{2609EC90-C6B8-47B3-91FF-90D2F6DD832B}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Key Generate.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
