@@ -37,6 +37,7 @@
 		<Item Name="Variables" Type="Folder" URL="../Variables">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="License - Password.vi" Type="VI" URL="../License - Password.vi"/>
 		<Item Name="License Activator.vi" Type="VI" URL="../License Activator.vi"/>
 		<Item Name="License Generator.vi" Type="VI" URL="../License Generator.vi"/>
 		<Item Name="Main 2.0.vi" Type="VI" URL="../Main 2.0.vi"/>
@@ -340,8 +341,9 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/ralfsuliman/Desktop/EXE/Geosoil New Controller Multi Comm</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{FEADE620-7DED-4497-8ED4-6A56AAE1F777}</Property>
-				<Property Name="Bld_version.build" Type="Int">79</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">GeoLogic.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/ralfsuliman/Desktop/EXE/Geosoil New Controller Multi Comm/GeoLogic.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
@@ -361,7 +363,7 @@
 				<Property Name="Destination[4].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">5</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Documents/favicon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{94363E7F-D48E-45D5-B8FE-DB4381EB6615}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B08EAE64-0A01-4B1B-A740-B38B4C352D6B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
@@ -598,25 +600,21 @@
 				<Property Name="Source[63].destinationIndex" Type="Int">1</Property>
 				<Property Name="Source[63].itemID" Type="Ref">/My Computer/data/.env</Property>
 				<Property Name="Source[64].destinationIndex" Type="Int">1</Property>
-				<Property Name="Source[64].itemID" Type="Ref"></Property>
+				<Property Name="Source[64].itemID" Type="Ref">/My Computer/data/Device.ini</Property>
 				<Property Name="Source[65].destinationIndex" Type="Int">1</Property>
-				<Property Name="Source[65].itemID" Type="Ref">/My Computer/data/Device.ini</Property>
+				<Property Name="Source[65].itemID" Type="Ref">/My Computer/data/DeviceV1.ini</Property>
 				<Property Name="Source[66].destinationIndex" Type="Int">1</Property>
-				<Property Name="Source[66].itemID" Type="Ref">/My Computer/data/DeviceV1.ini</Property>
+				<Property Name="Source[66].itemID" Type="Ref">/My Computer/data/Job-default.ini</Property>
 				<Property Name="Source[67].destinationIndex" Type="Int">1</Property>
-				<Property Name="Source[67].itemID" Type="Ref">/My Computer/data/Job-default.ini</Property>
+				<Property Name="Source[67].itemID" Type="Ref">/My Computer/data/Job.ini</Property>
 				<Property Name="Source[68].destinationIndex" Type="Int">1</Property>
-				<Property Name="Source[68].itemID" Type="Ref">/My Computer/data/Job.ini</Property>
+				<Property Name="Source[68].itemID" Type="Ref">/My Computer/data/Setting.ini</Property>
 				<Property Name="Source[69].destinationIndex" Type="Int">1</Property>
-				<Property Name="Source[69].itemID" Type="Ref"></Property>
+				<Property Name="Source[69].itemID" Type="Ref">/My Computer/data/Station.ini</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[7].itemID" Type="Ref">/My Computer/SubVIs/Communication - Initialize SV (SubVI).vi</Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].type" Type="Str">VI</Property>
-				<Property Name="Source[70].destinationIndex" Type="Int">1</Property>
-				<Property Name="Source[70].itemID" Type="Ref">/My Computer/data/Setting.ini</Property>
-				<Property Name="Source[71].destinationIndex" Type="Int">1</Property>
-				<Property Name="Source[71].itemID" Type="Ref">/My Computer/data/Station.ini</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[8].itemID" Type="Ref">/My Computer/SubVIs/Gen - Decimal Place.vi</Property>
 				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
@@ -625,7 +623,7 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/SubVIs/Initialize Close Variables.vi</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">72</Property>
+				<Property Name="SourceCount" Type="Int">70</Property>
 				<Property Name="TgtF_companyName" Type="Str">SOILTECHNICS</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Soil and Rock Testing System</Property>
 				<Property Name="TgtF_internalName" Type="Str">SOILTECHNICS</Property>
@@ -794,7 +792,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9080DA46-7D33-468B-A72D-10EDC2013B70}</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Test VISA.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/test VISA/Test VISA.exe</Property>
@@ -832,7 +830,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/ralfsuliman/Desktop/EXE/Geosoil LicenseKey Generator</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3FBF9049-0589-4697-B52A-5B9740A0DC30}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Key Generate.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/ralfsuliman/Desktop/EXE/Geosoil LicenseKey Generator/Key Generate.exe</Property>
@@ -893,6 +891,46 @@
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2025 </Property>
 				<Property Name="TgtF_productName" Type="Str">Main - CurrentTime (SubVI)</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{7F64EF23-6F8E-4FBD-9449-8E6AE6CEF74C}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Application.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="FTDI - Read Registry" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{6BE5E60D-1CDB-4539-8ABB-4C1A543969DB}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{2BBCA25F-9ADA-47E9-80D6-CF2477FA582D}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{FE119B68-E36A-4D20-AD36-BF6FE814A214}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">FTDI - Read Registry</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/ralfsuliman/Desktop/EXE/Geosoil New Controller Multi Comm</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{1BAF1BFB-C7D2-40F6-A075-1AB7733A8351}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Application.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/ralfsuliman/Desktop/EXE/Geosoil New Controller Multi Comm/Application.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/ralfsuliman/Desktop/EXE/Geosoil New Controller Multi Comm/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9F1402B7-7199-49AF-8EFB-5B0AC7B6AE8D}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SubVIs/FTDI - Read Registry.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">FTDI - Read Registry</Property>
+				<Property Name="TgtF_internalName" Type="Str">FTDI - Read Registry</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2025 </Property>
+				<Property Name="TgtF_productName" Type="Str">FTDI - Read Registry</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{2BE33E34-2F63-4C53-B106-4E95A8754E6C}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Application.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
