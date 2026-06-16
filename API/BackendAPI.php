@@ -55,14 +55,14 @@ if (
     switch ($testtype) {
         case 1:
             if (count($data['data']) === 12) {
-                $columns = "`Cell Pressure`, `Pore Pressure`, `Back Pressure`, `Volume Change`, `Load`, `Displacement`, `Change of Pore Pressure`, `Change in Volume`, `Axial Load Change`, `Change in Length`, `Deviator Stress`, `Axial Strain`";
+                $columns = "`Cell Pressure`, `Back Pressure`, `Volume Change`, `Load`, `Displacement`, `Pore Pressure`, `Change of Pore Pressure`, `Change in Volume`, `Axial Load Change`, `Change in Length`, `Deviator Stress`, `Axial Strain`";
                 $values = "'" . implode("', '", $data['data']) . "'";
             }
             break;
         
         case 2:
             if (count($data['data']) === 9) {
-                $columns = "`Cell Pressure`, `Pore Pressure`, `Vertical Load`, `Displacement`, `Change Pore Pressure`, `Axial Load Change`, `Change in Length`, `Deviator Stress`, `Axial Strain`";
+                $columns = "`Cell Pressure`, `Vertical Load`, `Displacement`, `Pore Pressure`, `Change Pore Pressure`, `Axial Load Change`, `Change in Length`, `Deviator Stress`, `Axial Strain`";
                 $values = "'" . implode("', '", $data['data']) . "'";
             }
             break;
@@ -89,8 +89,8 @@ if (
             break;
         
         case 6:
-            if (count($data['data']) === 5) {
-                $columns = "`Cell Pressure`, `Pore Pressure`, `Back Pressure`, `Volume Change`, `B-Value`";
+            if (count($data['data']) === 8) {
+                $columns = "`Cell Pressure`, `Back Pressure`, `Volume Change`, `Pore Pressure`, `B-Value`, `Change Pore Pressure`, `Pore Pressure Dissipation`, `Change in Volume`";
                 $values = "'" . implode("', '", $data['data']) . "'";
             }
             break;
@@ -111,7 +111,7 @@ if (
 			
 		case 9:
             if (count($data['data']) === 7) {
-                $columns = "`Cell Pressure`, `Pore Pressure`, `Back Pressure`, `Volume Change`, `Change Pore Pressure`, `Pore Pressure Dissipation`, `Change in Volume`";
+                $columns = "`Cell Pressure`, `Back Pressure`, `Volume Change`, `Pore Pressure`, `Change Pore Pressure`, `Pore Pressure Dissipation`, `Change in Volume`";
                 $values = "'" . implode("', '", $data['data']) . "'";
             }
             break;

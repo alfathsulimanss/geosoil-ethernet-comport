@@ -20,7 +20,7 @@ if (!$tdms_file_path || !$output_excel_path) {
 }
 
 // Python script path (make sure the path is correct)
-$python_path = 'F:\laragon\bin\python\python-3.10\python.exe';  // Replace with your actual Python path
+$python_path = 'C:\laragon\bin\python\python-3.10\python.exe';  // Replace with your actual Python path
 $python_script = 'tdms-to-excel.py';
 
 // Command to execute the Python script

@@ -1,0 +1,22 @@
+# rclone configuration for Google Drive
+# Save this as rclone.conf in your user directory or rclone config directory
+# Run 'rclone config' to set up interactively
+
+[gdrive]
+type = drive
+scope = drive
+token = {"access_token":"","token_type":"Bearer","refresh_token":"","expiry":""}
+team_drive = 
+root_folder_id = 
+
+# Alternative configuration using service account (for automation)
+[gdrive-service]
+type = drive
+scope = drive
+service_account_file = /path/to/service-account-key.json
+team_drive = 
+root_folder_id = 
+
+# Usage examples:
+# rclone copy "C:\path\to\file.exe" "gdrive:EXE/" --progress
+# rclone sync "C:\build\folder" "gdrive:EXE/" --progress
