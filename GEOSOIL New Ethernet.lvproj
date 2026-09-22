@@ -34,7 +34,6 @@
 			<Item Name="serial_log.csv" Type="Document" URL="../data/serial_log.csv"/>
 			<Item Name="Setting.ini" Type="Document" URL="../data/Setting.ini"/>
 			<Item Name="Station.ini" Type="Document" URL="../data/Station.ini"/>
-			<Item Name="stop_ping.txt" Type="Document" URL="../data/stop_ping.txt"/>
 		</Item>
 		<Item Name="Documents" Type="Folder" URL="../Documents">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
@@ -60,6 +59,7 @@
 		<Item Name="Main 2.0.vi" Type="VI" URL="../Main 2.0.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="upload-launcher.bat" Type="Document" URL="../upload-launcher.bat"/>
+		<Item Name="upload-py-versioned.bat" Type="Document" URL="../../../laragon/www/Upload_Download/upload-py-versioned.bat"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Delete Elements from 1D Array (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (Boolean)__ogtk.vi"/>
@@ -140,6 +140,17 @@
 				<Item Name="Index 2D Array Elements (U64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 2D Array Elements (U64)__ogtk.vi"/>
 				<Item Name="Index 2D Array Elements (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 2D Array Elements (Variant)__ogtk.vi"/>
 				<Item Name="Index Array Elements__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index Array Elements__ogtk.vi"/>
+				<Item Name="MD5 F function__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 F function__ogtk.vi"/>
+				<Item Name="MD5 FGHI functions__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 FGHI functions__ogtk.vi"/>
+				<Item Name="MD5 G function__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 G function__ogtk.vi"/>
+				<Item Name="MD5 H function__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 H function__ogtk.vi"/>
+				<Item Name="MD5 I function__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 I function__ogtk.vi"/>
+				<Item Name="MD5 Message Digest (Binary String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 Message Digest (Binary String)__ogtk.vi"/>
+				<Item Name="MD5 Message Digest (Hexadecimal String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 Message Digest (Hexadecimal String)__ogtk.vi"/>
+				<Item Name="MD5 Message Digest__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 Message Digest__ogtk.vi"/>
+				<Item Name="MD5 Padding__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 Padding__ogtk.vi"/>
+				<Item Name="MD5 ti__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 ti__ogtk.vi"/>
+				<Item Name="MD5 Unrecoverable character padding__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 Unrecoverable character padding__ogtk.vi"/>
 				<Item Name="Remove Duplicates from 1D Array (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (Boolean)__ogtk.vi"/>
 				<Item Name="Remove Duplicates from 1D Array (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (CDB)__ogtk.vi"/>
 				<Item Name="Remove Duplicates from 1D Array (CSG)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (CSG)__ogtk.vi"/>
@@ -396,7 +407,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/ralfsuliman/Desktop/EXE/Geosoil New Controller Multi Comm</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{FEADE620-7DED-4497-8ED4-6A56AAE1F777}</Property>
-				<Property Name="Bld_version.build" Type="Int">152</Property>
+				<Property Name="Bld_version.build" Type="Int">290</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">GeoLogic.exe</Property>
@@ -418,50 +429,190 @@
 				<Property Name="Destination[4].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">5</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Documents/favicon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{9E570807-F964-437D-8AFE-476B450C46A7}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C6D92A9D-3FE4-45CE-902F-1DF977BAAE83}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[10].itemID" Type="Ref">/My Computer/SubVIs/InstrumentCalibration - Displacement Calibration (SubVI).vi</Property>
-				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[10].type" Type="Str">VI</Property>
+				<Property Name="Source[100].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[100].itemID" Type="Ref">/My Computer/SubVIs/PostStop - Shearbox (SubVI).vi</Property>
+				<Property Name="Source[100].type" Type="Str">VI</Property>
+				<Property Name="Source[101].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[101].itemID" Type="Ref">/My Computer/SubVIs/PostStop - Triaxial Shear (SubVI).vi</Property>
+				<Property Name="Source[101].type" Type="Str">VI</Property>
+				<Property Name="Source[102].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[102].itemID" Type="Ref">/My Computer/SubVIs/PostStop - Triaxial UU (SubVI).vi</Property>
+				<Property Name="Source[102].type" Type="Str">VI</Property>
+				<Property Name="Source[103].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[103].itemID" Type="Ref">/My Computer/SubVIs/Report - Generate Report.vi</Property>
+				<Property Name="Source[103].type" Type="Str">VI</Property>
+				<Property Name="Source[104].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[104].itemID" Type="Ref">/My Computer/SubVIs/Report - Parse Data to TDMS (SubVI).vi</Property>
+				<Property Name="Source[104].type" Type="Str">VI</Property>
+				<Property Name="Source[105].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[105].itemID" Type="Ref">/My Computer/SubVIs/Run - API Logging (SubVI).vi</Property>
+				<Property Name="Source[105].type" Type="Str">VI</Property>
+				<Property Name="Source[106].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[106].itemID" Type="Ref">/My Computer/SubVIs/Run Test - Axis Selection (SubVI).vi</Property>
+				<Property Name="Source[106].type" Type="Str">VI</Property>
+				<Property Name="Source[107].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[107].itemID" Type="Ref">/My Computer/SubVIs/Run Test - Log Condition (SubVI).vi</Property>
+				<Property Name="Source[107].type" Type="Str">VI</Property>
+				<Property Name="Source[108].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[108].itemID" Type="Ref">/My Computer/SubVIs/Run Test - Parameter Calculation (SubVI).vi</Property>
+				<Property Name="Source[108].type" Type="Str">VI</Property>
+				<Property Name="Source[109].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[109].itemID" Type="Ref">/My Computer/SubVIs/Run Test - Pause Condition (SubVI).vi</Property>
+				<Property Name="Source[109].type" Type="Str">VI</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[11].itemID" Type="Ref">/My Computer/SubVIs/InstrumentCalibration - Load Slope (SubVI).vi</Property>
-				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[11].type" Type="Str">VI</Property>
+				<Property Name="Source[110].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[110].itemID" Type="Ref">/My Computer/SubVIs/Run Test - PostStop Condition (SubVI).vi</Property>
+				<Property Name="Source[110].type" Type="Str">VI</Property>
+				<Property Name="Source[111].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[111].itemID" Type="Ref">/My Computer/SubVIs/Run Test - Start Condition (SubVI).vi</Property>
+				<Property Name="Source[111].type" Type="Str">VI</Property>
+				<Property Name="Source[112].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[112].itemID" Type="Ref">/My Computer/SubVIs/Run Test - Station Selection (SubVI).vi</Property>
+				<Property Name="Source[112].type" Type="Str">VI</Property>
+				<Property Name="Source[113].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[113].itemID" Type="Ref">/My Computer/SubVIs/Run Test - Stop Condition (SubVI).vi</Property>
+				<Property Name="Source[113].type" Type="Str">VI</Property>
+				<Property Name="Source[114].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[114].itemID" Type="Ref">/My Computer/SubVIs/Run Test - T90 Plot (SubVI).vi</Property>
+				<Property Name="Source[114].type" Type="Str">VI</Property>
+				<Property Name="Source[115].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[115].itemID" Type="Ref">/My Computer/SubVIs/Run Test - T90 Plot (SubVI).vit</Property>
+				<Property Name="Source[115].type" Type="Str">VI</Property>
+				<Property Name="Source[116].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[116].itemID" Type="Ref">/My Computer/SubVIs/RunTest - Select Device.vi</Property>
+				<Property Name="Source[116].type" Type="Str">VI</Property>
+				<Property Name="Source[117].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[117].itemID" Type="Ref">/My Computer/SubVIs/Sample - Add Speciment (SubVI).vi</Property>
+				<Property Name="Source[117].type" Type="Str">VI</Property>
+				<Property Name="Source[118].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[118].itemID" Type="Ref">/My Computer/SubVIs/Start Condition - Saturation Time (SubVI).vi</Property>
+				<Property Name="Source[118].type" Type="Str">VI</Property>
+				<Property Name="Source[119].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[119].itemID" Type="Ref">/My Computer/SubVIs/Stop Condition - Saturation 1 (SubVI).vi</Property>
+				<Property Name="Source[119].type" Type="Str">VI</Property>
 				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[12].itemID" Type="Ref">/My Computer/SubVIs/InstrumentCalibration - Remove Channel (SubVI).vi</Property>
-				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[12].type" Type="Str">VI</Property>
+				<Property Name="Source[120].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[120].itemID" Type="Ref">/My Computer/SubVIs/Stop Condition - Saturation 2 (SubVI).vi</Property>
+				<Property Name="Source[120].type" Type="Str">VI</Property>
+				<Property Name="Source[121].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[121].itemID" Type="Ref">/My Computer/SubVIs/Stop Condition - Saturation 4 (SubVI).vi</Property>
+				<Property Name="Source[121].type" Type="Str">VI</Property>
+				<Property Name="Source[122].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[122].itemID" Type="Ref">/My Computer/SubVIs/Stop Condition - Saturation B-Value (SubVI).vi</Property>
+				<Property Name="Source[122].type" Type="Str">VI</Property>
+				<Property Name="Source[123].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[123].itemID" Type="Ref">/My Computer/SubVIs/Test Panel - Speciments (SubVI).vi</Property>
+				<Property Name="Source[123].type" Type="Str">VI</Property>
+				<Property Name="Source[124].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[124].itemID" Type="Ref">/My Computer/SubVIs/Test Plan - Remove Empty Element (SubVI).vi</Property>
+				<Property Name="Source[124].type" Type="Str">VI</Property>
+				<Property Name="Source[125].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[125].itemID" Type="Ref">/My Computer/SubVIs/TestPlan - Device Mapping.vi</Property>
+				<Property Name="Source[125].type" Type="Str">VI</Property>
+				<Property Name="Source[126].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[126].itemID" Type="Ref">/My Computer/SubVIs/UDP - Data ADC (SubVI).vi</Property>
+				<Property Name="Source[126].type" Type="Str">VI</Property>
+				<Property Name="Source[127].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[127].itemID" Type="Ref">/My Computer/SubVIs/UDP - Data Channels (SubVI).vi</Property>
+				<Property Name="Source[127].type" Type="Str">VI</Property>
+				<Property Name="Source[128].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[128].itemID" Type="Ref">/My Computer/SubVIs/UDP - Data PID (SubVI).vi</Property>
+				<Property Name="Source[128].type" Type="Str">VI</Property>
+				<Property Name="Source[129].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[129].itemID" Type="Ref">/My Computer/SubVIs/UDP - Data Sensor (SubVI).vi</Property>
+				<Property Name="Source[129].type" Type="Str">VI</Property>
 				<Property Name="Source[13].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[13].itemID" Type="Ref">/My Computer/SubVIs/InstrumentCalibration - Sensor Setup (SubVI).vi</Property>
-				<Property Name="Source[13].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[13].type" Type="Str">VI</Property>
+				<Property Name="Source[130].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[130].itemID" Type="Ref">/My Computer/SubVIs/UDP - Data System (SubVI).vi</Property>
+				<Property Name="Source[130].type" Type="Str">VI</Property>
+				<Property Name="Source[131].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[131].itemID" Type="Ref">/My Computer/SubVIs/UDP - Data Test (SubVI).vi</Property>
+				<Property Name="Source[131].type" Type="Str">VI</Property>
+				<Property Name="Source[132].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[132].itemID" Type="Ref">/My Computer/SubVIs/UDP - Datalog Sensor (SubVI).vi</Property>
+				<Property Name="Source[132].type" Type="Str">VI</Property>
+				<Property Name="Source[133].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[133].itemID" Type="Ref">/My Computer/SubVIs/UDP - Datalogger (SubVI).vi</Property>
+				<Property Name="Source[133].type" Type="Str">VI</Property>
+				<Property Name="Source[134].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[134].itemID" Type="Ref">/My Computer/SubVIs/UDP - Get IP Addresses.vi</Property>
+				<Property Name="Source[134].type" Type="Str">VI</Property>
+				<Property Name="Source[135].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[135].itemID" Type="Ref">/My Computer/SubVIs/UDP - Open Connection.vi</Property>
+				<Property Name="Source[135].type" Type="Str">VI</Property>
+				<Property Name="Source[136].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[136].itemID" Type="Ref">/My Computer/SubVIs/UDP - Write CMD.vi</Property>
+				<Property Name="Source[136].type" Type="Str">VI</Property>
+				<Property Name="Source[137].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[137].itemID" Type="Ref">/My Computer/SubVIs/UDP - Write Data.vi</Property>
+				<Property Name="Source[137].type" Type="Str">VI</Property>
+				<Property Name="Source[138].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[138].itemID" Type="Ref">/My Computer/SubVIs/VISA - Open Connection.vi</Property>
+				<Property Name="Source[138].type" Type="Str">VI</Property>
+				<Property Name="Source[139].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[139].itemID" Type="Ref">/My Computer/SubVIs/VISA - Write CMD.vi</Property>
+				<Property Name="Source[139].type" Type="Str">VI</Property>
 				<Property Name="Source[14].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[14].itemID" Type="Ref">/My Computer/SubVIs/Jobs - Config File.vi</Property>
-				<Property Name="Source[14].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[14].type" Type="Str">VI</Property>
+				<Property Name="Source[140].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[140].itemID" Type="Ref">/My Computer/SubVIs/Data - Data Editor.vi</Property>
+				<Property Name="Source[140].type" Type="Str">VI</Property>
+				<Property Name="Source[141].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[141].itemID" Type="Ref">/My Computer/SubVIs/Main - Password.vi</Property>
+				<Property Name="Source[141].type" Type="Str">VI</Property>
+				<Property Name="Source[142].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[142].itemID" Type="Ref">/My Computer/SubVIs/Machine Setting - Read Write Machine (SubVI).vi</Property>
+				<Property Name="Source[142].type" Type="Str">VI</Property>
+				<Property Name="Source[143].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[143].itemID" Type="Ref">/My Computer/SubVIs/Run - API Logging PWP (SubVI).vi</Property>
+				<Property Name="Source[143].type" Type="Str">VI</Property>
+				<Property Name="Source[144].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[144].itemID" Type="Ref">/My Computer/SubVIs/Run Test - Max Shear Speed Calculation (SubVI).vi</Property>
+				<Property Name="Source[144].type" Type="Str">VI</Property>
+				<Property Name="Source[145].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[145].itemID" Type="Ref">/My Computer/SubVIs/Report - PWP Stabilization Report.vi</Property>
+				<Property Name="Source[145].type" Type="Str">VI</Property>
+				<Property Name="Source[146].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[146].itemID" Type="Ref">/My Computer/SubVIs/PWP Stabilization - Parse Test Type.vi</Property>
+				<Property Name="Source[146].type" Type="Str">VI</Property>
+				<Property Name="Source[147].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[147].itemID" Type="Ref">/My Computer/SubVIs/Run Test - Calc T50 T90 T100 (SubVI).vi</Property>
+				<Property Name="Source[147].type" Type="Str">VI</Property>
+				<Property Name="Source[148].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[148].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[148].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[148].itemID" Type="Ref">/My Computer/SubVIs</Property>
+				<Property Name="Source[148].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[148].type" Type="Str">Container</Property>
 				<Property Name="Source[15].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[15].itemID" Type="Ref">/My Computer/SubVIs/Machine - Add Device (SubVI).vi</Property>
-				<Property Name="Source[15].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[15].type" Type="Str">VI</Property>
 				<Property Name="Source[16].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[16].itemID" Type="Ref">/My Computer/SubVIs/Machine - Config File.vi</Property>
-				<Property Name="Source[16].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[16].type" Type="Str">VI</Property>
 				<Property Name="Source[17].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[17].itemID" Type="Ref">/My Computer/SubVIs/Machines - Create New Machine (SubVI).vi</Property>
-				<Property Name="Source[17].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[17].type" Type="Str">VI</Property>
 				<Property Name="Source[18].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[18].itemID" Type="Ref">/My Computer/SubVIs/Main - Database (SubVI).vi</Property>
-				<Property Name="Source[18].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[18].type" Type="Str">VI</Property>
 				<Property Name="Source[19].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[19].itemID" Type="Ref">/My Computer/SubVIs/Main - Elapse Time (SubVI).vi</Property>
-				<Property Name="Source[19].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[19].type" Type="Str">VI</Property>
 				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
@@ -471,43 +622,33 @@
 				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="Source[20].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[20].itemID" Type="Ref">/My Computer/SubVIs/Main - Search VI Ref (SubVI).vi</Property>
-				<Property Name="Source[20].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[20].type" Type="Str">VI</Property>
 				<Property Name="Source[21].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[21].itemID" Type="Ref">/My Computer/SubVIs/Main - Timer (SubVI).vi</Property>
-				<Property Name="Source[21].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[21].type" Type="Str">VI</Property>
 				<Property Name="Source[22].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[22].itemID" Type="Ref">/My Computer/SubVIs/Main - Update Status (SubVI).vi</Property>
-				<Property Name="Source[22].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[22].type" Type="Str">VI</Property>
 				<Property Name="Source[23].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[23].itemID" Type="Ref">/My Computer/SubVIs/Manual - Invert (SubVI).vi</Property>
-				<Property Name="Source[23].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[23].type" Type="Str">VI</Property>
 				<Property Name="Source[24].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[24].itemID" Type="Ref">/My Computer/SubVIs/Manual Control - Displacement (SubVI).vi</Property>
-				<Property Name="Source[24].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[24].type" Type="Str">VI</Property>
 				<Property Name="Source[25].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[25].itemID" Type="Ref">/My Computer/SubVIs/Manual Control - Load (SubVI).vi</Property>
-				<Property Name="Source[25].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[25].type" Type="Str">VI</Property>
 				<Property Name="Source[26].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[26].itemID" Type="Ref">/My Computer/SubVIs/Manual Control - Sensors Port (SubVI).vi</Property>
-				<Property Name="Source[26].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[26].type" Type="Str">VI</Property>
 				<Property Name="Source[27].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[27].itemID" Type="Ref">/My Computer/SubVIs/New Template - Test Plan Template (SubVI).vi</Property>
-				<Property Name="Source[27].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[27].type" Type="Str">VI</Property>
 				<Property Name="Source[28].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[28].itemID" Type="Ref">/My Computer/SubVIs/PID - Config (SubVI).vi</Property>
-				<Property Name="Source[28].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[28].type" Type="Str">VI</Property>
 				<Property Name="Source[29].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[29].itemID" Type="Ref">/My Computer/SubVIs/Ramp - Elapse Time (SubVI).vi</Property>
-				<Property Name="Source[29].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[29].type" Type="Str">VI</Property>
 				<Property Name="Source[3].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
@@ -517,43 +658,33 @@
 				<Property Name="Source[3].type" Type="Str">Container</Property>
 				<Property Name="Source[30].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[30].itemID" Type="Ref">/My Computer/SubVIs/Run - TDMS Logging (SubVI).vi</Property>
-				<Property Name="Source[30].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[30].type" Type="Str">VI</Property>
 				<Property Name="Source[31].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[31].itemID" Type="Ref">/My Computer/SubVIs/Run Test - Save Report (SubVI).vi</Property>
-				<Property Name="Source[31].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[31].type" Type="Str">VI</Property>
 				<Property Name="Source[32].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[32].itemID" Type="Ref">/My Computer/SubVIs/RunTest - FormatTime String (SubVI).vi</Property>
-				<Property Name="Source[32].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[32].type" Type="Str">VI</Property>
 				<Property Name="Source[33].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[33].itemID" Type="Ref">/My Computer/SubVIs/Sample - Job Record (SubVI).vi</Property>
-				<Property Name="Source[33].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[33].type" Type="Str">VI</Property>
 				<Property Name="Source[34].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[34].itemID" Type="Ref">/My Computer/SubVIs/Station - Config File.vi</Property>
-				<Property Name="Source[34].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[34].type" Type="Str">VI</Property>
 				<Property Name="Source[35].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[35].itemID" Type="Ref">/My Computer/SubVIs/Station - Create New Station (SubVI).vi</Property>
-				<Property Name="Source[35].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[35].type" Type="Str">VI</Property>
 				<Property Name="Source[36].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[36].itemID" Type="Ref">/My Computer/SubVIs/Station - Search Serial Number by Device Name.vi</Property>
-				<Property Name="Source[36].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[36].type" Type="Str">VI</Property>
 				<Property Name="Source[37].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[37].itemID" Type="Ref">/My Computer/SubVIs/Test Panel - Add test (SubVI).vi</Property>
-				<Property Name="Source[37].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[37].type" Type="Str">VI</Property>
 				<Property Name="Source[38].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[38].itemID" Type="Ref">/My Computer/SubVIs/Test Panel - Data Save (SubVI).vi</Property>
-				<Property Name="Source[38].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[38].type" Type="Str">VI</Property>
 				<Property Name="Source[39].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[39].itemID" Type="Ref">/My Computer/SubVIs/Test Panel - Sample (SubVI).vi</Property>
-				<Property Name="Source[39].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[39].type" Type="Str">VI</Property>
 				<Property Name="Source[4].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
@@ -563,27 +694,21 @@
 				<Property Name="Source[4].type" Type="Str">Container</Property>
 				<Property Name="Source[40].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[40].itemID" Type="Ref">/My Computer/SubVIs/Test Plan - New Template (SubVI).vi</Property>
-				<Property Name="Source[40].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[40].type" Type="Str">VI</Property>
 				<Property Name="Source[41].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[41].itemID" Type="Ref">/My Computer/SubVIs/Test Plan - Save Log (SubVI).vi</Property>
-				<Property Name="Source[41].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[41].type" Type="Str">VI</Property>
 				<Property Name="Source[42].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[42].itemID" Type="Ref">/My Computer/SubVIs/TestPlan - Config File.vi</Property>
-				<Property Name="Source[42].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[42].type" Type="Str">VI</Property>
 				<Property Name="Source[43].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[43].itemID" Type="Ref">/My Computer/SubVIs/TestPlan - Remove Duplicate.vi</Property>
-				<Property Name="Source[43].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[43].type" Type="Str">VI</Property>
 				<Property Name="Source[44].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[44].itemID" Type="Ref">/My Computer/SubVIs/Run Test - Seconds to Time Stirngs (SubVI).vi</Property>
-				<Property Name="Source[44].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[44].type" Type="Str">VI</Property>
 				<Property Name="Source[45].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[45].itemID" Type="Ref">/My Computer/SubVIs/Run Test - Time Stirngs to Seconds (SubVI).vi</Property>
-				<Property Name="Source[45].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[45].type" Type="Str">VI</Property>
 				<Property Name="Source[46].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[46].Container.depDestIndex" Type="Int">0</Property>
@@ -593,11 +718,9 @@
 				<Property Name="Source[46].type" Type="Str">Container</Property>
 				<Property Name="Source[47].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[47].itemID" Type="Ref">/My Computer/SubVIs/OGTK - Search 1D Array (DBL).vi</Property>
-				<Property Name="Source[47].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[47].type" Type="Str">VI</Property>
 				<Property Name="Source[48].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[48].itemID" Type="Ref">/My Computer/SubVIs/Run Test - Remove NaN Value (SubVI).vi</Property>
-				<Property Name="Source[48].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[48].type" Type="Str">VI</Property>
 				<Property Name="Source[49].destinationIndex" Type="Int">1</Property>
 				<Property Name="Source[49].itemID" Type="Ref">/My Computer/data/ErrorLog.ini</Property>
@@ -609,7 +732,6 @@
 				<Property Name="Source[5].type" Type="Str">Container</Property>
 				<Property Name="Source[50].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[50].itemID" Type="Ref">/My Computer/SubVIs/FTDI - Read Registry.vi</Property>
-				<Property Name="Source[50].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[50].type" Type="Str">VI</Property>
 				<Property Name="Source[51].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[51].Container.depDestIndex" Type="Int">0</Property>
@@ -642,7 +764,6 @@
 				<Property Name="Source[59].itemID" Type="Ref">/My Computer/API/getfileid.php</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[6].itemID" Type="Ref">/My Computer/SubVIs/Calibration - Config (SubVI).vi</Property>
-				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
 				<Property Name="Source[60].destinationIndex" Type="Int">4</Property>
 				<Property Name="Source[60].itemID" Type="Ref">/My Computer/API/report.php</Property>
@@ -668,17 +789,104 @@
 				<Property Name="Source[69].itemID" Type="Ref">/My Computer/data/Station.ini</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[7].itemID" Type="Ref">/My Computer/SubVIs/Communication - Initialize SV (SubVI).vi</Property>
-				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].type" Type="Str">VI</Property>
+				<Property Name="Source[70].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[70].itemID" Type="Ref">/My Computer/SubVIs/Communication - Ping.vi</Property>
+				<Property Name="Source[70].type" Type="Str">VI</Property>
+				<Property Name="Source[71].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[71].itemID" Type="Ref">/My Computer/SubVIs/Communication - Respond Checker.vi</Property>
+				<Property Name="Source[71].type" Type="Str">VI</Property>
+				<Property Name="Source[72].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[72].itemID" Type="Ref">/My Computer/SubVIs/Communication - Send Command Read.vi</Property>
+				<Property Name="Source[72].type" Type="Str">VI</Property>
+				<Property Name="Source[73].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[73].itemID" Type="Ref">/My Computer/SubVIs/Data View - Parse Test Plan (SubVI).vi</Property>
+				<Property Name="Source[73].type" Type="Str">VI</Property>
+				<Property Name="Source[74].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[74].itemID" Type="Ref">/My Computer/SubVIs/Event - Load Event Log.vi</Property>
+				<Property Name="Source[74].type" Type="Str">VI</Property>
+				<Property Name="Source[75].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[75].itemID" Type="Ref">/My Computer/SubVIs/Explorer - Populate (SubVI).vi</Property>
+				<Property Name="Source[75].type" Type="Str">VI</Property>
+				<Property Name="Source[76].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[76].itemID" Type="Ref">/My Computer/SubVIs/FTDI - Byte to Float.vi</Property>
+				<Property Name="Source[76].type" Type="Str">VI</Property>
+				<Property Name="Source[77].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[77].itemID" Type="Ref">/My Computer/SubVIs/FTDI - Float to Byte.vi</Property>
+				<Property Name="Source[77].type" Type="Str">VI</Property>
+				<Property Name="Source[78].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[78].itemID" Type="Ref">/My Computer/SubVIs/FTDI - Read Channel.vi</Property>
+				<Property Name="Source[78].type" Type="Str">VI</Property>
+				<Property Name="Source[79].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[79].itemID" Type="Ref">/My Computer/SubVIs/FTDI - Read Unit.vi</Property>
+				<Property Name="Source[79].type" Type="Str">VI</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[8].itemID" Type="Ref">/My Computer/SubVIs/Gen - Decimal Place.vi</Property>
-				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[8].type" Type="Str">VI</Property>
+				<Property Name="Source[80].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[80].itemID" Type="Ref">/My Computer/SubVIs/FTDI - Respond Checker.vi</Property>
+				<Property Name="Source[80].type" Type="Str">VI</Property>
+				<Property Name="Source[81].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[81].itemID" Type="Ref">/My Computer/SubVIs/Machine Setting - ADC Parse Read Data (SubVI).vi</Property>
+				<Property Name="Source[81].type" Type="Str">VI</Property>
+				<Property Name="Source[82].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[82].itemID" Type="Ref">/My Computer/SubVIs/Machine Setting - Sensor Parse Read Data (SubVI).vi</Property>
+				<Property Name="Source[82].type" Type="Str">VI</Property>
+				<Property Name="Source[83].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[83].itemID" Type="Ref">/My Computer/SubVIs/Main - CurrentTime (SubVI).vi</Property>
+				<Property Name="Source[83].type" Type="Str">VI</Property>
+				<Property Name="Source[84].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[84].itemID" Type="Ref">/My Computer/SubVIs/Main - Decrypt (SubVI).vi</Property>
+				<Property Name="Source[84].type" Type="Str">VI</Property>
+				<Property Name="Source[85].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[85].itemID" Type="Ref">/My Computer/SubVIs/Main - Elapse to Sqrt Minutes (SubVI).vi</Property>
+				<Property Name="Source[85].type" Type="Str">VI</Property>
+				<Property Name="Source[86].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[86].itemID" Type="Ref">/My Computer/SubVIs/Main - Encrypt (SubVI).vi</Property>
+				<Property Name="Source[86].type" Type="Str">VI</Property>
+				<Property Name="Source[87].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[87].itemID" Type="Ref">/My Computer/SubVIs/Main - Get Local IP.vi</Property>
+				<Property Name="Source[87].type" Type="Str">VI</Property>
+				<Property Name="Source[88].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[88].itemID" Type="Ref">/My Computer/SubVIs/Main - Get MAC Address.vi</Property>
+				<Property Name="Source[88].type" Type="Str">VI</Property>
+				<Property Name="Source[89].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[89].itemID" Type="Ref">/My Computer/SubVIs/Main - Json Status.vi</Property>
+				<Property Name="Source[89].type" Type="Str">VI</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/SubVIs/Initialize Close Variables.vi</Property>
-				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">70</Property>
+				<Property Name="Source[90].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[90].itemID" Type="Ref">/My Computer/SubVIs/Main - NaN Value to Zero (SubVI).vi</Property>
+				<Property Name="Source[90].type" Type="Str">VI</Property>
+				<Property Name="Source[91].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[91].itemID" Type="Ref">/My Computer/SubVIs/Main - Parse Data Tab (SubVI).vi</Property>
+				<Property Name="Source[91].type" Type="Str">VI</Property>
+				<Property Name="Source[92].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[92].itemID" Type="Ref">/My Computer/SubVIs/Main - Round Decimal Places.vi</Property>
+				<Property Name="Source[92].type" Type="Str">VI</Property>
+				<Property Name="Source[93].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[93].itemID" Type="Ref">/My Computer/SubVIs/Main - Seconds to Time (SubVI).vi</Property>
+				<Property Name="Source[93].type" Type="Str">VI</Property>
+				<Property Name="Source[94].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[94].itemID" Type="Ref">/My Computer/SubVIs/Main - Set and Run PID (SubVI).vi</Property>
+				<Property Name="Source[94].type" Type="Str">VI</Property>
+				<Property Name="Source[95].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[95].itemID" Type="Ref">/My Computer/SubVIs/Main - Stop All Running Machine Base on TestType (SubVI).vi</Property>
+				<Property Name="Source[95].type" Type="Str">VI</Property>
+				<Property Name="Source[96].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[96].itemID" Type="Ref">/My Computer/SubVIs/Main - Time to Seconds (SubVI).vi</Property>
+				<Property Name="Source[96].type" Type="Str">VI</Property>
+				<Property Name="Source[97].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[97].itemID" Type="Ref">/My Computer/SubVIs/Popup - Event (SubVI).vi</Property>
+				<Property Name="Source[97].type" Type="Str">VI</Property>
+				<Property Name="Source[98].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[98].itemID" Type="Ref">/My Computer/SubVIs/Popup - Event (SubVI).vit</Property>
+				<Property Name="Source[98].type" Type="Str">VI</Property>
+				<Property Name="Source[99].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[99].itemID" Type="Ref">/My Computer/SubVIs/PostStop - Permeability (SubVI).vi</Property>
+				<Property Name="Source[99].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">149</Property>
 				<Property Name="TgtF_companyName" Type="Str">SOILTECHNICS</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Soil and Rock Testing System</Property>
 				<Property Name="TgtF_internalName" Type="Str">SOILTECHNICS</Property>

@@ -17,3 +17,6 @@
 .cache/
 
 **/logs
+
+automation/credentials.json
+automation/token.pickle
