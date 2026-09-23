@@ -20,3 +20,5 @@
 
 automation/credentials.json
 automation/token.pickle
+data/
+Documents/
