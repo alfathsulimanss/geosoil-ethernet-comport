@@ -16,24 +16,8 @@
 		<Item Name="Controls" Type="Folder" URL="../Controls">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="data" Type="Folder">
-			<Item Name="Log File" Type="Folder">
-				<Item Name="1.tdms" Type="Document" URL="../data/Log File/1.tdms"/>
-			</Item>
-			<Item Name="Plan Template" Type="Folder">
-				<Item Name="1dconsol.gs" Type="Document" URL="../data/Plan Template/1dconsol.gs"/>
-			</Item>
-			<Item Name=".env" Type="Document" URL="../data/.env"/>
-			<Item Name="Datalog.lcs" Type="Document" URL="../data/Datalog.lcs"/>
-			<Item Name="Device - Copy.ini" Type="Document" URL="../data/Device - Copy.ini"/>
-			<Item Name="Device.ini" Type="Document" URL="../data/Device.ini"/>
-			<Item Name="DeviceV1.ini" Type="Document" URL="../data/DeviceV1.ini"/>
-			<Item Name="ErrorLog.ini" Type="Document" URL="../data/ErrorLog.ini"/>
-			<Item Name="Job-default.ini" Type="Document" URL="../data/Job-default.ini"/>
-			<Item Name="Job.ini" Type="Document" URL="../data/Job.ini"/>
-			<Item Name="serial_log.csv" Type="Document" URL="../data/serial_log.csv"/>
-			<Item Name="Setting.ini" Type="Document" URL="../data/Setting.ini"/>
-			<Item Name="Station.ini" Type="Document" URL="../data/Station.ini"/>
+		<Item Name="data" Type="Folder" URL="../data">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Documents" Type="Folder" URL="../Documents">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
@@ -407,7 +391,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/ralfsuliman/Desktop/EXE/Geosoil New Controller Multi Comm</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{FEADE620-7DED-4497-8ED4-6A56AAE1F777}</Property>
-				<Property Name="Bld_version.build" Type="Int">297</Property>
+				<Property Name="Bld_version.build" Type="Int">300</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">GeoLogic.exe</Property>
