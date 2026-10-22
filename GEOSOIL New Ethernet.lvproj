@@ -16,8 +16,72 @@
 		<Item Name="Controls" Type="Folder" URL="../Controls">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="data" Type="Folder" URL="../data">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
+		<Item Name="data" Type="Folder">
+			<Item Name="Log File" Type="Folder">
+				<Item Name="1.tdms" Type="Document" URL="../data/Log File/1.tdms"/>
+			</Item>
+			<Item Name="Plan Template" Type="Folder">
+				<Item Name="1dconsol.gs" Type="Document" URL="../data/Plan Template/1dconsol.gs"/>
+				<Item Name="ALL STAGE.gslist" Type="Document" URL="../data/Plan Template/ALL STAGE.gslist"/>
+				<Item Name="B-Check.gs" Type="Document" URL="../data/Plan Template/B-Check.gs"/>
+				<Item Name="BCheck+50.gs" Type="Document" URL="../data/Plan Template/BCheck+50.gs"/>
+				<Item Name="Bcheck+70.gs" Type="Document" URL="../data/Plan Template/Bcheck+70.gs"/>
+				<Item Name="BCheck+100.gs" Type="Document" URL="../data/Plan Template/BCheck+100.gs"/>
+				<Item Name="BCheck1.gs" Type="Document" URL="../data/Plan Template/BCheck1.gs"/>
+				<Item Name="BCHEK NEW .gslist" Type="Document" URL="../data/Plan Template/BCHEK NEW .gslist"/>
+				<Item Name="BPStep10-90.gs" Type="Document" URL="../data/Plan Template/BPStep10-90.gs"/>
+				<Item Name="BPStep50-40.gs" Type="Document" URL="../data/Plan Template/BPStep50-40.gs"/>
+				<Item Name="BPStep200-190.gs" Type="Document" URL="../data/Plan Template/BPStep200-190.gs"/>
+				<Item Name="BPStep300-290.gs" Type="Document" URL="../data/Plan Template/BPStep300-290.gs"/>
+				<Item Name="BPStep400.gs" Type="Document" URL="../data/Plan Template/BPStep400.gs"/>
+				<Item Name="BPStep500-490.gs" Type="Document" URL="../data/Plan Template/BPStep500-490.gs"/>
+				<Item Name="BPStep600-590.gs" Type="Document" URL="../data/Plan Template/BPStep600-590.gs"/>
+				<Item Name="BPStep700-690.gs" Type="Document" URL="../data/Plan Template/BPStep700-690.gs"/>
+				<Item Name="BPStep800.790.gs" Type="Document" URL="../data/Plan Template/BPStep800.790.gs"/>
+				<Item Name="CONSOL - EP60.gs" Type="Document" URL="../data/Plan Template/CONSOL - EP60.gs"/>
+				<Item Name="CONSOL - EP90.gs" Type="Document" URL="../data/Plan Template/CONSOL - EP90.gs"/>
+				<Item Name="consol-430-300.gs" Type="Document" URL="../data/Plan Template/consol-430-300.gs"/>
+				<Item Name="CONSOL-EP30.gs" Type="Document" URL="../data/Plan Template/CONSOL-EP30.gs"/>
+				<Item Name="consolManual.gs" Type="Document" URL="../data/Plan Template/consolManual.gs"/>
+				<Item Name="iso.gs" Type="Document" URL="../data/Plan Template/iso.gs"/>
+				<Item Name="iso2.gs" Type="Document" URL="../data/Plan Template/iso2.gs"/>
+				<Item Name="newsat-consolList1.gslist" Type="Document" URL="../data/Plan Template/newsat-consolList1.gslist"/>
+				<Item Name="SAT 50-40.gs" Type="Document" URL="../data/Plan Template/SAT 50-40.gs"/>
+				<Item Name="sat step.gs" Type="Document" URL="../data/Plan Template/sat step.gs"/>
+				<Item Name="sat2.gs" Type="Document" URL="../data/Plan Template/sat2.gs"/>
+				<Item Name="SAT100-90.gs" Type="Document" URL="../data/Plan Template/SAT100-90.gs"/>
+				<Item Name="SAT200-190.gs" Type="Document" URL="../data/Plan Template/SAT200-190.gs"/>
+				<Item Name="SAT300-290.gs" Type="Document" URL="../data/Plan Template/SAT300-290.gs"/>
+				<Item Name="SAT400-390.gs" Type="Document" URL="../data/Plan Template/SAT400-390.gs"/>
+				<Item Name="SAT500-490.gs" Type="Document" URL="../data/Plan Template/SAT500-490.gs"/>
+				<Item Name="saturation.gs" Type="Document" URL="../data/Plan Template/saturation.gs"/>
+				<Item Name="SHEAR-38mm.gs" Type="Document" URL="../data/Plan Template/SHEAR-38mm.gs"/>
+				<Item Name="SHEAR-50 T50.gs" Type="Document" URL="../data/Plan Template/SHEAR-50 T50.gs"/>
+				<Item Name="SHEAR-50 T90.gs" Type="Document" URL="../data/Plan Template/SHEAR-50 T90.gs"/>
+				<Item Name="SHEAR-50 T100.gs" Type="Document" URL="../data/Plan Template/SHEAR-50 T100.gs"/>
+				<Item Name="SWELL.gs" Type="Document" URL="../data/Plan Template/SWELL.gs"/>
+				<Item Name="test list 28062026.gslist" Type="Document" URL="../data/Plan Template/test list 28062026.gslist"/>
+				<Item Name="test list 30062026.gslist" Type="Document" URL="../data/Plan Template/test list 30062026.gslist"/>
+				<Item Name="test.gs" Type="Document" URL="../data/Plan Template/test.gs"/>
+				<Item Name="test.gslist" Type="Document" URL="../data/Plan Template/test.gslist"/>
+				<Item Name="UCT 50.gs" Type="Document" URL="../data/Plan Template/UCT 50.gs"/>
+				<Item Name="UCT-70.gs" Type="Document" URL="../data/Plan Template/UCT-70.gs"/>
+				<Item Name="UU-50.gs" Type="Document" URL="../data/Plan Template/UU-50.gs"/>
+				<Item Name="UU-70.gs" Type="Document" URL="../data/Plan Template/UU-70.gs"/>
+			</Item>
+			<Item Name=".env" Type="Document" URL="../data/.env"/>
+			<Item Name="Datalog.lcs" Type="Document" URL="../data/Datalog.lcs"/>
+			<Item Name="Device - Copy.ini" Type="Document" URL="../data/Device - Copy.ini"/>
+			<Item Name="Device.ini" Type="Document" URL="../data/Device.ini"/>
+			<Item Name="DeviceV1.ini" Type="Document" URL="../data/DeviceV1.ini"/>
+			<Item Name="ErrorLog.ini" Type="Document" URL="../data/ErrorLog.ini"/>
+			<Item Name="Job-default.ini" Type="Document" URL="../data/Job-default.ini"/>
+			<Item Name="Job.ini" Type="Document" URL="../data/Job.ini"/>
+			<Item Name="pwp logging.csv" Type="Document" URL="../data/pwp logging.csv"/>
+			<Item Name="serial_log.csv" Type="Document" URL="../data/serial_log.csv"/>
+			<Item Name="Setting.ini" Type="Document" URL="../data/Setting.ini"/>
+			<Item Name="Station.ini" Type="Document" URL="../data/Station.ini"/>
+			<Item Name="stop_ping.txt" Type="Document" URL="../data/stop_ping.txt"/>
 		</Item>
 		<Item Name="Documents" Type="Folder" URL="../Documents">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
@@ -391,7 +455,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/ralfsuliman/Desktop/EXE/Geosoil New Controller Multi Comm</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{FEADE620-7DED-4497-8ED4-6A56AAE1F777}</Property>
-				<Property Name="Bld_version.build" Type="Int">337</Property>
+				<Property Name="Bld_version.build" Type="Int">338</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">GeoLogic.exe</Property>
