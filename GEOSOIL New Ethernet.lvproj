@@ -10,8 +10,60 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="API" Type="Folder" URL="../API">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
+		<Item Name="API" Type="Folder">
+			<Item Name="labview_display" Type="Folder">
+				<Item Name="__pycache__" Type="Folder">
+					<Item Name="config.cpython-310.pyc" Type="Document" URL="../API/labview_display/__pycache__/config.cpython-310.pyc"/>
+					<Item Name="config.cpython-313.pyc" Type="Document" URL="../API/labview_display/__pycache__/config.cpython-313.pyc"/>
+					<Item Name="database_handler.cpython-310.pyc" Type="Document" URL="../API/labview_display/__pycache__/database_handler.cpython-310.pyc"/>
+					<Item Name="database_handler.cpython-313.pyc" Type="Document" URL="../API/labview_display/__pycache__/database_handler.cpython-313.pyc"/>
+				</Item>
+				<Item Name="ARCHITECTURE.md" Type="Document" URL="../API/labview_display/ARCHITECTURE.md"/>
+				<Item Name="config.py" Type="Document" URL="../API/labview_display/config.py"/>
+				<Item Name="database_handler.py" Type="Document" URL="../API/labview_display/database_handler.py"/>
+				<Item Name="debug_data.py" Type="Document" URL="../API/labview_display/debug_data.py"/>
+				<Item Name="display.bat" Type="Document" URL="../API/labview_display/display.bat"/>
+				<Item Name="display.ps1" Type="Document" URL="../API/labview_display/display.ps1"/>
+				<Item Name="GETTING_STARTED.md" Type="Document" URL="../API/labview_display/GETTING_STARTED.md"/>
+				<Item Name="install.ps1" Type="Document" URL="../API/labview_display/install.ps1"/>
+				<Item Name="LABVIEW_GUIDE.md" Type="Document" URL="../API/labview_display/LABVIEW_GUIDE.md"/>
+				<Item Name="main.py" Type="Document" URL="../API/labview_display/main.py"/>
+				<Item Name="PROJECT_FILES.md" Type="Document" URL="../API/labview_display/PROJECT_FILES.md"/>
+				<Item Name="QUICK_REFERENCE.txt" Type="Document" URL="../API/labview_display/QUICK_REFERENCE.txt"/>
+				<Item Name="README.md" Type="Document" URL="../API/labview_display/README.md"/>
+				<Item Name="requirements.txt" Type="Document" URL="../API/labview_display/requirements.txt"/>
+				<Item Name="setup.bat" Type="Document" URL="../API/labview_display/setup.bat"/>
+				<Item Name="START_HERE.md" Type="Document" URL="../API/labview_display/START_HERE.md"/>
+				<Item Name="test_install.py" Type="Document" URL="../API/labview_display/test_install.py"/>
+			</Item>
+			<Item Name=".env" Type="Document" URL="../API/.env"/>
+			<Item Name="allevent.php" Type="Document" URL="../API/allevent.php"/>
+			<Item Name="BackendAPI.php" Type="Document" URL="../API/BackendAPI.php"/>
+			<Item Name="check_serial.py" Type="Document" URL="../API/check_serial.py"/>
+			<Item Name="convert.php" Type="Document" URL="../API/convert.php"/>
+			<Item Name="CurrentTime.php" Type="Document" URL="../API/CurrentTime.php"/>
+			<Item Name="Database.sql" Type="Document" URL="../API/Database.sql"/>
+			<Item Name="Database14.sql" Type="Document" URL="../API/Database14.sql"/>
+			<Item Name="device.php" Type="Document" URL="../API/device.php"/>
+			<Item Name="event.php" Type="Document" URL="../API/event.php"/>
+			<Item Name="filename.php" Type="Document" URL="../API/filename.php"/>
+			<Item Name="getdata.php" Type="Document" URL="../API/getdata.php"/>
+			<Item Name="getfileid.php" Type="Document" URL="../API/getfileid.php"/>
+			<Item Name="harddelete.php" Type="Document" URL="../API/harddelete.php"/>
+			<Item Name="index.php" Type="Document" URL="../API/index.php"/>
+			<Item Name="job.php" Type="Document" URL="../API/job.php"/>
+			<Item Name="ping.py" Type="Document" URL="../API/ping.py"/>
+			<Item Name="ping2.py" Type="Document" URL="../API/ping2.py"/>
+			<Item Name="plot t90 live v2.py" Type="Document" URL="../API/plot t90 live v2.py"/>
+			<Item Name="plot t90 v2.py" Type="Document" URL="../API/plot t90 v2.py"/>
+			<Item Name="plot t90.py" Type="Document" URL="../API/plot t90.py"/>
+			<Item Name="report.php" Type="Document" URL="../API/report.php"/>
+			<Item Name="sample.php" Type="Document" URL="../API/sample.php"/>
+			<Item Name="serial_log.csv" Type="Document" URL="../API/serial_log.csv"/>
+			<Item Name="stage.php" Type="Document" URL="../API/stage.php"/>
+			<Item Name="supervisord.conf" Type="Document" URL="../API/supervisord.conf"/>
+			<Item Name="tdms-to-excel.py" Type="Document" URL="../API/tdms-to-excel.py"/>
+			<Item Name="testdone.php" Type="Document" URL="../API/testdone.php"/>
 		</Item>
 		<Item Name="Controls" Type="Folder" URL="../Controls">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
