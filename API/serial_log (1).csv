@@ -1,0 +1,8 @@
+timestamp,port,description,baudrate,status,error
+2026-05-20 11:11:09,COM5,Standard Serial over Bluetooth link (COM5),9600,CONNECTED,
+2026-05-20 11:11:09,COM9,Standard Serial over Bluetooth link (COM9),9600,CONNECTED,
+2026-05-20 11:11:09,COM3,Standard Serial over Bluetooth link (COM3),9600,FAILED,"could not open port 'COM3': OSError(22, 'The semaphore timeout period has expired.', None, 121)"
+2026-05-20 11:11:09,COM7,Standard Serial over Bluetooth link (COM7),9600,FAILED,"could not open port 'COM7': OSError(22, 'The semaphore timeout period has expired.', None, 121)"
+2026-05-20 11:11:24,COM5,Standard Serial over Bluetooth link (COM5),9600,CONNECTED,
+2026-05-20 11:11:24,COM9,Standard Serial over Bluetooth link (COM9),9600,CONNECTED,
+2026-05-20 11:11:24,COM3,Standard Serial over Bluetooth link (COM3),9600,FAILED,"could not open port 'COM3': OSError(22, 'The semaphore timeout period has expired.', None, 121)"
