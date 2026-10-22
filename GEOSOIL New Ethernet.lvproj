@@ -10,130 +10,14 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="API" Type="Folder">
-			<Item Name="labview_display" Type="Folder">
-				<Item Name="__pycache__" Type="Folder">
-					<Item Name="config.cpython-310.pyc" Type="Document" URL="../API/labview_display/__pycache__/config.cpython-310.pyc"/>
-					<Item Name="config.cpython-313.pyc" Type="Document" URL="../API/labview_display/__pycache__/config.cpython-313.pyc"/>
-					<Item Name="database_handler.cpython-310.pyc" Type="Document" URL="../API/labview_display/__pycache__/database_handler.cpython-310.pyc"/>
-					<Item Name="database_handler.cpython-313.pyc" Type="Document" URL="../API/labview_display/__pycache__/database_handler.cpython-313.pyc"/>
-				</Item>
-				<Item Name="ARCHITECTURE.md" Type="Document" URL="../API/labview_display/ARCHITECTURE.md"/>
-				<Item Name="config.py" Type="Document" URL="../API/labview_display/config.py"/>
-				<Item Name="database_handler.py" Type="Document" URL="../API/labview_display/database_handler.py"/>
-				<Item Name="debug_data.py" Type="Document" URL="../API/labview_display/debug_data.py"/>
-				<Item Name="display.bat" Type="Document" URL="../API/labview_display/display.bat"/>
-				<Item Name="display.ps1" Type="Document" URL="../API/labview_display/display.ps1"/>
-				<Item Name="GETTING_STARTED.md" Type="Document" URL="../API/labview_display/GETTING_STARTED.md"/>
-				<Item Name="install.ps1" Type="Document" URL="../API/labview_display/install.ps1"/>
-				<Item Name="LABVIEW_GUIDE.md" Type="Document" URL="../API/labview_display/LABVIEW_GUIDE.md"/>
-				<Item Name="main.py" Type="Document" URL="../API/labview_display/main.py"/>
-				<Item Name="PROJECT_FILES.md" Type="Document" URL="../API/labview_display/PROJECT_FILES.md"/>
-				<Item Name="QUICK_REFERENCE.txt" Type="Document" URL="../API/labview_display/QUICK_REFERENCE.txt"/>
-				<Item Name="README.md" Type="Document" URL="../API/labview_display/README.md"/>
-				<Item Name="requirements.txt" Type="Document" URL="../API/labview_display/requirements.txt"/>
-				<Item Name="setup.bat" Type="Document" URL="../API/labview_display/setup.bat"/>
-				<Item Name="START_HERE.md" Type="Document" URL="../API/labview_display/START_HERE.md"/>
-				<Item Name="test_install.py" Type="Document" URL="../API/labview_display/test_install.py"/>
-			</Item>
-			<Item Name=".env" Type="Document" URL="../API/.env"/>
-			<Item Name="allevent.php" Type="Document" URL="../API/allevent.php"/>
-			<Item Name="BackendAPI.php" Type="Document" URL="../API/BackendAPI.php"/>
-			<Item Name="check_serial.py" Type="Document" URL="../API/check_serial.py"/>
-			<Item Name="convert.php" Type="Document" URL="../API/convert.php"/>
-			<Item Name="CurrentTime.php" Type="Document" URL="../API/CurrentTime.php"/>
-			<Item Name="Database.sql" Type="Document" URL="../API/Database.sql"/>
-			<Item Name="Database14.sql" Type="Document" URL="../API/Database14.sql"/>
-			<Item Name="device.php" Type="Document" URL="../API/device.php"/>
-			<Item Name="event.php" Type="Document" URL="../API/event.php"/>
-			<Item Name="filename.php" Type="Document" URL="../API/filename.php"/>
-			<Item Name="getdata.php" Type="Document" URL="../API/getdata.php"/>
-			<Item Name="getfileid.php" Type="Document" URL="../API/getfileid.php"/>
-			<Item Name="harddelete.php" Type="Document" URL="../API/harddelete.php"/>
-			<Item Name="index.php" Type="Document" URL="../API/index.php"/>
-			<Item Name="job.php" Type="Document" URL="../API/job.php"/>
-			<Item Name="ping.py" Type="Document" URL="../API/ping.py"/>
-			<Item Name="ping2.py" Type="Document" URL="../API/ping2.py"/>
-			<Item Name="plot t90 live v2.py" Type="Document" URL="../API/plot t90 live v2.py"/>
-			<Item Name="plot t90 v2.py" Type="Document" URL="../API/plot t90 v2.py"/>
-			<Item Name="plot t90.py" Type="Document" URL="../API/plot t90.py"/>
-			<Item Name="report.php" Type="Document" URL="../API/report.php"/>
-			<Item Name="sample.php" Type="Document" URL="../API/sample.php"/>
-			<Item Name="serial_log.csv" Type="Document" URL="../API/serial_log.csv"/>
-			<Item Name="stage.php" Type="Document" URL="../API/stage.php"/>
-			<Item Name="supervisord.conf" Type="Document" URL="../API/supervisord.conf"/>
-			<Item Name="tdms-to-excel.py" Type="Document" URL="../API/tdms-to-excel.py"/>
-			<Item Name="testdone.php" Type="Document" URL="../API/testdone.php"/>
+		<Item Name="API" Type="Folder" URL="../API">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Controls" Type="Folder" URL="../Controls">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="data" Type="Folder">
-			<Item Name="Log File" Type="Folder">
-				<Item Name="1.tdms" Type="Document" URL="../data/Log File/1.tdms"/>
-			</Item>
-			<Item Name="Plan Template" Type="Folder">
-				<Item Name="1dconsol.gs" Type="Document" URL="../data/Plan Template/1dconsol.gs"/>
-				<Item Name="ALL STAGE.gslist" Type="Document" URL="../data/Plan Template/ALL STAGE.gslist"/>
-				<Item Name="B-Check.gs" Type="Document" URL="../data/Plan Template/B-Check.gs"/>
-				<Item Name="BCheck+50.gs" Type="Document" URL="../data/Plan Template/BCheck+50.gs"/>
-				<Item Name="Bcheck+70.gs" Type="Document" URL="../data/Plan Template/Bcheck+70.gs"/>
-				<Item Name="BCheck+100.gs" Type="Document" URL="../data/Plan Template/BCheck+100.gs"/>
-				<Item Name="BCheck1.gs" Type="Document" URL="../data/Plan Template/BCheck1.gs"/>
-				<Item Name="BCHEK NEW .gslist" Type="Document" URL="../data/Plan Template/BCHEK NEW .gslist"/>
-				<Item Name="BPStep10-90.gs" Type="Document" URL="../data/Plan Template/BPStep10-90.gs"/>
-				<Item Name="BPStep50-40.gs" Type="Document" URL="../data/Plan Template/BPStep50-40.gs"/>
-				<Item Name="BPStep200-190.gs" Type="Document" URL="../data/Plan Template/BPStep200-190.gs"/>
-				<Item Name="BPStep300-290.gs" Type="Document" URL="../data/Plan Template/BPStep300-290.gs"/>
-				<Item Name="BPStep400.gs" Type="Document" URL="../data/Plan Template/BPStep400.gs"/>
-				<Item Name="BPStep500-490.gs" Type="Document" URL="../data/Plan Template/BPStep500-490.gs"/>
-				<Item Name="BPStep600-590.gs" Type="Document" URL="../data/Plan Template/BPStep600-590.gs"/>
-				<Item Name="BPStep700-690.gs" Type="Document" URL="../data/Plan Template/BPStep700-690.gs"/>
-				<Item Name="BPStep800.790.gs" Type="Document" URL="../data/Plan Template/BPStep800.790.gs"/>
-				<Item Name="CONSOL - EP60.gs" Type="Document" URL="../data/Plan Template/CONSOL - EP60.gs"/>
-				<Item Name="CONSOL - EP90.gs" Type="Document" URL="../data/Plan Template/CONSOL - EP90.gs"/>
-				<Item Name="consol-430-300.gs" Type="Document" URL="../data/Plan Template/consol-430-300.gs"/>
-				<Item Name="CONSOL-EP30.gs" Type="Document" URL="../data/Plan Template/CONSOL-EP30.gs"/>
-				<Item Name="consolManual.gs" Type="Document" URL="../data/Plan Template/consolManual.gs"/>
-				<Item Name="iso.gs" Type="Document" URL="../data/Plan Template/iso.gs"/>
-				<Item Name="iso2.gs" Type="Document" URL="../data/Plan Template/iso2.gs"/>
-				<Item Name="newsat-consolList1.gslist" Type="Document" URL="../data/Plan Template/newsat-consolList1.gslist"/>
-				<Item Name="SAT 50-40.gs" Type="Document" URL="../data/Plan Template/SAT 50-40.gs"/>
-				<Item Name="sat step.gs" Type="Document" URL="../data/Plan Template/sat step.gs"/>
-				<Item Name="sat2.gs" Type="Document" URL="../data/Plan Template/sat2.gs"/>
-				<Item Name="SAT100-90.gs" Type="Document" URL="../data/Plan Template/SAT100-90.gs"/>
-				<Item Name="SAT200-190.gs" Type="Document" URL="../data/Plan Template/SAT200-190.gs"/>
-				<Item Name="SAT300-290.gs" Type="Document" URL="../data/Plan Template/SAT300-290.gs"/>
-				<Item Name="SAT400-390.gs" Type="Document" URL="../data/Plan Template/SAT400-390.gs"/>
-				<Item Name="SAT500-490.gs" Type="Document" URL="../data/Plan Template/SAT500-490.gs"/>
-				<Item Name="saturation.gs" Type="Document" URL="../data/Plan Template/saturation.gs"/>
-				<Item Name="SHEAR-38mm.gs" Type="Document" URL="../data/Plan Template/SHEAR-38mm.gs"/>
-				<Item Name="SHEAR-50 T50.gs" Type="Document" URL="../data/Plan Template/SHEAR-50 T50.gs"/>
-				<Item Name="SHEAR-50 T90.gs" Type="Document" URL="../data/Plan Template/SHEAR-50 T90.gs"/>
-				<Item Name="SHEAR-50 T100.gs" Type="Document" URL="../data/Plan Template/SHEAR-50 T100.gs"/>
-				<Item Name="SWELL.gs" Type="Document" URL="../data/Plan Template/SWELL.gs"/>
-				<Item Name="test list 28062026.gslist" Type="Document" URL="../data/Plan Template/test list 28062026.gslist"/>
-				<Item Name="test list 30062026.gslist" Type="Document" URL="../data/Plan Template/test list 30062026.gslist"/>
-				<Item Name="test.gs" Type="Document" URL="../data/Plan Template/test.gs"/>
-				<Item Name="test.gslist" Type="Document" URL="../data/Plan Template/test.gslist"/>
-				<Item Name="UCT 50.gs" Type="Document" URL="../data/Plan Template/UCT 50.gs"/>
-				<Item Name="UCT-70.gs" Type="Document" URL="../data/Plan Template/UCT-70.gs"/>
-				<Item Name="UU-50.gs" Type="Document" URL="../data/Plan Template/UU-50.gs"/>
-				<Item Name="UU-70.gs" Type="Document" URL="../data/Plan Template/UU-70.gs"/>
-			</Item>
-			<Item Name=".env" Type="Document" URL="../data/.env"/>
-			<Item Name="Datalog.lcs" Type="Document" URL="../data/Datalog.lcs"/>
-			<Item Name="Device - Copy.ini" Type="Document" URL="../data/Device - Copy.ini"/>
-			<Item Name="Device.ini" Type="Document" URL="../data/Device.ini"/>
-			<Item Name="DeviceV1.ini" Type="Document" URL="../data/DeviceV1.ini"/>
-			<Item Name="ErrorLog.ini" Type="Document" URL="../data/ErrorLog.ini"/>
-			<Item Name="Job-default.ini" Type="Document" URL="../data/Job-default.ini"/>
-			<Item Name="Job.ini" Type="Document" URL="../data/Job.ini"/>
-			<Item Name="pwp logging.csv" Type="Document" URL="../data/pwp logging.csv"/>
-			<Item Name="serial_log.csv" Type="Document" URL="../data/serial_log.csv"/>
-			<Item Name="Setting.ini" Type="Document" URL="../data/Setting.ini"/>
-			<Item Name="Station.ini" Type="Document" URL="../data/Station.ini"/>
-			<Item Name="stop_ping.txt" Type="Document" URL="../data/stop_ping.txt"/>
+		<Item Name="data" Type="Folder" URL="../data">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Documents" Type="Folder" URL="../Documents">
 			<Property Name="NI.DISK" Type="Bool">true</Property>

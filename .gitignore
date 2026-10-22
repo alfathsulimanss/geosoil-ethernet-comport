@@ -23,3 +23,4 @@ automation/token.pickle
 API/Upload_Download/credentials.json
 API/Upload_Download/token.pickle
 *.pickle
+API/*.sql
