@@ -47,6 +47,7 @@ switch ($action) {
             isset($data['depth']) && 
             isset($data['height']) && 
             isset($data['diameter']) && 
+			isset($data['attribute']) && 
             isset($data['weight'])
         ) {
             // Extract fields
@@ -57,10 +58,11 @@ switch ($action) {
             $height = $data['height'];
             $diameter = $data['diameter'];
             $weight = $data['weight'];
+			$attribute = $data['attribute'];
 
             // SQL query to insert the data
-            $sql = "INSERT INTO sample (jobid, sampleno, specimentno, depth, height, diameter, weight)
-                    VALUES ('$jobid', '$sampleno', '$specimentno', '$depth', '$height', '$diameter', '$weight')";
+            $sql = "INSERT INTO sample (jobid, sampleno, specimentno, depth, height, diameter, weight, attribute)
+                    VALUES ('$jobid', '$sampleno', '$specimentno', '$depth', '$height', '$diameter', '$weight', '$attribute')";
 
             // Execute the query
             if ($conn->query($sql) === TRUE) {
@@ -135,6 +137,7 @@ switch ($action) {
             isset($data['depth']) && 
             isset($data['height']) && 
             isset($data['diameter']) && 
+			isset($data['attribute']) &&
             isset($data['weight'])
         ) {
             // Extract fields
@@ -146,11 +149,37 @@ switch ($action) {
             $height = $data['height'];
             $diameter = $data['diameter'];
             $weight = $data['weight'];
+			$attribute = $data['attribute'];
 
             // SQL query to update the data
             $sql = "UPDATE sample 
                     SET jobid = '$jobid', sampleno = '$sampleno', specimentno = '$specimentno', 
-                        depth = '$depth', height = '$height', diameter = '$diameter', weight = '$weight'
+                        depth = '$depth', height = '$height', diameter = '$diameter', weight = '$weight', attribute = '$attribute'
+                    WHERE id = '$id'";
+
+            // Execute the query
+            if ($conn->query($sql) === TRUE) {
+                echo json_encode(array("status" => "success", "message" => "Data updated successfully"));
+            } else {
+                echo json_encode(array("status" => "error", "message" => "Error: " . $sql . " " . $conn->error));
+            }
+        } else {
+            echo json_encode(array("status" => "error", "message" => "Missing required fields for update"));
+        }
+        break;
+		
+	case 'update_status':
+        // Check if the required fields for update are present
+        if (
+			isset($data['status'])
+        ) {
+            // Extract fields
+            $id = $data['id'];
+			$status = $data['status'];
+
+            // SQL query to update the data
+            $sql = "UPDATE sample 
+                    SET status = '$status'
                     WHERE id = '$id'";
 
             // Execute the query

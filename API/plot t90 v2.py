@@ -63,7 +63,13 @@ def parse_tangent_map(raw):
                 continue
             sheet_part, idx_part = entry.split('=', 1)
             key = sheet_part.strip().lower()
-            val = _parse_index_pair(idx_part) if idx_part.strip().lower() not in ('nan', 'null', 'none', '') else None
+            idx_str = idx_part.strip().lower()
+            if idx_str == 'skip':
+                val = 'skip'
+            elif idx_str in ('nan', 'null', 'none', ''):
+                val = None
+            else:
+                val = _parse_index_pair(idx_part)
             result[key] = val
         return result if result else None
 
@@ -96,6 +102,115 @@ def compute_tangent_from_indices(df, target_col, idx_a, idx_b):
     if np.isnan(slope) or np.isnan(d0_intercept):
         return None, None
     return slope, d0_intercept
+
+def make_sheet_name(sheet_name, suffix):
+    """Build an Excel-safe sheet name with a suffix, capped at 31 characters."""
+    base = str(sheet_name).strip()
+    max_base_len = max(1, 31 - len(suffix))
+    return f"{base[:max_base_len]}{suffix}"
+
+def estimate_t100(df, target_col):
+    """
+    Estimate T100 from the late-time plateau.
+
+    This is a practical approximation for consolidation reporting:
+    - Estimate the final primary consolidation settlement from the last 20% of points
+      (minimum 5 points).
+    - Find the first time where the settlement reaches 99% of that estimated final value.
+
+    Returns a dict with the estimated settlement, threshold, and T100 time in minutes.
+    """
+    work = df[['Minutes', target_col]].copy()
+    work = work.dropna(subset=['Minutes', target_col])
+    work = work[work['Minutes'] > 0].sort_values('Minutes')
+
+    if len(work) < 5:
+        return None
+
+    tail_count = max(5, int(np.ceil(len(work) * 0.2)))
+    final_settlement = float(work[target_col].tail(tail_count).mean())
+    initial_settlement = float(work[target_col].iloc[0])
+    threshold_settlement = initial_settlement + (0.99 * (final_settlement - initial_settlement))
+
+    minutes = work['Minutes'].to_numpy(dtype=float)
+    settlement = work[target_col].to_numpy(dtype=float)
+
+    t100_minutes = float(minutes[-1])
+    for idx in range(1, len(work)):
+        y0 = settlement[idx - 1]
+        y1 = settlement[idx]
+        x0 = minutes[idx - 1]
+        x1 = minutes[idx]
+
+        crossed = (y0 <= threshold_settlement <= y1) or (y0 >= threshold_settlement >= y1)
+        if not crossed:
+            continue
+
+        if abs(y1 - y0) < 1e-9:
+            t100_minutes = float(x1)
+        else:
+            fraction = (threshold_settlement - y0) / (y1 - y0)
+            t100_minutes = float(x0 + (fraction * (x1 - x0)))
+        break
+
+    return {
+        'final_settlement': final_settlement,
+        'threshold_settlement': threshold_settlement,
+        't100_minutes': t100_minutes,
+        'log_t100': float(np.log10(t100_minutes)) if t100_minutes > 0 else None,
+        'tail_count': tail_count,
+        'method': f'Late plateau estimate ({tail_count} pts, 99% threshold)'
+    }
+
+def create_t100_figure(df, target_col, sheet_name):
+    """Create a log-time T100 estimate figure for consolidation reporting."""
+    estimate = estimate_t100(df, target_col)
+    if estimate is None:
+        return None, None
+
+    work = df[['Minutes', target_col]].copy()
+    work = work.dropna(subset=['Minutes', target_col])
+    work = work[work['Minutes'] > 0].sort_values('Minutes')
+    if len(work) < 5:
+        return None, None
+
+    log_minutes = np.log10(work['Minutes'].to_numpy(dtype=float))
+    settlement = work[target_col].to_numpy(dtype=float)
+
+    fig, ax = plt.subplots(figsize=(10, 6))
+    ax.set_xlim(left=min(0, float(np.nanmin(log_minutes))))
+    ax.invert_yaxis()
+    ax.plot(log_minutes, settlement, 'bo-', label='Measured Data', markersize=4, zorder=3)
+
+    ax.axhline(estimate['threshold_settlement'], color='orange', linestyle='--', linewidth=1.2,
+               label='Estimated 99% of d100')
+
+    if estimate['log_t100'] is not None:
+        ax.vlines(x=estimate['log_t100'], ymin=ax.get_ylim()[0], ymax=estimate['threshold_settlement'],
+                  colors='black', linestyles=':', linewidth=1.2, label='Estimated T100')
+        ax.plot(estimate['log_t100'], estimate['threshold_settlement'], 'ro', markersize=8, zorder=5)
+        ax.annotate(f" T100 = {estimate['t100_minutes']:.2f} min",
+                    (estimate['log_t100'], estimate['threshold_settlement']),
+                    xytext=(10, 10), textcoords="offset points",
+                    color='red', fontweight='bold')
+
+    ax.annotate(f" d100 = {estimate['final_settlement']:.3f}",
+                (log_minutes[-1], estimate['final_settlement']),
+                xytext=(10, -15), textcoords="offset points",
+                color='orange', fontweight='bold')
+
+    ax.set_title(f'Log-Time Consolidation: {sheet_name}  [T100 estimate]')
+    ax.set_xlabel(r'Log$_{10}$(Time, min)')
+    ax.set_ylabel('Settlement (mm)')
+
+    ax.yaxis.set_major_formatter(FormatStrFormatter('%.3f'))
+    ax.yaxis.set_minor_locator(MultipleLocator(0.010))
+    ax.yaxis.set_major_locator(MultipleLocator(0.050))
+    ax.grid(True, which='both', linestyle=':', alpha=0.5)
+    ax.legend(loc='lower right')
+
+    plt.tight_layout()
+    return fig, estimate
 
 def process_file(input_excel_path, tangent_map=None):
     """
@@ -151,6 +266,10 @@ def process_file(input_excel_path, tangent_map=None):
                     # Exact sheet name match first, then wildcard
                     sheet_indices = tangent_map.get(sheet_name.strip().lower(),
                                     tangent_map.get('*', None))
+
+                if sheet_indices == 'skip':
+                    print(f"Skipping {sheet_name}: marked as skip.")
+                    continue
 
                 # --- TANGENT LINE: slope & d0 ---
                 if sheet_indices is not None:
@@ -243,8 +362,9 @@ def process_file(input_excel_path, tangent_map=None):
                 plt.close()
 
                 # --- EXCEL EXPORT ---
-                df.to_excel(writer, sheet_name=sheet_name[:31], index=False)
-                worksheet = writer.sheets[sheet_name[:31]]
+                t90_sheet_name = make_sheet_name(sheet_name, '_T90')
+                df.to_excel(writer, sheet_name=t90_sheet_name, index=False)
+                worksheet = writer.sheets[t90_sheet_name]
                 worksheet.insert_image(f'A{len(df) + 4}', f'{sheet_name}.png', {'image_data': imgdata})
 
                 header_fmt = workbook.add_format({'bold': True, 'bg_color': '#D9EAD3', 'border': 1})
@@ -261,6 +381,24 @@ def process_file(input_excel_path, tangent_map=None):
                     worksheet.write('K8', f'Pt {idx_a+1} Settlement', val_fmt); worksheet.write('L8', pt_a_y, val_fmt)
                     worksheet.write('K9', f'Pt {idx_b+1} sqrt_t', val_fmt); worksheet.write('L9', pt_b_x, val_fmt)
                     worksheet.write('K10', f'Pt {idx_b+1} Settlement', val_fmt); worksheet.write('L10', pt_b_y, val_fmt)
+
+                # --- T100 EXPORT ---
+                t100_fig, t100_info = create_t100_figure(df, target_col, sheet_name)
+                if t100_fig is not None and t100_info is not None:
+                    t100_sheet_name = make_sheet_name(sheet_name, '_T100')
+                    t100_imgdata = io.BytesIO()
+                    t100_fig.savefig(t100_imgdata, format='png', dpi=150)
+                    plt.close(t100_fig)
+
+                    df.to_excel(writer, sheet_name=t100_sheet_name, index=False)
+                    t100_worksheet = writer.sheets[t100_sheet_name]
+                    t100_worksheet.insert_image(f'A{len(df) + 4}', f'{sheet_name}_T100.png', {'image_data': t100_imgdata})
+
+                    t100_worksheet.write('K2', 'Parameter', header_fmt); t100_worksheet.write('L2', 'Value', header_fmt)
+                    t100_worksheet.write('K3', 'Estimated d100 (mm)', val_fmt); t100_worksheet.write('L3', t100_info['final_settlement'], val_fmt)
+                    t100_worksheet.write('K4', 'T100 (min)', val_fmt); t100_worksheet.write('L4', t100_info['t100_minutes'], val_fmt)
+                    t100_worksheet.write('K5', '99% Threshold (mm)', val_fmt); t100_worksheet.write('L5', t100_info['threshold_settlement'], val_fmt)
+                    t100_worksheet.write('K6', 'Method', str_fmt); t100_worksheet.write('L6', t100_info['method'], str_fmt)
 
                 sheets_written += 1
 
@@ -292,6 +430,9 @@ if __name__ == "__main__":
     #
     #   Mixed (some sheets manual, others auto — use nan for auto sheets):
     #     python "plot t90 v2.py" "C:\path\to\file.xlsx" "LOAD 24N.gs=3,4;LOAD 48N.gs=nan"
+    #
+    #   Skip a sheet entirely (not a t90 test):
+    #     python "plot t90 v2.py" "C:\path\to\file.xlsx" "LOAD 24N.gs=3,4;LOAD 48N.gs=skip"
     #
     if len(sys.argv) > 1:
         excel_path = sys.argv[1]

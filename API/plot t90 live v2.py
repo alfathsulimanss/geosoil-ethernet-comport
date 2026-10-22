@@ -1,7 +1,9 @@
 import sys
+import os
+import json
 import numpy as np
 import matplotlib.pyplot as plt
-from matplotlib.ticker import MultipleLocator, FormatStrFormatter
+from matplotlib.ticker import MaxNLocator, AutoMinorLocator, FormatStrFormatter
 from scipy.stats import linregress
 from scipy.interpolate import interp1d
 
@@ -32,6 +34,100 @@ def parse_tangent_indices(raw):
         return None
     return _parse_index_pair(s)
 
+def parse_series_arg(raw):
+    """
+    Parse a numeric series from:
+    1) comma-separated string (existing behavior), or
+    2) file reference using '@path' to avoid command-line length limits.
+
+    File content can be either:
+    - comma-separated values, or
+    - JSON array, e.g. [0, 1.2, 3.4]
+    """
+    if raw is None:
+        return np.array([], dtype=float)
+
+    s = str(raw).strip()
+
+    if s.startswith('@'):
+        file_path = s[1:].strip().strip('"')
+        if not os.path.isfile(file_path):
+            raise ValueError(f"Data file not found: {file_path}")
+        with open(file_path, 'r', encoding='utf-8') as f:
+            s = f.read().strip()
+
+    if not s:
+        return np.array([], dtype=float)
+
+    if s.startswith('[') and s.endswith(']'):
+        values = json.loads(s)
+    else:
+        values = [v for v in s.split(',') if v.strip() != '']
+
+    return np.asarray(values, dtype=float)
+
+def parse_payload_arg(raw):
+    """
+    Parse a combined payload that contains both x and y arrays.
+
+    Supported forms:
+    1) @path_to_json_file
+    2) inline JSON text
+
+    Supported keys:
+    - sqrt_minutes / x / time_array
+    - settlement / y / deformation_array
+    """
+    if raw is None:
+        raise ValueError("Payload argument is empty")
+
+    s = str(raw).strip()
+    if s.startswith('@'):
+        file_path = s[1:].strip().strip('"')
+        if not os.path.isfile(file_path):
+            raise ValueError(f"Payload file not found: {file_path}")
+        with open(file_path, 'r', encoding='utf-8') as f:
+            s = f.read().strip()
+
+    if not s:
+        raise ValueError("Payload content is empty")
+
+    payload = json.loads(s)
+    if not isinstance(payload, dict):
+        raise ValueError("Payload must be a JSON object")
+
+    x_values = (
+        payload.get('sqrt_minutes')
+        or payload.get('x')
+        or payload.get('time_array')
+    )
+    y_values = (
+        payload.get('settlement')
+        or payload.get('y')
+        or payload.get('deformation_array')
+    )
+
+    if x_values is None or y_values is None:
+        raise ValueError("Payload must include x/sqrt_minutes/time_array and y/settlement/deformation_array")
+
+    return np.asarray(x_values, dtype=float), np.asarray(y_values, dtype=float)
+
+def is_payload_arg(raw):
+    """Return True when argument looks like a combined JSON payload input."""
+    if raw is None:
+        return False
+
+    s = str(raw).strip()
+    if not s:
+        return False
+
+    if s.startswith('@'):
+        file_path = s[1:].strip().strip('"')
+        lower_name = file_path.lower()
+        return lower_name.endswith('.json')
+
+    return s.startswith('{')
+
 def compute_tangent_from_indices(x, y, idx_a, idx_b):
     """
     Compute slope and d0 from two specific measured data points (0-based indices).
@@ -54,8 +150,25 @@ def generate_plot(sqrt_minutes, settlement, save_path, tangent_indices=None):
         x = np.array(sqrt_minutes, dtype=float)
         y = np.array(settlement, dtype=float)
 
+        if len(x) != len(y):
+            print(f"ERROR|Length mismatch: sqrt_minutes={len(x)} settlement={len(y)}")
+            return
+
         if len(x) < 5:
             print("ERROR|Insufficient data points.")
+            return
+
+        # Sort and de-duplicate x values for stable interpolation/regression.
+        order = np.argsort(x)
+        x = x[order]
+        y = y[order]
+        x_unique, unique_idx = np.unique(x, return_index=True)
+        y_unique = y[unique_idx]
+        x = x_unique
+        y = y_unique
+
+        if len(x) < 5:
+            print("ERROR|Insufficient unique x points after cleaning.")
             return
 
         # --- T90 & d0 CALCULATIONS ---
@@ -95,8 +208,9 @@ def generate_plot(sqrt_minutes, settlement, save_path, tangent_indices=None):
         # --- PLOTTING ---
         fig, ax = plt.subplots(figsize=(5.5, 3), layout='constrained')
 
-        # Invert y-axis FIRST so all data and lines are drawn in visual space
-        ax.set_xlim(left=0)
+        # Set x-range explicitly from data to avoid clipping when autoscale is disabled.
+        x_max = float(np.max(x)) if len(x) > 0 else 1.0
+        ax.set_xlim(0, max(1.0, x_max * 1.05))
         ax.invert_yaxis()
 
         # Measured Data
@@ -147,8 +261,9 @@ def generate_plot(sqrt_minutes, settlement, save_path, tangent_indices=None):
         ax.set_xlabel(r'$\sqrt{Time}$ ($\sqrt{min}$)', fontsize=7)
         ax.set_ylabel('Settlement (mm)', fontsize=7)
         ax.tick_params(axis='both', labelsize=7)
+        ax.yaxis.set_major_locator(MaxNLocator(nbins=8))
+        ax.yaxis.set_minor_locator(AutoMinorLocator(2))
         ax.yaxis.set_major_formatter(FormatStrFormatter('%.3f'))
-        ax.yaxis.set_minor_locator(MultipleLocator(0.010))
         ax.grid(True, which='both', linestyle=':', alpha=0.5)
         ax.legend(loc='lower right', fontsize=6, framealpha=0.8)
 
@@ -171,9 +286,27 @@ if __name__ == "__main__":
     #   Manual mode (tangent through data point 3 and point 4):
     #     python "plot t90 live v2.py" "0,1,2,..." "0.1,0.2,..." "path/save.png" "3,4"
     #
-    if len(sys.argv) > 3:
-        arg_sqrt_t    = sys.argv[1].split(',')
-        arg_settle    = sys.argv[2].split(',')
+    #   Large-data mode (recommended for LabVIEW):
+    #     python "plot t90 live v2.py" "@C:\\temp\\sqrt_t.txt" "@C:\\temp\\settle.txt" "path/save.png"
+    #   (txt can be CSV text or JSON array)
+    #
+    #   Single payload mode (one argument for both arrays):
+    #     python "plot t90 live v2.py" "@C:\\temp\\t90_payload.json" "path/save.png"
+    #   JSON example:
+    #     {"sqrt_minutes":[...],"settlement":[...]}
+    #
+    if len(sys.argv) >= 3 and is_payload_arg(sys.argv[1]):
+        try:
+            arg_sqrt_t, arg_settle = parse_payload_arg(sys.argv[1])
+            arg_path = sys.argv[2]
+            raw_tangent = sys.argv[3] if len(sys.argv) > 3 else None
+            t_indices = parse_tangent_indices(raw_tangent)
+            generate_plot(arg_sqrt_t, arg_settle, arg_path, tangent_indices=t_indices)
+        except Exception as e:
+            print(f"ERROR|{str(e)}")
+    elif len(sys.argv) > 3:
+        arg_sqrt_t    = parse_series_arg(sys.argv[1])
+        arg_settle    = parse_series_arg(sys.argv[2])
         arg_path      = sys.argv[3]
         raw_tangent   = sys.argv[4] if len(sys.argv) > 4 else None
         t_indices     = parse_tangent_indices(raw_tangent)

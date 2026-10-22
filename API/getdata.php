@@ -29,10 +29,11 @@ if (json_last_error() !== JSON_ERROR_NONE) {
 }
 
 // Check if required parameters are present
-if (isset($data['testtype']) && isset($data['testname']) && isset($data['fileid'])) {
+if (isset($data['testtype']) && isset($data['testname']) && isset($data['fileid']) && isset($data['stage'])) {
     $testtype = $data['testtype'];
     $testname = $data['testname'];
 	$fileid = $data['fileid'];
+	$stage = $data['stage'];
 
     // Initialize SQL query based on testtype
     $columns = '';
@@ -40,8 +41,8 @@ if (isset($data['testtype']) && isset($data['testname']) && isset($data['fileid'
 
     switch ($testtype) {
         case 1:
-            $columns = "`timestamp`, `elapsetime`, `Cell Pressure`, `Back Pressure`, `Volume Change`, `Load`, `Displacement`, `Pore Pressure`, `Change of Pore Pressure`, `Change in Volume`, `Axial Load Change`, `Change in Length`, `Deviator Stress`, `Axial Strain`";
-            $dataFields = ['Cell Pressure', 'Back Pressure', 'Volume Change', 'Load', 'Displacement', 'Pore Pressure', 'Change of Pore Pressure', 'Change in Volume', 'Axial Load Change', 'Change in Length', 'Deviator Stress', 'Axial Strain'];
+            $columns = "`timestamp`, `elapsetime`, `Cell Pressure`, `Back Pressure`, `Volume Change`, `Load`, `Displacement`, `Pore Pressure`, `Change of Pore Pressure`, `Change in Volume`, `Axial Load Change`, `Change in Length`, `Deviator Stress`, `Axial Strain`, `Corrected Axial Strain`";
+            $dataFields = ['Cell Pressure', 'Back Pressure', 'Volume Change', 'Load', 'Displacement', 'Pore Pressure', 'Change of Pore Pressure', 'Change in Volume', 'Axial Load Change', 'Change in Length', 'Deviator Stress', 'Axial Strain', 'Corrected Axial Strain'];
             break;
 
         case 2:
@@ -50,13 +51,13 @@ if (isset($data['testtype']) && isset($data['testname']) && isset($data['fileid'
             break;
 
         case 3:
-            $columns = "`timestamp`, `elapsetime`, `Vertical Load`, `Vertical Displacement`, `Horizontal Load`, `Horizontal Displacement`";
-            $dataFields = ['Vertical Load', 'Vertical Displacement', 'Horizontal Load', 'Horizontal Displacement'];
+            $columns = "`timestamp`, `elapsetime`, `Vertical Load`, `Vertical Displacement`, `Horizontal Load`, `Horizontal Displacement`, `S Length Change`, `Shear Strain`, `H Load Change`, `Normal Stress`, `Shear Stress`";
+            $dataFields = ['Vertical Load', 'Vertical Displacement', 'Horizontal Load', 'Horizontal Displacement', 'S Length Change', 'Shear Strain', 'H Load Change', 'Normal Stress', 'Shear Stress'];
             break;
 
         case 4:
-            $columns = "`timestamp`, `elapsetime`, `Cell Pressure`, `Pore Pressure`, `Back Pressure`, `Inlet Volume`, `Back Pressure 2`, `Outlet Volume`, `Inlet Volume Change`, `Outlet Volume Change`";
-            $dataFields = ['Cell Pressure', 'Pore Pressure', 'Back Pressure', 'Inlet Volume', 'Back Pressure 2', 'Outlet Volume', 'Inlet Volume Change', 'Outlet Volume Change'];
+            $columns = "`timestamp`, `elapsetime`, `Cell Pressure`, `Back Pressure`, `Inlet Volume`, `Pore Pressure`, `Back Pressure 2`, `Outlet Volume`, `Inlet Volume Change`, `Outlet Volume Change`, `Gradient Pressure`, `Inlet Flow`, `Outlet Flow`, `Mean Volume`";
+            $dataFields = ['Cell Pressure', 'Back Pressure', 'Inlet Volume', 'Pore Pressure', 'Back Pressure 2', 'Outlet Volume', 'Inlet Volume Change', 'Outlet Volume Change', 'Gradient Pressure', 'Inlet Flow', 'Outlet Flow', 'Mean Volume'];
             break;
 
         case 5:
@@ -65,8 +66,8 @@ if (isset($data['testtype']) && isset($data['testname']) && isset($data['fileid'
             break;
 
         case 6:
-            $columns = "`timestamp`, `elapsetime`, `Cell Pressure`, `Back Pressure`, `Volume Change`, `Pore Pressure`, `B-Value`, `Change Pore Pressure`, `Change in Volume`, `Pore Pressure Dissipation`";
-            $dataFields = ['Cell Pressure', 'Back Pressure', 'Volume Change', 'Pore Pressure', 'B-Value', 'Change Pore Pressure', 'Change in Volume', 'Pore Pressure Dissipation'];
+            $columns = "`timestamp`, `elapsetime`, `Cell Pressure`, `Back Pressure`, `Volume Change`, `Pore Pressure`, `B-Value`, `Change Pore Pressure`, `Change in Volume`";
+            $dataFields = ['Cell Pressure', 'Back Pressure', 'Volume Change', 'Pore Pressure', 'B-Value', 'Change Pore Pressure', 'Change in Volume'];
             break;
 
         case 7:
@@ -80,8 +81,28 @@ if (isset($data['testtype']) && isset($data['testname']) && isset($data['fileid'
             break;
 		
 		case 9:
-            $columns = "`timestamp`, `elapsetime`, `Cell Pressure`, `Back Pressure`, `Volume Change`, `Pore Pressure`, `Change Pore Pressure`, `Change in Volume`, `Pore Pressure Dissipation`";
-            $dataFields = ['Cell Pressure', 'Back Pressure', 'Volume Change', 'Pore Pressure', 'Change Pore Pressure', 'Change in Volume', 'Pore Pressure Dissipation'];
+            $columns = "`timestamp`, `elapsetime`, `Cell Pressure`, `Back Pressure`, `Volume Change`, `Pore Pressure`, `Change Pore Pressure`, `Change in Volume`, `Pore Pressure Dissipation`, `Volumetric Strain`";
+            $dataFields = ['Cell Pressure', 'Back Pressure', 'Volume Change', 'Pore Pressure', 'Change Pore Pressure', 'Change in Volume', 'Pore Pressure Dissipation', 'Volumetric Strain'];
+            break;
+			
+		case 10:
+            $columns = "`timestamp`, `elapsetime`, `Vertical Load`, `Vertical Stress`";
+            $dataFields = ['Vertical Load', 'Vertical Stress'];
+            break;
+			
+		case 11:
+            $columns = "`timestamp`, `elapsetime`, `Cell Pressure`, `Back Pressure`, `Pore Pressure`, `B-Value`, `Change Pore Pressure`";
+            $dataFields = ['Cell Pressure', 'Back Pressure', 'Pore Pressure', 'B-Value', 'Change Pore Pressure'];
+            break;
+			
+		case 12:
+            $columns = "`timestamp`, `elapsetime`, `Cell Pressure`, `Back Pressure`, `Volume Change`, `Pore Pressure`, `Change Pore Pressure`, `Change in Volume`";
+            $dataFields = ['Cell Pressure', 'Back Pressure', 'Volume Change', 'Pore Pressure', 'Change Pore Pressure', 'Change in Volume'];
+            break;
+			
+		case 13:
+            $columns = "`timestamp`, `elapsetime`, `Cell Pressure`, `Back Pressure`, `Volume Change`, `Pore Pressure`, `Change Pore Pressure`, `Change in Volume`";
+            $dataFields = ['Cell Pressure', 'Back Pressure', 'Volume Change', 'Pore Pressure', 'Change Pore Pressure', 'Change in Volume'];
             break;
 
         default:
@@ -90,7 +111,7 @@ if (isset($data['testtype']) && isset($data['testname']) && isset($data['fileid'
     }
 
     // SQL query to select the data based on testname and testtype
-    $sql = "SELECT $columns FROM historydata WHERE testname = '$testname' AND testtype = $testtype AND fileid = '$fileid'";
+    $sql = "SELECT $columns FROM historydata WHERE testname = '$testname' AND testtype = $testtype AND fileid = '$fileid' AND stage = '$stage'";
     
     // Execute the query
     $result = $conn->query($sql);

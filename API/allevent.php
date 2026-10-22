@@ -74,7 +74,7 @@ switch ($action) {
 	
 		// Initialize query
 
-		$sql = "SELECT `created_date`, `message` FROM event WHERE fileid = $fileid ORDER BY created_date DESC";
+		$sql = "SELECT `created_date`, `message` FROM event WHERE fileid = $fileid ORDER BY id DESC";
 
 		// Execute query
 		$result = $conn->query($sql);
@@ -99,7 +99,7 @@ switch ($action) {
 	
 		// Initialize query
 
-		$sql = "SELECT `created_date`, `message` FROM event ORDER BY created_date DESC";
+		$sql = "SELECT `created_date`, `message` FROM event ORDER BY id DESC";
 
 		// Execute query
 		$result = $conn->query($sql);

@@ -1,0 +1,2297 @@
+{
+  "exe": {
+    "fileName": "GeoLogic.exe",
+    "versions": [
+      {
+        "version": "v1.0.1.231",
+        "uploadDate": "2026-08-22T14:17:18.935569Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.231.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 13092864,
+        "googleFileId": "1pfQAubIZE-ZPNuEez9c0Gnkl6g2O4XYh"
+      },
+      {
+        "version": "v1.0.1.232",
+        "uploadDate": "2026-08-25T05:07:28.237756Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.232.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 13092352,
+        "googleFileId": "11tYdXExiSgbc-xRwZGvsWG_P_fX8X4DN"
+      },
+      {
+        "version": "v1.0.1.233",
+        "uploadDate": "2026-08-25T05:13:26.217993Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.233.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 13090304,
+        "googleFileId": "1_FqKtYaX_4hngHYm0aqX_ftemoH8zEJL"
+      },
+      {
+        "version": "v1.0.1.234",
+        "uploadDate": "2026-08-26T04:21:33.767003Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.234.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 13090304,
+        "googleFileId": "18cO6A_y0uYhtSf5E0A3a-W4XQ839R3Ep"
+      },
+      {
+        "version": "v1.0.1.235",
+        "uploadDate": "2026-08-26T08:44:29.185050Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.235.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 13090304,
+        "googleFileId": "1IEeMzfxX7n612W77Z2hcSm6b0J-cR90I"
+      },
+      {
+        "version": "v1.0.1.236",
+        "uploadDate": "2026-08-26T09:03:16.877219Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.236.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 13099520,
+        "googleFileId": "1mfQQl_5cVhH_GTmX1j9sFrc1PZyIcLjH"
+      },
+      {
+        "version": "v1.0.1.237",
+        "uploadDate": "2026-08-26T16:15:15.049114Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.237.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 13102592,
+        "googleFileId": "1QdE4nEPuj6PtkFgyH4o45ewiO-OEo90Z"
+      },
+      {
+        "version": "v1.0.1.238",
+        "uploadDate": "2026-08-27T06:48:30.749738Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.238.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 13102592,
+        "googleFileId": "1D6M_zMuly7TW17reEeaPV7SLekCJI2MU"
+      },
+      {
+        "version": "v1.0.1.239",
+        "uploadDate": "2026-08-27T06:50:59.264454Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.239.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 13102592,
+        "googleFileId": "1cufGeILzlEixAfrnbrd6LwjbRXoqgPAM"
+      },
+      {
+        "version": "v1.0.1.240",
+        "uploadDate": "2026-08-27T16:26:50.636268Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.240.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 13110272,
+        "googleFileId": "1rfGGzj9GzIdD_S7cLCCab61BMbmP5iMd"
+      },
+      {
+        "version": "v1.0.1.241",
+        "uploadDate": "2026-08-27T16:48:11.524940Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.241.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 13103616,
+        "googleFileId": "1onN7KxVb3eDUFU8C3mJAPuH4n-CmhusP"
+      },
+      {
+        "version": "v1.0.1.242",
+        "uploadDate": "2026-08-27T16:49:28.674764Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.242.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 13103616,
+        "googleFileId": "1nHnXnvV2BrnQJFfktPS599tHgzbx837s"
+      },
+      {
+        "version": "v1.0.1.243",
+        "uploadDate": "2026-08-28T03:23:59.230785Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.243.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 13105152,
+        "googleFileId": "1qxr9rPdUVVDppwMA-SHozjX2VX-o5ewm"
+      },
+      {
+        "version": "v1.0.1.244",
+        "uploadDate": "2026-08-28T11:13:21.294800Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.244.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 13113344,
+        "googleFileId": "1i8wp81P95Q3Oc2nhTlKzFt3McCbovO53"
+      },
+      {
+        "version": "v1.0.1.245",
+        "uploadDate": "2026-08-28T14:40:25.133316Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.245.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 13114368,
+        "googleFileId": "1DepdlQViKeE_lMsVpivXEV1pvvSKTpn6"
+      },
+      {
+        "version": "v1.0.1.246",
+        "uploadDate": "2026-08-29T06:48:48.814766Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.246.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 13140480,
+        "googleFileId": "16FpLLsD3c4SkoDX0wJicKUkS7Afyjbef"
+      },
+      {
+        "version": "v1.0.1.248",
+        "uploadDate": "2026-09-02T04:35:31.059101Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.248.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 13148672,
+        "googleFileId": "1j7Nvuip3pCyBMGVaxUhdB8O8hM87whCW"
+      },
+      {
+        "version": "v1.0.1.249",
+        "uploadDate": "2026-09-02T11:52:59.277602Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.249.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 13161472,
+        "googleFileId": "1opzAQMPfZFLEDgwGXxnKWmseCmTKIha5"
+      },
+      {
+        "version": "v1.0.1.250",
+        "uploadDate": "2026-09-03T17:11:42.169058Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.250.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 13181952,
+        "googleFileId": "1W6YbB4_z0GRKqvNtQZUaqgtL9vPHn1Bb"
+      },
+      {
+        "version": "v1.0.1.251",
+        "uploadDate": "2026-09-04T02:13:52.513734Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.251.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 13181952,
+        "googleFileId": "1kujGPuidBHNA9wh9LoKD5moH3HHAByUv"
+      },
+      {
+        "version": "v1.0.1.252",
+        "uploadDate": "2026-09-04T02:54:06.976359Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.252.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 13185536,
+        "googleFileId": "1VaKkELqukxZlrqiQD102knYaPw_OXV0r"
+      },
+      {
+        "version": "v1.0.1.253",
+        "uploadDate": "2026-09-05T06:30:32.595494Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.253.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 13186048,
+        "googleFileId": "1gDmzqsQPz4nE1pFXDpXMWnKrEiVrC6Ru"
+      },
+      {
+        "version": "v1.0.1.254",
+        "uploadDate": "2026-09-07T01:45:21.677542Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.254.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 12524544,
+        "googleFileId": "10UnhdTm6EMRtwxF--YiTKbybCgX7KLb0"
+      },
+      {
+        "version": "v1.0.1.255",
+        "uploadDate": "2026-09-08T00:43:25.640811Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.255.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 12524544,
+        "googleFileId": "1fgMkV3cb-68WJ1UWJWFFM0esynZ8sZtB"
+      },
+      {
+        "version": "v1.0.1.257",
+        "uploadDate": "2026-09-10T11:39:45.943071Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.257.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 12524544,
+        "googleFileId": "1lhsh-_gRvRQMxbkXPvHWOeLlZCXzuvQf"
+      },
+      {
+        "version": "v1.0.1.258",
+        "uploadDate": "2026-09-11T01:20:00.175580Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.258.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 12524544,
+        "googleFileId": "1YeAY5kHjFxugpB1gufqX1WbYpAHS1x3m"
+      },
+      {
+        "version": "v1.0.1.260",
+        "uploadDate": "2026-09-15T08:46:28.294836Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.260.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 12971008,
+        "googleFileId": "1NoBwZbIVTjTt9gGAju8pwXs03lishqzL"
+      },
+      {
+        "version": "v1.0.1.261",
+        "uploadDate": "2026-09-15T16:03:55.372554Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.261.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 12972032,
+        "googleFileId": "1oXyo-_M4Jqs9RfYWAejQWk8LqC47F_w2"
+      },
+      {
+        "version": "v1.0.1.262",
+        "uploadDate": "2026-09-16T01:43:30.671912Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.262.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 12972544,
+        "googleFileId": "1mIqjTJ5g-3oPc6x1DFrDrW5h-_50XMbV"
+      },
+      {
+        "version": "v1.0.1.263",
+        "uploadDate": "2026-09-17T08:03:26.762384Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.263.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 12978176,
+        "googleFileId": "1BuBLEISJ23epKgEtiXQvNUlnWmrZeIGg"
+      },
+      {
+        "version": "v1.0.1.264",
+        "uploadDate": "2026-09-17T08:09:05.814420Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.264.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 12978176,
+        "googleFileId": "15HNPZlo440cMJJs5o1gVfQUS6hk9CGq4"
+      },
+      {
+        "version": "v1.0.1.265",
+        "uploadDate": "2026-09-17T08:46:32.628262Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.265.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 12977664,
+        "googleFileId": "1PfC-ifoAdD_jvYt_G4jUEyC1PQGHDWO8"
+      },
+      {
+        "version": "v1.0.1.267",
+        "uploadDate": "2026-09-17T11:29:28.183287Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.267.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 12980224,
+        "googleFileId": "1aXYED1HIHEG7WvvwSmXYpPoQTCVB2GST"
+      },
+      {
+        "version": "v1.0.1.268",
+        "uploadDate": "2026-09-17T11:44:21.502650Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.268.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 12979712,
+        "googleFileId": "1vyWMTriL9ywA3LD1I9ZvbcsygOf64Jwr"
+      },
+      {
+        "version": "v1.0.1.269",
+        "uploadDate": "2026-09-17T11:49:55.509643Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.269.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 12979712,
+        "googleFileId": "14sV8iYUPODeWC_ZZOiHj-FNLciYqYcGA"
+      },
+      {
+        "version": "v1.0.1.270",
+        "uploadDate": "2026-09-17T11:53:53.771246Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.270.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 12980224,
+        "googleFileId": "1-koDjPBgmp_ELJNFVqNceiSWxdTRl1NE"
+      },
+      {
+        "version": "v1.0.1.271",
+        "uploadDate": "2026-09-17T23:59:19.632743Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.271.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 12980224,
+        "googleFileId": "1SwgODLAqfncRaJk-EudU0LWn7mSza-Fc"
+      },
+      {
+        "version": "v1.0.1.273",
+        "uploadDate": "2026-09-18T04:10:15.662381Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.273.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 12987904,
+        "googleFileId": "13m3UXPzt3iBH6xnmLEGOs3VJezju30R-"
+      },
+      {
+        "version": "v1.0.1.274",
+        "uploadDate": "2026-09-18T04:54:02.009089Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.274.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 12988416,
+        "googleFileId": "15q3Vi7mZzINYj3usgquBC98n95ddXyGk"
+      },
+      {
+        "version": "v1.0.1.275",
+        "uploadDate": "2026-09-18T10:48:47.527143Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.275.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 12988416,
+        "googleFileId": "1zQB4w6db60o8Eq3EnzE73-VVthc9sEri"
+      },
+      {
+        "version": "v1.0.1.276",
+        "uploadDate": "2026-09-18T10:53:13.765028Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.276.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 12988416,
+        "googleFileId": "1LD_QzG1B0PBbt_5xxL9B-E9uKHodu4Mb"
+      },
+      {
+        "version": "v1.0.1.277",
+        "uploadDate": "2026-09-18T11:06:31.637591Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.277.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 12988416,
+        "googleFileId": "1WgciEIJfK0jT02Jts0G4HaUe0Bz-wIoS"
+      },
+      {
+        "version": "v1.0.1.278",
+        "uploadDate": "2026-09-18T11:49:19.264176Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.278.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 12989440,
+        "googleFileId": "1ijEx-AdHOO8uhhGanw_pi1Zn4hHDRBCf"
+      },
+      {
+        "version": "v1.0.1.279",
+        "uploadDate": "2026-09-18T12:05:40.474312Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.279.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 12989440,
+        "googleFileId": "1LnhhilmC1UrFOLEkDlu7v2erbuJqVLeT"
+      },
+      {
+        "version": "v1.0.1.280",
+        "uploadDate": "2026-09-18T12:09:33.415179Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.280.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 12988928,
+        "googleFileId": "1zLSCtKjqh3tV__XvVATzcTh9lxX2REFh"
+      },
+      {
+        "version": "v1.0.1.281",
+        "uploadDate": "2026-09-18T13:31:36.578084Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.281.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 12987392,
+        "googleFileId": "1mYGJmwoYbb7JBDx_XbT5Ivec_J4C9iIp"
+      },
+      {
+        "version": "v1.0.1.283",
+        "uploadDate": "2026-09-18T16:03:05.083688Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.283.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 12985856,
+        "googleFileId": "1MeujW_G3IEJcEJzfYsPOB_BfYG1-xY5U"
+      },
+      {
+        "version": "v1.0.1.284",
+        "uploadDate": "2026-09-18T16:28:02.811741Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.284.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 12989952,
+        "googleFileId": "1_tykbf07QGEauUT64qWo_PqYvbnP54XH"
+      },
+      {
+        "version": "v1.0.1.285",
+        "uploadDate": "2026-09-18T16:39:58.587419Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.285.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 12989952,
+        "googleFileId": "1gklVRLyOJ6lUZAM7F1BancecWm2pqg7u"
+      },
+      {
+        "version": "v1.0.1.286",
+        "uploadDate": "2026-09-18T16:41:17.429406Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.286.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 12989952,
+        "googleFileId": "11ARTm7w4sRlBBhjwtUnDg7NXuRhiHJsC"
+      },
+      {
+        "version": "v1.0.1.287",
+        "uploadDate": "2026-09-19T03:31:53.133860Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.287.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 12994048,
+        "googleFileId": "1WAoTjz9mACKqRJ8ujxO0QimKhbEKb4Qe"
+      },
+      {
+        "version": "v1.0.1.288",
+        "uploadDate": "2026-09-19T12:20:17.252838Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.288.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 12998144,
+        "googleFileId": "10L8x6Jffhl_or6hFHpezzxo3FqdwtcFA"
+      },
+      {
+        "version": "v1.0.1.289",
+        "uploadDate": "2026-09-21T01:42:32.940892Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.289.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 12997632,
+        "googleFileId": "1B-iR2FZYAE4lI28xf2Tnsnr2SuySBS4-"
+      },
+      {
+        "version": "v1.0.1.290",
+        "uploadDate": "2026-09-22T01:36:49.523620Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.290.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 12997632,
+        "googleFileId": "1QD1APk4VqDwjJnHFuWxEqbGKzT04nwvu"
+      },
+      {
+        "version": "v1.0.1.291",
+        "uploadDate": "2026-09-22T16:28:49.329944Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.291.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 12980736,
+        "googleFileId": "1__0EccPPUxM1VoXaGgOFMPlZorf7HjHf"
+      },
+      {
+        "version": "v1.0.1.292",
+        "uploadDate": "2026-09-23T01:07:45.021011Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.292.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 12981248,
+        "googleFileId": "1SCfNoAhgwE9rrROXu2op6h1YcXeKSsCH"
+      },
+      {
+        "version": "v1.0.1.293",
+        "uploadDate": "2026-09-23T01:17:18.107698Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.293.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 12981760,
+        "googleFileId": "1lJp0yLlJf1BofG6YZwNYgzW4jEIF5ba2"
+      },
+      {
+        "version": "v1.0.1.294",
+        "uploadDate": "2026-09-23T01:25:13.542508Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.294.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 12986880,
+        "googleFileId": "1_oSy26hP2uOqd_FEYU4oU8JzEukATMBy"
+      },
+      {
+        "version": "v1.0.1.295",
+        "uploadDate": "2026-09-23T01:37:55.017513Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.295.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 12974080,
+        "googleFileId": "1-Ie987PZ_ik4v7QekKdaCm_u6Rs57J2I"
+      },
+      {
+        "version": "v1.0.1.296",
+        "uploadDate": "2026-09-23T01:41:48.148226Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.296.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 12973568,
+        "googleFileId": "1YksoIer0eSk7bv-o4mjJA-yyC7ikKMSp"
+      },
+      {
+        "version": "v1.0.1.297",
+        "uploadDate": "2026-09-27T15:50:59.190673Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.297.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 12974592,
+        "googleFileId": "1sKGraf3TdZYR5lKDWH5U5G8LBKu6sK7F"
+      },
+      {
+        "version": "v1.0.1.298",
+        "uploadDate": "2026-09-28T04:16:24.753508Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.298.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 12974592,
+        "googleFileId": "1-eLoGtRfNlgUM3skKh8yi65rbuRBt3eZ"
+      },
+      {
+        "version": "v1.0.1.299",
+        "uploadDate": "2026-09-28T04:51:47.032286Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.299.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 12973568,
+        "googleFileId": "1gTuIsdP9A-yHpHzOsRvPcjOji1OwK7BY"
+      },
+      {
+        "version": "v1.0.1.300",
+        "uploadDate": "2026-09-30T13:34:20.845613Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.300.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 14171648,
+        "googleFileId": "1kDuNgSEhAB07vuRbV7tAKliMPqNuDb-c"
+      },
+      {
+        "version": "v1.0.1.301",
+        "uploadDate": "2026-09-30T14:59:35.351849Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.301.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 14174208,
+        "googleFileId": "1g7HlQdkoGmvhiU2m05GYix5ILS3K0II3"
+      },
+      {
+        "version": "v1.0.1.302",
+        "uploadDate": "2026-09-30T15:22:22.956410Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.302.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 14173696,
+        "googleFileId": "1BgA3l1ZEtbvDQdGjzWLoUsSmOB5Oqjpo"
+      },
+      {
+        "version": "v1.0.1.304",
+        "uploadDate": "2026-10-01T05:14:42.994667Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.304.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 14175232,
+        "googleFileId": "1WLKqi5GYFDOUdnLlT_xWVUNiMqDAkChR"
+      },
+      {
+        "version": "v1.0.1.305",
+        "uploadDate": "2026-10-01T09:39:28.626481Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.305.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 14180352,
+        "googleFileId": "1ayx4uVXcEhW_vj0gRyE-WgKCaMfqZAro"
+      },
+      {
+        "version": "v1.0.1.308",
+        "uploadDate": "2026-10-02T14:54:32.005780Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.308.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 14200320,
+        "googleFileId": "1W_plYgDNrBghRlrQh_3kbLXMsR0y-u3f"
+      },
+      {
+        "version": "v1.0.1.309",
+        "uploadDate": "2026-10-03T00:44:51.253248Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.309.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 14199296,
+        "googleFileId": "1qPo4Zyx6nYHs0tKAGzHq-yTZ5CgQmQXq"
+      },
+      {
+        "version": "v1.0.1.311",
+        "uploadDate": "2026-10-03T02:51:40.262308Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.311.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 14198272,
+        "googleFileId": "1MmnYExgv9oiwTqGZLf5VhukqheQ0G967"
+      },
+      {
+        "version": "v1.0.1.312",
+        "uploadDate": "2026-10-03T03:40:47.573978Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.312.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 14198272,
+        "googleFileId": "16opu17-NSc9nB86LaiDGvxwL76mEyDYQ"
+      },
+      {
+        "version": "v1.0.1.313",
+        "uploadDate": "2026-10-03T04:01:57.927272Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.313.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 14198272,
+        "googleFileId": "1JAtIavIo21TUpKyTpXji9WrF08V_8Y-p"
+      },
+      {
+        "version": "v1.0.1.314",
+        "uploadDate": "2026-10-03T06:15:00.932462Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.314.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 14198784,
+        "googleFileId": "1z40bWlYQR16_nyyuB9OQsjX99G2dmdSK"
+      },
+      {
+        "version": "v1.0.1.315",
+        "uploadDate": "2026-10-03T06:21:55.179618Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.315.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 14198272,
+        "googleFileId": "1BMOfUnBwnLqivvgz14Wy6_DSnJf7MCFp"
+      },
+      {
+        "version": "v1.0.1.316",
+        "uploadDate": "2026-10-04T16:49:59.615547Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.316.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 14843904,
+        "googleFileId": "1V4kTo4fNnF-J2La4DIarLLhnvZ1wjKq6"
+      },
+      {
+        "version": "v1.0.1.317",
+        "uploadDate": "2026-10-05T03:05:02.153869Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.317.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 14854144,
+        "googleFileId": "1X2ERiJl-o0YvU3gPIN_5qNoh5odHaAID"
+      },
+      {
+        "version": "v1.0.1.318",
+        "uploadDate": "2026-10-05T11:54:10.625431Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.318.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 14856704,
+        "googleFileId": "1Ijni4K6KKB98mTfmbqZQ5KXZYx2Fr6tv"
+      },
+      {
+        "version": "v1.0.1.319",
+        "uploadDate": "2026-10-06T04:25:43.086734Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.319.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 14858752,
+        "googleFileId": "12lAsW-Tr3kzXafsV3guf8kpp4mwftktm"
+      },
+      {
+        "version": "v1.0.1.320",
+        "uploadDate": "2026-10-06T06:27:16.843377Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.320.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 14858752,
+        "googleFileId": "1teoHFt10_QrvEp6aEYfH4VqTI_9HSBQG"
+      },
+      {
+        "version": "v1.0.1.321",
+        "uploadDate": "2026-10-06T07:18:23.453823Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.321.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 14858752,
+        "googleFileId": "1RJVkWyXIbzNcs_BXDb023gg2Db9Jrm9N"
+      },
+      {
+        "version": "v1.0.1.322",
+        "uploadDate": "2026-10-06T09:26:11.357078Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.322.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 14881792,
+        "googleFileId": "1xspJU3cecq5CqtVvEKNxwtohBTQ_a1zB"
+      },
+      {
+        "version": "v1.0.1.323",
+        "uploadDate": "2026-10-06T10:17:04.352469Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.323.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 14877696,
+        "googleFileId": "1LDfIgB3WM52e2ClxZLZM_8rkiTjioht2"
+      },
+      {
+        "version": "v1.0.1.324",
+        "uploadDate": "2026-10-07T04:38:12.775780Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.324.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 14890496,
+        "googleFileId": "1v0HaouApB8XuM5WjjyrBVgqYlwzbOKoT"
+      },
+      {
+        "version": "v1.0.1.326",
+        "uploadDate": "2026-10-07T05:37:27.229636Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.326.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 14894592,
+        "googleFileId": "1U7wlwwxI-brF57VIZBZjQluM7AoJAlNd"
+      },
+      {
+        "version": "v1.0.1.327",
+        "uploadDate": "2026-10-07T07:34:39.492935Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.327.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 14894592,
+        "googleFileId": "1Y19FzKVxfVihl1yFZ3XKHtY7dZdIXHOd"
+      },
+      {
+        "version": "v1.0.1.328",
+        "uploadDate": "2026-10-08T01:21:21.221980Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.328.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 14897152,
+        "googleFileId": "1_JroLT_TDJSf6giDAKKU92O3xuERvpeb"
+      },
+      {
+        "version": "v1.0.1.329",
+        "uploadDate": "2026-10-12T02:35:02.015386Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.329.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 14890496,
+        "googleFileId": "1MsWeF6AroiSNyhu2DnmO9IdqrmmDZtb0"
+      },
+      {
+        "version": "v1.0.1.331",
+        "uploadDate": "2026-10-13T02:04:57.978303Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.331.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 14881280,
+        "googleFileId": "15op6OMMl_D-9mRL52YunOf_7GJYOsZ7c"
+      },
+      {
+        "version": "v1.0.1.332",
+        "uploadDate": "2026-10-13T06:46:09.216610Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.332.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 14894592,
+        "googleFileId": "1k0CtDZk_ff98-fEOqMsYTgnoIwEVO2tu"
+      },
+      {
+        "version": "v1.0.1.333",
+        "uploadDate": "2026-10-14T02:44:17.397313Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.333.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 14894592,
+        "googleFileId": "1DY4wAevxCwhpZ8Sr7TEr-6aXKNL7oLYT"
+      },
+      {
+        "version": "v1.0.1.334",
+        "uploadDate": "2026-10-14T03:52:53.196721Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.334.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 14894592,
+        "googleFileId": "1rCHUomhpT_vtPwfUKEg9acCNEacjKDO7"
+      },
+      {
+        "version": "v1.0.1.335",
+        "uploadDate": "2026-10-14T05:27:11.395483Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.335.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 14894592,
+        "googleFileId": "1bOyBOkuwBo1hWtektCgw77HTr-nZaihw"
+      },
+      {
+        "version": "v1.0.1.336",
+        "uploadDate": "2026-10-16T03:44:42.419230Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.336.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 14937088,
+        "googleFileId": "1dMbxbycF6wjTtb6r7vS0Crmp63iEF7MQ"
+      },
+      {
+        "version": "v1.0.1.337",
+        "uploadDate": "2026-10-20T23:34:13.249832Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.337.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 14936576,
+        "googleFileId": "1s5vFzlsDF7vg5uL236l4X1Bm_48Abs-W"
+      }
+    ]
+  },
+  "aliases": {
+    "fileName": "GeoLogic.aliases",
+    "versions": [
+      {
+        "version": "v1.0.1.231",
+        "uploadDate": "2026-08-22T14:17:21.054221Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.231.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1g_k7hJBBhNh4R0Ps_ZGDY_0-cseyN-rD"
+      },
+      {
+        "version": "v1.0.1.232",
+        "uploadDate": "2026-08-25T05:07:31.094572Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.232.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1O0mYlW7DBv9zQ3JYkoIv6PrBFV8eYQnY"
+      },
+      {
+        "version": "v1.0.1.233",
+        "uploadDate": "2026-08-25T05:13:28.637015Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.233.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1mJRX4FgvbP0H1hQCIcajMg0dyB01qimw"
+      },
+      {
+        "version": "v1.0.1.234",
+        "uploadDate": "2026-08-26T04:21:35.915649Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.234.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1p6IHYlUIhL4MEBoZOJ5YXgmTX6uXGNCd"
+      },
+      {
+        "version": "v1.0.1.235",
+        "uploadDate": "2026-08-26T08:44:31.440718Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.235.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1_yVyzBTCwEJj-EYHkiipsWKBWe3fACxT"
+      },
+      {
+        "version": "v1.0.1.236",
+        "uploadDate": "2026-08-26T09:03:19.244646Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.236.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1o_sw-iGMlTX4Xh0D-HTcHi6bNq9ooVxZ"
+      },
+      {
+        "version": "v1.0.1.237",
+        "uploadDate": "2026-08-26T10:11:38.099096Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.237.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1gV3XpjQ41L0BS2Ul9Nl3EUtIFLdxPKfl"
+      },
+      {
+        "version": "v1.0.1.238",
+        "uploadDate": "2026-08-27T06:48:32.829299Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.238.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1RPcwaycqWy_XQ2V1u4CG1Xj-KF9QCCUV"
+      },
+      {
+        "version": "v1.0.1.239",
+        "uploadDate": "2026-08-27T06:51:01.843381Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.239.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1U-5-wkjlUTsAD0QlKqyxjYfeSNyvc3nQ"
+      },
+      {
+        "version": "v1.0.1.240",
+        "uploadDate": "2026-08-27T16:26:52.957300Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.240.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1xNJ_nlZgNf9yUuodeDKbjzMmO5xJsXt8"
+      },
+      {
+        "version": "v1.0.1.241",
+        "uploadDate": "2026-08-27T16:48:14.294391Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.241.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "171dSZ98XT0fsrSSMZ-2AMLtRr5dNDfFj"
+      },
+      {
+        "version": "v1.0.1.242",
+        "uploadDate": "2026-08-27T16:49:30.924753Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.242.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1atfHk03mFUgVulC8KS02aWQ1gICfvtsa"
+      },
+      {
+        "version": "v1.0.1.243",
+        "uploadDate": "2026-08-28T03:24:01.561459Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.243.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1n5Udu6IiPHu9l-myXzbgsAv1vtCRBYA6"
+      },
+      {
+        "version": "v1.0.1.244",
+        "uploadDate": "2026-08-28T11:13:23.643116Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.244.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1URiPJq8MvBshm67ww2F3nOUzsXtvPu7e"
+      },
+      {
+        "version": "v1.0.1.245",
+        "uploadDate": "2026-08-28T14:40:27.287995Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.245.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1mL7DkBhzn45sNSO3OLpWp48BOp9-ATNY"
+      },
+      {
+        "version": "v1.0.1.246",
+        "uploadDate": "2026-08-29T06:48:51.101030Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.246.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "12PKxf62CS8Nwka_qf4HUqSmJ_KDq1m4X"
+      },
+      {
+        "version": "v1.0.1.248",
+        "uploadDate": "2026-09-02T04:35:34.241248Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.248.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1eUhMkax35YsoO4WvZYld5tVwAs4bmRFD"
+      },
+      {
+        "version": "v1.0.1.249",
+        "uploadDate": "2026-09-02T11:53:01.825838Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.249.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1ie7l8Unjc7wquaSZRmdMsJ2ZdMAyaBwF"
+      },
+      {
+        "version": "v1.0.1.250",
+        "uploadDate": "2026-09-03T17:11:45.060085Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.250.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1kL0e7F0z72rywIpN7ysa9ndzchndcL4p"
+      },
+      {
+        "version": "v1.0.1.251",
+        "uploadDate": "2026-09-04T02:13:55.159036Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.251.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1wdUCGAPvO_-lJnS3AFIK_GkwFD4dHJL9"
+      },
+      {
+        "version": "v1.0.1.252",
+        "uploadDate": "2026-09-04T02:54:08.997830Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.252.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1A9zpLWCduEomabrJIdWzkd_BhkjrbWAr"
+      },
+      {
+        "version": "v1.0.1.253",
+        "uploadDate": "2026-09-05T06:30:35.108874Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.253.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1OM3O_PaF0_QIaHBVXKKgQaM-s-G_ZnBl"
+      },
+      {
+        "version": "v1.0.1.254",
+        "uploadDate": "2026-09-07T01:45:23.960008Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.254.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1fpSc0uvJwPokGKqYvM0WtEX22zN7U9ZC"
+      },
+      {
+        "version": "v1.0.1.255",
+        "uploadDate": "2026-09-08T00:43:27.944381Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.255.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1z1bPxvKSI6tzrU_hnypuRJbH0SpUqzRy"
+      },
+      {
+        "version": "v1.0.1.257",
+        "uploadDate": "2026-09-10T11:39:48.564730Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.257.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1EgkhjGPfbzKG0T3fCeQrgRo-Zbojynf5"
+      },
+      {
+        "version": "v1.0.1.258",
+        "uploadDate": "2026-09-11T01:20:02.387562Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.258.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1PTo74QrC5tYcqn-eqtWuVwe7iwvqcslq"
+      },
+      {
+        "version": "v1.0.1.260",
+        "uploadDate": "2026-09-15T08:46:30.916405Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.260.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1u18fDSdrzIZq5SdsV3_RkHfbbHWK9NH-"
+      },
+      {
+        "version": "v1.0.1.261",
+        "uploadDate": "2026-09-15T16:03:57.907606Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.261.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1FsR8VbPF9Zc6nuSZ1HFMkb5QowNYq7nP"
+      },
+      {
+        "version": "v1.0.1.262",
+        "uploadDate": "2026-09-16T01:43:32.780579Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.262.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1JJf9Cs2RPPqoXtoMsjixt8RyvwAXyKkz"
+      },
+      {
+        "version": "v1.0.1.263",
+        "uploadDate": "2026-09-17T08:03:29.105706Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.263.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1Fj4w5xPxJkSAqnTAA2nCJZEI3QodAm1M"
+      },
+      {
+        "version": "v1.0.1.264",
+        "uploadDate": "2026-09-17T08:09:08.064744Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.264.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "11ovhg2-qJFQ27iW7_DHRlUiZQcvXTM4v"
+      },
+      {
+        "version": "v1.0.1.265",
+        "uploadDate": "2026-09-17T08:46:34.743122Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.265.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1hNWGBT7cXHQhlw0KzfndJVELMKOECyG-"
+      },
+      {
+        "version": "v1.0.1.267",
+        "uploadDate": "2026-09-17T11:29:30.530127Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.267.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1ewcLXU80FAU7GDRxEnLloH4WL12LVm9x"
+      },
+      {
+        "version": "v1.0.1.268",
+        "uploadDate": "2026-09-17T11:44:23.932237Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.268.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1zQj7WcvgB7GZDUkVfO5VMnR8ZInNprOz"
+      },
+      {
+        "version": "v1.0.1.269",
+        "uploadDate": "2026-09-17T11:49:57.732651Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.269.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "10tvoCPh4uPl355LMqhPFalfFa32Ho9rE"
+      },
+      {
+        "version": "v1.0.1.270",
+        "uploadDate": "2026-09-17T11:53:56.003932Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.270.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1-lCnDsbP7mDTxLpjjR5Zg15EyRKsWpSN"
+      },
+      {
+        "version": "v1.0.1.271",
+        "uploadDate": "2026-09-17T23:59:21.858975Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.271.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1k7CHzaKruUieeD0-1Nf92ZkkMluVKDCh"
+      },
+      {
+        "version": "v1.0.1.273",
+        "uploadDate": "2026-09-18T04:10:17.716662Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.273.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1Ungjz0zSohpMv7JYHUJKzJ0lX343dTdw"
+      },
+      {
+        "version": "v1.0.1.274",
+        "uploadDate": "2026-09-18T04:54:03.961959Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.274.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1xnQvNex6_S6Ph2Rr1b67ZLStf6zbfwa_"
+      },
+      {
+        "version": "v1.0.1.275",
+        "uploadDate": "2026-09-18T10:48:49.698409Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.275.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1JNSWDJdTHtLcZJZiNXPYMeFiayLppzoq"
+      },
+      {
+        "version": "v1.0.1.276",
+        "uploadDate": "2026-09-18T10:53:15.855164Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.276.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1qBoPdjkuOR3YAXfNY2q-SU7DOhjU8XAZ"
+      },
+      {
+        "version": "v1.0.1.277",
+        "uploadDate": "2026-09-18T11:06:33.728946Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.277.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1Y2cYxIe-VRdJAOhoregWGL1-7JzA_ex_"
+      },
+      {
+        "version": "v1.0.1.278",
+        "uploadDate": "2026-09-18T11:49:21.303988Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.278.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1be90u1_G6B3qhp4yQZvhZZqzYq2wFitb"
+      },
+      {
+        "version": "v1.0.1.279",
+        "uploadDate": "2026-09-18T12:05:42.606276Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.279.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1OxTmLm2MMKJmZjZV885Rd_fu2CAvUF_z"
+      },
+      {
+        "version": "v1.0.1.280",
+        "uploadDate": "2026-09-18T12:09:35.564472Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.280.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "15YRU9h7hCP59TK9pcXtT3Mzrm9t9lfB9"
+      },
+      {
+        "version": "v1.0.1.281",
+        "uploadDate": "2026-09-18T13:31:38.676107Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.281.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "148-jfjuFxQpU3XLcrCJlY_SaTNQ5dpYX"
+      },
+      {
+        "version": "v1.0.1.283",
+        "uploadDate": "2026-09-18T16:03:07.357683Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.283.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1QfQqHQDUyRDjMYMMv_5V6KLcsVwudI6S"
+      },
+      {
+        "version": "v1.0.1.284",
+        "uploadDate": "2026-09-18T16:28:05.820745Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.284.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1I4hzKAM6Fj9CYXda7cZ_RJXUoTL3gFeG"
+      },
+      {
+        "version": "v1.0.1.285",
+        "uploadDate": "2026-09-18T16:40:00.714673Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.285.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1mj2FRwsdExZ-q7TffTGnhK-1BM5eZbv9"
+      },
+      {
+        "version": "v1.0.1.286",
+        "uploadDate": "2026-09-18T16:41:19.568121Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.286.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1JCuiTvk5EJZQk_eLosItwaf-rjD3xTcb"
+      },
+      {
+        "version": "v1.0.1.287",
+        "uploadDate": "2026-09-19T03:31:55.228416Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.287.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1TqbEjsjU8vp7FMW5YXut1XWLI8SlE2w-"
+      },
+      {
+        "version": "v1.0.1.288",
+        "uploadDate": "2026-09-19T12:20:19.531759Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.288.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1jqS6vCBK3nr5_Hmgrki5etSg7MdtRy_S"
+      },
+      {
+        "version": "v1.0.1.289",
+        "uploadDate": "2026-09-21T01:42:35.092941Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.289.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1cbI-jSRzmvgizgNm7Dfa8pCLdnQOu6-h"
+      },
+      {
+        "version": "v1.0.1.290",
+        "uploadDate": "2026-09-22T01:36:51.732810Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.290.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1tr_-5Zv7oZqy20RGC8YEYZwG-_5kvONU"
+      },
+      {
+        "version": "v1.0.1.291",
+        "uploadDate": "2026-09-22T16:28:51.873344Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.291.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1Z1zjEkqAXN2jj0uQcGUTJUfud4D7pSHx"
+      },
+      {
+        "version": "v1.0.1.292",
+        "uploadDate": "2026-09-23T01:07:47.166392Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.292.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1C6W_JSEZijq5dd8hRUFAYyRKCyLVEzuX"
+      },
+      {
+        "version": "v1.0.1.293",
+        "uploadDate": "2026-09-23T01:17:20.186729Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.293.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "12plEF1bmpZfftFYEk7H26WQGR3xsiagb"
+      },
+      {
+        "version": "v1.0.1.294",
+        "uploadDate": "2026-09-23T01:25:15.694723Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.294.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1J7FewMwpcx3Q3A3_xaqPI_yH95lNLJZF"
+      },
+      {
+        "version": "v1.0.1.295",
+        "uploadDate": "2026-09-23T01:37:57.087390Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.295.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1uPSQQHDvc9zcbQnA9C20QWi051QBvsIT"
+      },
+      {
+        "version": "v1.0.1.296",
+        "uploadDate": "2026-09-23T01:41:50.243205Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.296.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "11l7MdEYv7mgkd7pZnLvqI-1k3keKTVRw"
+      },
+      {
+        "version": "v1.0.1.297",
+        "uploadDate": "2026-09-27T15:51:01.264889Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.297.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1EYR4x4sPuEVCdclHl0bxtzWz-HOjQxW1"
+      },
+      {
+        "version": "v1.0.1.298",
+        "uploadDate": "2026-09-28T04:16:27.032626Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.298.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1FBx6FU6w3hwWCPgLh-UR4TplBBIQlgVB"
+      },
+      {
+        "version": "v1.0.1.299",
+        "uploadDate": "2026-09-28T04:51:49.417607Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.299.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1uO3Xe1NHIXd2aGLucYzmuvDb43kh4DHr"
+      },
+      {
+        "version": "v1.0.1.300",
+        "uploadDate": "2026-09-30T13:34:23.152795Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.300.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "12gq4YJXGUUQrGSTpPJw-YofXBK2EI14a"
+      },
+      {
+        "version": "v1.0.1.301",
+        "uploadDate": "2026-09-30T14:59:37.474353Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.301.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1QQXwdww-Nb1L2ao_QKzHaGa5jpXo7uFB"
+      },
+      {
+        "version": "v1.0.1.302",
+        "uploadDate": "2026-09-30T15:22:25.083647Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.302.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1cly2cx9Gem6LAt63I_9I9G_XVL04z5mO"
+      },
+      {
+        "version": "v1.0.1.304",
+        "uploadDate": "2026-10-01T05:14:44.879298Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.304.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1i6NYy3L4IyAfIPv2MVCRZNn-ZjlThcHo"
+      },
+      {
+        "version": "v1.0.1.305",
+        "uploadDate": "2026-10-01T09:39:30.909165Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.305.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1SPVgxoyiudgMYzEsu-oVyCnSrB8qhzbr"
+      },
+      {
+        "version": "v1.0.1.308",
+        "uploadDate": "2026-10-02T14:54:34.469038Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.308.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1pPgOpDj5xiKdVpkeeJ1zX6hlvNvZ5nDj"
+      },
+      {
+        "version": "v1.0.1.309",
+        "uploadDate": "2026-10-03T00:44:53.250926Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.309.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1QzG_SbEepMhp8i3CxJemFhUpffSt12pU"
+      },
+      {
+        "version": "v1.0.1.311",
+        "uploadDate": "2026-10-03T02:51:42.275518Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.311.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1vzkeaWSem5lz-n6eGA9i9NynQ3FgdSKz"
+      },
+      {
+        "version": "v1.0.1.312",
+        "uploadDate": "2026-10-03T03:40:49.708370Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.312.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1LpWCuGjpB_kO1MLbMV5BX_Wq7rnI8uow"
+      },
+      {
+        "version": "v1.0.1.313",
+        "uploadDate": "2026-10-03T04:02:00.099965Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.313.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1kbkkEb8xaVpD9U4cQvc1AAfHon4R0tk6"
+      },
+      {
+        "version": "v1.0.1.314",
+        "uploadDate": "2026-10-03T06:15:03.112199Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.314.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1gCcHJSWLD1KULm1So6WRq28gsgVj9nMC"
+      },
+      {
+        "version": "v1.0.1.315",
+        "uploadDate": "2026-10-03T06:21:57.320673Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.315.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1cMf-T09Mw06JSC6Zgt5jKKrzEzfetyBc"
+      },
+      {
+        "version": "v1.0.1.316",
+        "uploadDate": "2026-10-04T16:50:02.252824Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.316.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1I6z6zJ3x6vGCiGDYpN57c1pxFJcMUF9f"
+      },
+      {
+        "version": "v1.0.1.317",
+        "uploadDate": "2026-10-05T03:05:04.448054Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.317.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "18B8T1JTLL4QeAXPSpPZHVCxDZoPqGTdg"
+      },
+      {
+        "version": "v1.0.1.318",
+        "uploadDate": "2026-10-05T11:54:12.871789Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.318.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1PttIrsyOfyzuqs8a9OSFQ-qBtGnX8wXF"
+      },
+      {
+        "version": "v1.0.1.319",
+        "uploadDate": "2026-10-06T04:25:45.751639Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.319.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1Cq0mVkcN__8FD8UmEvn4eSFHt06_Ezdg"
+      },
+      {
+        "version": "v1.0.1.320",
+        "uploadDate": "2026-10-06T06:27:19.790356Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.320.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1X-nUHRilWtHDGTbaMb56QffE27RCrpWY"
+      },
+      {
+        "version": "v1.0.1.321",
+        "uploadDate": "2026-10-06T07:18:25.969115Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.321.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1pANVfnHKXB2qykv3UIdWUw_g236632oA"
+      },
+      {
+        "version": "v1.0.1.322",
+        "uploadDate": "2026-10-06T09:26:13.751896Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.322.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1nbBfIfVFqEGkRHO9zdUvVc7sVcblxFC3"
+      },
+      {
+        "version": "v1.0.1.323",
+        "uploadDate": "2026-10-06T10:17:07.666937Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.323.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1Hi2p6Uyx6lHAGf4AGj8TTLFmn75XTPuG"
+      },
+      {
+        "version": "v1.0.1.324",
+        "uploadDate": "2026-10-07T04:38:14.932296Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.324.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1dVKcPwL1j9qJonoXU7DeHdq0an-mbvyk"
+      },
+      {
+        "version": "v1.0.1.326",
+        "uploadDate": "2026-10-07T05:37:30.209631Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.326.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1WurTe3cKt3jkapIbtZlUe7_IPGy49jrr"
+      },
+      {
+        "version": "v1.0.1.327",
+        "uploadDate": "2026-10-07T07:34:44.283340Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.327.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1_nuCHDQxnrE93d_zmOtvf7I7SeGJ400Y"
+      },
+      {
+        "version": "v1.0.1.328",
+        "uploadDate": "2026-10-08T01:21:23.529371Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.328.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1df8-Zk-A_Wlqn-kX8p4H2B89EfuxZLhi"
+      },
+      {
+        "version": "v1.0.1.329",
+        "uploadDate": "2026-10-12T02:35:04.358435Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.329.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1y6vcuQwPA2tDB57sz94ELXoyyR3ks2-Z"
+      },
+      {
+        "version": "v1.0.1.331",
+        "uploadDate": "2026-10-13T02:05:00.690761Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.331.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1G2DMDJhVXMi8xOe5Q-nmwmUE3SPiqrsp"
+      },
+      {
+        "version": "v1.0.1.332",
+        "uploadDate": "2026-10-13T06:46:11.908977Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.332.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1aO1GStvx4qFX36svFgU6P9cfBf5U2Uiz"
+      },
+      {
+        "version": "v1.0.1.333",
+        "uploadDate": "2026-10-14T02:44:21.432324Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.333.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1H7eb8NSGFb0FOdZBkQ3sMs6d419owqph"
+      },
+      {
+        "version": "v1.0.1.334",
+        "uploadDate": "2026-10-14T03:52:55.707742Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.334.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1ZgB4XEDgCvv6JfcUaXhDHhvq_ImSvsAO"
+      },
+      {
+        "version": "v1.0.1.335",
+        "uploadDate": "2026-10-14T05:27:13.753868Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.335.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1fiK8CBVyvn0p2mjZF3r1kJmit8nXbRTa"
+      },
+      {
+        "version": "v1.0.1.336",
+        "uploadDate": "2026-10-16T03:44:45.242386Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.336.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1sTvlfwu4Qbw4CPzgJfrTp-7W_SgVRPwS"
+      },
+      {
+        "version": "v1.0.1.337",
+        "uploadDate": "2026-10-20T23:34:15.786507Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.337.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1WRiFaGpxcxKij99Fcr90a63LBsWILkfp"
+      }
+    ]
+  },
+  "ini": {
+    "fileName": "GeoLogic.ini",
+    "versions": [
+      {
+        "version": "v1.0.1.231",
+        "uploadDate": "2026-08-22T14:17:23.071501Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.231.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1w6qKGvOa95BgUjAzrsJbrjaG1u1e4uB0"
+      },
+      {
+        "version": "v1.0.1.232",
+        "uploadDate": "2026-08-25T05:07:33.275930Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.232.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1Nu59X4M458OGUNG3BYf0NxPsh5BFSUmj"
+      },
+      {
+        "version": "v1.0.1.233",
+        "uploadDate": "2026-08-25T05:13:31.284534Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.233.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1g5VKS9VxzcQG5JCEnsDUzthSQS0955Lp"
+      },
+      {
+        "version": "v1.0.1.234",
+        "uploadDate": "2026-08-26T04:21:38.518287Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.234.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "12W-kZl4l2fLw_GnohATquGm5ogNmoJzU"
+      },
+      {
+        "version": "v1.0.1.235",
+        "uploadDate": "2026-08-26T08:44:33.650692Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.235.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1k0stXldSOfTT00pmVxLcVOmiPYnSnX7a"
+      },
+      {
+        "version": "v1.0.1.236",
+        "uploadDate": "2026-08-26T09:03:21.554057Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.236.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1KbiB36d5DYYuNAiOV__XpQaNIRd5H89m"
+      },
+      {
+        "version": "v1.0.1.237",
+        "uploadDate": "2026-08-26T10:11:40.259261Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.237.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1WmUZeSQdgXHrCcIawb0_PVM9de9nv7J2"
+      },
+      {
+        "version": "v1.0.1.238",
+        "uploadDate": "2026-08-27T06:48:34.879721Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.238.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "18wbG4ARnRIta_OlvqpZlSYLQdBy6TZwK"
+      },
+      {
+        "version": "v1.0.1.239",
+        "uploadDate": "2026-08-27T06:51:04.198811Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.239.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "12XYNKFA4t1lVvvugSfBj-q_HyatbgrDq"
+      },
+      {
+        "version": "v1.0.1.240",
+        "uploadDate": "2026-08-27T16:26:55.209813Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.240.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1lgWF91UXL_ThuN1Vm6VlqZMtPeW0iFbY"
+      },
+      {
+        "version": "v1.0.1.241",
+        "uploadDate": "2026-08-27T16:48:16.464407Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.241.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1YSPF8IbCA2uMwez2geZbqYJsgpSPaHwO"
+      },
+      {
+        "version": "v1.0.1.242",
+        "uploadDate": "2026-08-27T16:49:33.422880Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.242.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "18mmetOLv7eHLnQTJdTsYuyuJTmWhjzd-"
+      },
+      {
+        "version": "v1.0.1.243",
+        "uploadDate": "2026-08-28T03:24:04.779272Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.243.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1_-l8Cxv286hINLroBsY6eSqcxsfLnV_-"
+      },
+      {
+        "version": "v1.0.1.244",
+        "uploadDate": "2026-08-28T11:13:25.873639Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.244.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1V6f3Q9Ek-JMQrl4s_rLZksETBNugBivn"
+      },
+      {
+        "version": "v1.0.1.245",
+        "uploadDate": "2026-08-28T14:40:29.402238Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.245.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1ciYegJCRwJIh9_LdzpMyYLw9V4tClHRP"
+      },
+      {
+        "version": "v1.0.1.246",
+        "uploadDate": "2026-08-29T06:48:53.264257Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.246.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "10CB7ojN0rNBnIvqTVB4BvQfu-nc9gRzI"
+      },
+      {
+        "version": "v1.0.1.248",
+        "uploadDate": "2026-09-02T04:35:36.892024Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.248.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1SXGbQ9Z0RL8PFbl3f32OcbcJS94MOojp"
+      },
+      {
+        "version": "v1.0.1.249",
+        "uploadDate": "2026-09-02T11:53:03.785473Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.249.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1WIly7R3wvo1NhUFc_VVLp3hZ56LmRNGn"
+      },
+      {
+        "version": "v1.0.1.250",
+        "uploadDate": "2026-09-03T17:11:48.501419Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.250.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1p38FyGVJi-RPbiIb3snls2oar_mOAxVf"
+      },
+      {
+        "version": "v1.0.1.251",
+        "uploadDate": "2026-09-04T02:13:57.345508Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.251.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1RA-YFbq5hVG37JU5qma2D3HjbmucENAr"
+      },
+      {
+        "version": "v1.0.1.252",
+        "uploadDate": "2026-09-04T02:54:11.701925Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.252.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1Qozd1HcDvmK8ZwAuBlq34j5Yu9qhC8bM"
+      },
+      {
+        "version": "v1.0.1.253",
+        "uploadDate": "2026-09-05T06:30:37.466931Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.253.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1WENBbw9yZP2NIeJMrw-AFqC1wV9xGjpa"
+      },
+      {
+        "version": "v1.0.1.254",
+        "uploadDate": "2026-09-07T01:45:26.143298Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.254.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1mtsqsYCEW9WlNGHzB5qeIOJkcUdNNlfm"
+      },
+      {
+        "version": "v1.0.1.255",
+        "uploadDate": "2026-09-08T00:43:30.722471Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.255.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1rKBMn4esHsDuDxggl7yZRPNQ7024zUIP"
+      },
+      {
+        "version": "v1.0.1.257",
+        "uploadDate": "2026-09-10T11:39:51.097184Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.257.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1YyLs7jeGVPFLqXpnmc1qK286cDGOIBkp"
+      },
+      {
+        "version": "v1.0.1.258",
+        "uploadDate": "2026-09-11T01:20:04.648121Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.258.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "12fGvRUaOwfphDCBHHLnBOlOc55WDtnKv"
+      },
+      {
+        "version": "v1.0.1.260",
+        "uploadDate": "2026-09-15T08:46:33.337141Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.260.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1NhYJcOOucq-Ho24R3yAr99ATNVOrCJtX"
+      },
+      {
+        "version": "v1.0.1.261",
+        "uploadDate": "2026-09-15T16:04:00.145353Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.261.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1Ule8A5d-O7d7bjtxSNoEw3cOPtoX6rYs"
+      },
+      {
+        "version": "v1.0.1.262",
+        "uploadDate": "2026-09-16T01:43:35.526338Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.262.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1nwONBFhIIbfZ5-OOOFxzk8DEFCY4gZEc"
+      },
+      {
+        "version": "v1.0.1.263",
+        "uploadDate": "2026-09-17T08:03:33.652740Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.263.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1Von8UyAM7LT3fT64PKVlrC-WN1Z8DKQE"
+      },
+      {
+        "version": "v1.0.1.264",
+        "uploadDate": "2026-09-17T08:09:10.408611Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.264.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1Ls78a_0HEGLGpcnmUnFkk8eJDZ5a2o9w"
+      },
+      {
+        "version": "v1.0.1.265",
+        "uploadDate": "2026-09-17T08:46:37.361158Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.265.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "19zESe84gC6r-RE_tJWlQk38BwogMuac0"
+      },
+      {
+        "version": "v1.0.1.267",
+        "uploadDate": "2026-09-17T11:29:32.734398Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.267.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1kJrvs7trfweBA3CdAHl-at5ZPcwiyh5g"
+      },
+      {
+        "version": "v1.0.1.268",
+        "uploadDate": "2026-09-17T11:44:26.107890Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.268.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1OrO5EJmnV-4RFN2p2KMU8thoJ4VYWCvg"
+      },
+      {
+        "version": "v1.0.1.269",
+        "uploadDate": "2026-09-17T11:50:00.038884Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.269.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1qI87mXu44EWx6R30oauF_hTPaA8JnjPy"
+      },
+      {
+        "version": "v1.0.1.270",
+        "uploadDate": "2026-09-17T11:53:58.226584Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.270.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "18bX8cAqdmpdftBQ_qSWd6AKpIiQOlrR5"
+      },
+      {
+        "version": "v1.0.1.271",
+        "uploadDate": "2026-09-17T23:59:24.041270Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.271.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1IfgdWhykjky9b75MX8pSn0SEnGvM9L_N"
+      },
+      {
+        "version": "v1.0.1.273",
+        "uploadDate": "2026-09-18T04:10:19.663323Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.273.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1AntrVh-jztG8LGsHLV-tOx0k0N9Zu6WL"
+      },
+      {
+        "version": "v1.0.1.274",
+        "uploadDate": "2026-09-18T04:54:05.839115Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.274.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1jkdIZNbXjW5pM2YU0S7DmRZT9CjTpPm5"
+      },
+      {
+        "version": "v1.0.1.275",
+        "uploadDate": "2026-09-18T10:48:51.639711Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.275.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1mDeJaeE_PIVu6VKfi6VY9-qX5U_zX-mX"
+      },
+      {
+        "version": "v1.0.1.276",
+        "uploadDate": "2026-09-18T10:53:18.091164Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.276.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1ZlsYh5elBiZGfVLvC4MGBc42HmzkowEx"
+      },
+      {
+        "version": "v1.0.1.277",
+        "uploadDate": "2026-09-18T11:06:35.920164Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.277.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1uvlsx-SOwtz4Lu1NH02ECxMzH0crKBm8"
+      },
+      {
+        "version": "v1.0.1.278",
+        "uploadDate": "2026-09-18T11:49:23.384893Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.278.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1AQZzHFS9VBpB5SCND_huSyjJvhLSDb4S"
+      },
+      {
+        "version": "v1.0.1.279",
+        "uploadDate": "2026-09-18T12:05:44.641883Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.279.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1qx_Zq1rMtO01jdFWsRWPk4NyyLBymV9n"
+      },
+      {
+        "version": "v1.0.1.280",
+        "uploadDate": "2026-09-18T12:09:37.879044Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.280.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1CW6IppCX7qeHqeAoZXkvmJM3eLo1ztYs"
+      },
+      {
+        "version": "v1.0.1.281",
+        "uploadDate": "2026-09-18T13:31:40.885468Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.281.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1H1bmOV2k9bvz1ownhysup29h00utACNS"
+      },
+      {
+        "version": "v1.0.1.283",
+        "uploadDate": "2026-09-18T16:03:09.646284Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.283.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1OklfkA5SXZsjWb0dNTWeB9XaKNASyZ7I"
+      },
+      {
+        "version": "v1.0.1.284",
+        "uploadDate": "2026-09-18T16:28:07.932346Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.284.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1bCuDTYLNfB_K3xMEL-Lq57Dr5fNSpy5c"
+      },
+      {
+        "version": "v1.0.1.285",
+        "uploadDate": "2026-09-18T16:40:02.715394Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.285.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1rSmVL_NYHViKs4RkDK0TCQFXgvL4VYAI"
+      },
+      {
+        "version": "v1.0.1.286",
+        "uploadDate": "2026-09-18T16:41:21.563974Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.286.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1ObgdlxDMRar_1m39_Iw88oJ-sJ2BAJIT"
+      },
+      {
+        "version": "v1.0.1.287",
+        "uploadDate": "2026-09-19T03:31:57.519611Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.287.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1yWe2BLaVuM9w_xA4y_4M6rvKl1CHnBGp"
+      },
+      {
+        "version": "v1.0.1.288",
+        "uploadDate": "2026-09-19T12:20:21.734524Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.288.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1egTHtlG_8gU79rZFEYfyKxTX3datS6Q8"
+      },
+      {
+        "version": "v1.0.1.289",
+        "uploadDate": "2026-09-21T01:42:36.986840Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.289.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1brB64jyk8_WAutXdwEKESuk5eq9ATC7T"
+      },
+      {
+        "version": "v1.0.1.290",
+        "uploadDate": "2026-09-22T01:36:53.731494Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.290.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1-CCfnDWPZNRWzHE1YCwOWcmD9vYcZG7g"
+      },
+      {
+        "version": "v1.0.1.291",
+        "uploadDate": "2026-09-22T16:28:54.180311Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.291.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "15UVyXfPQ0PBnKjVJkGU5Gr7QixK0HfUW"
+      },
+      {
+        "version": "v1.0.1.292",
+        "uploadDate": "2026-09-23T01:07:49.207688Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.292.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1kac6_34vKv-YxFkJRyKMb3R2XmaP7OD8"
+      },
+      {
+        "version": "v1.0.1.293",
+        "uploadDate": "2026-09-23T01:17:22.152322Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.293.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1prNZc2oAGxLfRvIeEgeJ5mJScTOQogkl"
+      },
+      {
+        "version": "v1.0.1.294",
+        "uploadDate": "2026-09-23T01:25:17.998330Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.294.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1RI2uF-HhBRDw0VdpRCCkL5-y63b-dDmr"
+      },
+      {
+        "version": "v1.0.1.295",
+        "uploadDate": "2026-09-23T01:37:59.303876Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.295.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1jvvNfL315q4JEfcmVLyRvzfQIfV30MjQ"
+      },
+      {
+        "version": "v1.0.1.296",
+        "uploadDate": "2026-09-23T01:41:52.451086Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.296.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1sDdy9jKgARKvT6AukSGX0BBcFgjv5mgH"
+      },
+      {
+        "version": "v1.0.1.297",
+        "uploadDate": "2026-09-27T15:51:03.585558Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.297.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1lMUdFAS5m8GG6GZlxKcRjYkptKZGHNdE"
+      },
+      {
+        "version": "v1.0.1.298",
+        "uploadDate": "2026-09-28T04:16:29.325178Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.298.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1bsm6BT_gryMMJAlFgB8rWzZss43SnPt8"
+      },
+      {
+        "version": "v1.0.1.299",
+        "uploadDate": "2026-09-28T04:51:51.547461Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.299.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1jj9uVdNdSdfPoN4OS4oq1EmTPcVFyjv3"
+      },
+      {
+        "version": "v1.0.1.300",
+        "uploadDate": "2026-09-30T13:34:25.269122Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.300.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1DYStT661vp4EQ0KmlAP0PRR5cUEHn7XH"
+      },
+      {
+        "version": "v1.0.1.301",
+        "uploadDate": "2026-09-30T14:59:39.464107Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.301.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1aObPkeEiFB6bcoPkZ3Yvz8ay2CjJRDXE"
+      },
+      {
+        "version": "v1.0.1.302",
+        "uploadDate": "2026-09-30T15:22:27.328735Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.302.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1VBEOWHJj6z8nQ13ciidk3aWhd7WAp3z9"
+      },
+      {
+        "version": "v1.0.1.304",
+        "uploadDate": "2026-10-01T05:14:46.761501Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.304.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "19oMvqoQoTeCsnp5bLVBra4y8wmjbwZdw"
+      },
+      {
+        "version": "v1.0.1.305",
+        "uploadDate": "2026-10-01T09:39:32.890407Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.305.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1Ic7d48FNKpG_JVpqnuJatS_NGYkni_BH"
+      },
+      {
+        "version": "v1.0.1.308",
+        "uploadDate": "2026-10-02T14:54:36.602058Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.308.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1qUhW-a3PEH1kWE59Ub-CYWhec6104jcg"
+      },
+      {
+        "version": "v1.0.1.309",
+        "uploadDate": "2026-10-03T00:44:55.177943Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.309.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1CEcBcVkj-chBii0bYoMGxY2WQ8x1mdlY"
+      },
+      {
+        "version": "v1.0.1.311",
+        "uploadDate": "2026-10-03T02:51:44.539566Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.311.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1YGqRMlwGlMovzPFxm-oXmWlSYf5NC0Ss"
+      },
+      {
+        "version": "v1.0.1.312",
+        "uploadDate": "2026-10-03T03:40:51.738407Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.312.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1-Q51JIpz1rUjN7JKwpcleZpS7tItolZ0"
+      },
+      {
+        "version": "v1.0.1.313",
+        "uploadDate": "2026-10-03T04:02:02.259323Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.313.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1YxDi_goV73w5YG-tNaoqnomcYTz5SUiu"
+      },
+      {
+        "version": "v1.0.1.314",
+        "uploadDate": "2026-10-03T06:15:05.001566Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.314.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1n1aGwONjbsomq0VkvO4zWpavDmqqLggK"
+      },
+      {
+        "version": "v1.0.1.315",
+        "uploadDate": "2026-10-03T06:21:59.344130Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.315.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1EuTKV89yZlNkyCyXM5OanUk-Hy8NQGln"
+      },
+      {
+        "version": "v1.0.1.316",
+        "uploadDate": "2026-10-04T16:50:04.299675Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.316.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1f-3eKOEIDax43iwaPeEVLnVofxtZaiXc"
+      },
+      {
+        "version": "v1.0.1.317",
+        "uploadDate": "2026-10-05T03:05:06.485043Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.317.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1jOw4vq0oZ-WiWD3dqgJ2LkHRcBHrBx7V"
+      },
+      {
+        "version": "v1.0.1.318",
+        "uploadDate": "2026-10-05T11:54:15.320266Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.318.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "12sw9UTzyZhFhA5BU49Q60rIzU59zJisW"
+      },
+      {
+        "version": "v1.0.1.319",
+        "uploadDate": "2026-10-06T04:25:48.304965Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.319.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1k2B60jyEGWDUnsufDbJRTlbKm5FjSc7j"
+      },
+      {
+        "version": "v1.0.1.320",
+        "uploadDate": "2026-10-06T06:27:22.256848Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.320.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1TQ48UKoZCYfYg0sFMG3Sl2x5XcDeKqic"
+      },
+      {
+        "version": "v1.0.1.321",
+        "uploadDate": "2026-10-06T07:18:28.295177Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.321.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1i0Crhk4f4rxSIvo2P_zi5rnKySvDyGI1"
+      },
+      {
+        "version": "v1.0.1.322",
+        "uploadDate": "2026-10-06T09:26:17.412476Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.322.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1bODDqxdOnyf78uBDYU4juTtLOylxOire"
+      },
+      {
+        "version": "v1.0.1.323",
+        "uploadDate": "2026-10-06T10:17:10.154937Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.323.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1SdXc-_XE71d0n7SgqB_eaYhAzm_NOhWl"
+      },
+      {
+        "version": "v1.0.1.324",
+        "uploadDate": "2026-10-07T04:38:17.345930Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.324.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1XwGjSx1vvyOgbc9qOMD2bCgaCOgPxIYm"
+      },
+      {
+        "version": "v1.0.1.326",
+        "uploadDate": "2026-10-07T05:37:32.175828Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.326.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "16Me0ECV1_IMv65wl0z1IIzGoZraF8Krm"
+      },
+      {
+        "version": "v1.0.1.327",
+        "uploadDate": "2026-10-07T07:34:46.515196Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.327.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1wW3uCJOp8HN5b4GtKRQSzWWxpOW5tpeY"
+      },
+      {
+        "version": "v1.0.1.328",
+        "uploadDate": "2026-10-08T01:21:25.764119Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.328.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1jet6pIQYTMYq1e6CER6DgtqjWNDiK6MD"
+      },
+      {
+        "version": "v1.0.1.329",
+        "uploadDate": "2026-10-12T02:35:06.812035Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.329.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1MfKatHp-yOF78hIjz4S9XS3crHdlIb_z"
+      },
+      {
+        "version": "v1.0.1.331",
+        "uploadDate": "2026-10-13T02:05:03.143440Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.331.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1MdFGOLDG3xnei3WpwKDT5-XhCpBx4E1c"
+      },
+      {
+        "version": "v1.0.1.332",
+        "uploadDate": "2026-10-13T06:46:14.377618Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.332.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1xO-ufU1VI7IYDq-B9Ekw5vP2JcRC5FKs"
+      },
+      {
+        "version": "v1.0.1.333",
+        "uploadDate": "2026-10-14T02:44:24.442893Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.333.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1RNo-W3rAnx0D1kVx9y7eDIsCB2E41oR_"
+      },
+      {
+        "version": "v1.0.1.334",
+        "uploadDate": "2026-10-14T03:52:58.312126Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.334.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1I_FXRDHfCSLSx1Zorxu5cKH0QJU1O0xz"
+      },
+      {
+        "version": "v1.0.1.335",
+        "uploadDate": "2026-10-14T05:27:16.174810Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.335.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1WRItLHlpK8AzM3RrSO5NwnPbsH333uTJ"
+      },
+      {
+        "version": "v1.0.1.336",
+        "uploadDate": "2026-10-16T03:44:47.847979Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.336.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1RmYGs00udMBPaQAkNjAlnb9zoKPOx_La"
+      },
+      {
+        "version": "v1.0.1.337",
+        "uploadDate": "2026-10-20T23:34:18.403060Z",
+        "remotePath": "versions/GeoLogic_v1.0.1.337.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1TSxMgxtDQo7sZ918QYxa-Dlf2YRwunFy"
+      }
+    ]
+  }
+}

@@ -33,7 +33,7 @@ if (isset($data['fileid'])) {
 	$fileid = $data['fileid'];
 
     // SQL query to select the data based on testname and testtype
-    $sql = "SELECT testname, testtype FROM historydata WHERE fileid = '$fileid' ORDER BY id ASC";
+    $sql = "SELECT testname, testtype, stage FROM historydata WHERE fileid = '$fileid' ORDER BY id ASC";
     
     // Execute the query
     $result = $conn->query($sql);
@@ -45,7 +45,8 @@ if (isset($data['fileid'])) {
             // Append to the rows array with the same format as write
             $rows[] = array(
                 "testname" => $row ['testname'],
-                "testtype" => $row ['testtype']
+                "testtype" => $row ['testtype'],
+				"stage" => $row ['stage']
             );
         }
 

@@ -42,15 +42,17 @@ switch ($action) {
         // Check if the required fields are present
         if (
             isset($data['message']) &&
-			isset($data['fileid'])
+			isset($data['fileid']) &&
+			isset($data['stage'])
         ) {
             // Extract fields
             $message = $data['message'];
 			$fileid = $data['fileid'];
+			$stage = $data['stage'];
 
             // SQL query to insert the data
-            $sql = "INSERT INTO event (message, fileid)
-                    VALUES ('$message','$fileid')";
+            $sql = "INSERT INTO event (message, fileid, stage)
+                    VALUES ('$message','$fileid','$stage')";
 
             // Execute the query
             if ($conn->query($sql) === TRUE) {
@@ -74,7 +76,7 @@ switch ($action) {
 	
 		// Initialize query
 
-		$sql = "SELECT `created_date`, `message` FROM event WHERE fileid = $fileid ORDER BY created_date DESC LIMIT 5";
+		$sql = "SELECT `created_date`, `message` FROM event WHERE fileid = $fileid ORDER BY id DESC LIMIT 5";
 
 		// Execute query
 		$result = $conn->query($sql);
@@ -99,7 +101,7 @@ switch ($action) {
 	
 		// Initialize query
 
-		$sql = "SELECT `created_date`, `message` FROM event ORDER BY created_date DESC LIMIT 5";
+		$sql = "SELECT `created_date`, `message` FROM event ORDER BY id DESC LIMIT 5";
 
 		// Execute query
 		$result = $conn->query($sql);

@@ -1,31 +1,30 @@
 import subprocess
 import csv
-import mysql.connector
+import pymysql  # Switched from mysql.connector
 import time
 import os
 
-# Database configuration
+# Database configuration (pymysql doesn't use or need auth_plugin)
 db_config = {
     "host": "127.0.0.1",
     "user": "root",
     "password": "",
-    "database": "projectdata",
-    "auth_plugin": "mysql_native_password"
+    "database": "projectdata"
 }
 
 # Paths (use raw strings to avoid escape issues)
-csv_file = r"F:\Geosoil Drive\geosoil-ethernet-comport\data\ping_results.csv"
-stop_file = r"F:\Geosoil Drive\geosoil-ethernet-comport\data\stop_ping.txt"
+csv_file = r"C:\Users\Public\Documents\Geologics\data\ping_results.csv"
+stop_file = r"C:\Users\Public\Documents\Geologics\data\stop_ping.txt"
 
 # Interval between ping cycles (seconds)
 interval = 1
 
 def get_db_connection():
-    """Create a MySQL database connection"""
+    """Create a PyMySQL database connection"""
     try:
-        conn = mysql.connector.connect(**db_config)
+        conn = pymysql.connect(**db_config)
         return conn
-    except mysql.connector.Error as err:
+    except pymysql.MySQLError as err:
         print(f"Database connection error: {err}", flush=True)
         return None
 
@@ -43,13 +42,13 @@ def read_devices():
         devices = [(row[0], row[1]) for row in cursor.fetchall()]
         cursor.close()
         return devices
-    except mysql.connector.Error as err:
+    except pymysql.MySQLError as err:
         print(f"Error reading from database: {err}", flush=True)
         return []
     finally:
         conn.close()
 
-def is_online(ip, ping_counts=[1,2,4]):
+def is_online(ip, ping_counts=[1, 2, 4]):
     error_strings = [
         "destination host unreachable",
         "request timed out",

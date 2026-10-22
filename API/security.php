@@ -41,22 +41,16 @@ switch ($action) {
     case 'insert':
         // Check if the required fields are present
         if (
-            isset($data['SNIP']) && 
-            isset($data['port']) && 
-            isset($data['devicename']) && 
-            isset($data['status']) && 
-            isset($data['type'])
+            isset($data['username']) && 
+            isset($data['password'])
         ) {
             // Extract fields
-            $SNIP = $data['SNIP'];
-            $port = $data['port'];
-            $devicename = $data['devicename'];
-            $status = $data['status'];
-            $type = $data['type'];
+            $username = $data['username'];
+            $password = $data['password'];
 
             // SQL query to insert the data
-            $sql = "INSERT INTO device (SNIP, port, devicename, status, type)
-                    VALUES ('$SNIP', '$port', '$devicename', '$status', '$type')";
+            $sql = "INSERT INTO security (username, password)
+                    VALUES ('$username', '$password')";
 
             // Execute the query
             if ($conn->query($sql) === TRUE) {
@@ -72,7 +66,7 @@ switch ($action) {
 
 	case 'readall':
 		// Initialize query
-		$sql = "SELECT * FROM device WHERE `delete` = 0";
+		$sql = "SELECT * FROM security WHERE `delete` = 0";
 
 		// Execute query
 		$result = $conn->query($sql);
@@ -93,14 +87,15 @@ switch ($action) {
 		$conditions = array("`delete` = 0");
 
 		// Add filters if provided
-		if (isset($data['SNIP'])) {
-			$SNIP = $data['SNIP'];
-			$conditions[] = "SNIP = '$SNIP'";
+		if (isset($data['username'])) {
+			$username = $data['username'];
+			$password = $data['password']; // <-- FIXED: Added missing semicolon here
+			$conditions[] = "username = '$username' AND password = '$password'"; // <-- FIXED: Changed comma (,) to AND
 		}
 
 		// Combine conditions into WHERE clause
 		$whereClause = implode(' AND ', $conditions);
-		$sql = "SELECT * FROM device WHERE $whereClause";
+		$sql = "SELECT * FROM security WHERE $whereClause";
 
 		// Execute query
 		$result = $conn->query($sql);
@@ -115,59 +110,6 @@ switch ($action) {
 			echo json_encode(array("status" => "success", "data" => []));
 		}
 		break;
-
-    case 'delete':
-        // Check if port is provided for soft delete
-        if (isset($data['SNIP'])) {
-            $SNIP = $data['SNIP'];
-
-            // SQL query to update delete column to 1
-            $sql = "UPDATE device SET `delete` = 1 WHERE SNIP = '$SNIP' AND `delete` = 0";
-
-            if ($conn->query($sql) === TRUE) {
-                echo json_encode(array("status" => "success", "message" => "Data soft-deleted successfully"));
-            } else {
-                echo json_encode(array("status" => "error", "message" => "Error: " . $sql . " " . $conn->error));
-            }
-        } else {
-            echo json_encode(array("status" => "error", "message" => "Missing deviceid for deletion"));
-        }
-        break;
-
-    case 'update':
-        // Check if the required fields for update are present
-        if (
-            isset($data['id']) && 
-            isset($data['SNIP']) && 
-            isset($data['port']) && 
-            isset($data['devicename']) && 
-            isset($data['status']) && 
-            isset($data['type'])
-        ) {
-            // Extract fields
-            $id = $data['id'];
-            $SNIP = $data['SNIP'];
-            $port = $data['port'];
-            $devicename = $data['devicename'];
-            $status = $data['status'];
-            $type = $data['type'];
-
-            // SQL query to update the data
-            $sql = "UPDATE device 
-                    SET SNIP = '$SNIP', port = '$port', devicename = '$devicename', 
-                        status = '$status', type = '$type'
-                    WHERE id = '$id'";
-
-            // Execute the query
-            if ($conn->query($sql) === TRUE) {
-                echo json_encode(array("status" => "success", "message" => "Data updated successfully"));
-            } else {
-                echo json_encode(array("status" => "error", "message" => "Error: " . $sql . " " . $conn->error));
-            }
-        } else {
-            echo json_encode(array("status" => "error", "message" => "Missing required fields for update"));
-        }
-        break;
 
     default:
         echo json_encode(array("status" => "error", "message" => "Invalid action specified"));

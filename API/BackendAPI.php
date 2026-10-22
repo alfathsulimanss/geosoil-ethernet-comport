@@ -54,8 +54,8 @@ if (
     // Determine the columns and values to insert based on the testtype
     switch ($testtype) {
         case 1:
-            if (count($data['data']) === 12) {
-                $columns = "`Cell Pressure`, `Back Pressure`, `Volume Change`, `Load`, `Displacement`, `Pore Pressure`, `Change of Pore Pressure`, `Change in Volume`, `Axial Load Change`, `Change in Length`, `Deviator Stress`, `Axial Strain`";
+            if (count($data['data']) === 13) {
+                $columns = "`Cell Pressure`, `Back Pressure`, `Volume Change`, `Load`, `Displacement`, `Pore Pressure`, `Change of Pore Pressure`, `Change in Volume`, `Axial Load Change`, `Change in Length`, `Deviator Stress`, `Axial Strain`, `Corrected Axial Strain`";
                 $values = "'" . implode("', '", $data['data']) . "'";
             }
             break;
@@ -68,15 +68,15 @@ if (
             break;
         
         case 3:
-            if (count($data['data']) === 4) {
-                $columns = "`Vertical Load`, `Vertical Displacement`, `Horizontal Load`, `Horizontal Displacement`";
+            if (count($data['data']) === 9) {
+                $columns = "`Vertical Load`, `Vertical Displacement`, `Horizontal Load`, `Horizontal Displacement`, `S Length Change`, `Shear Strain`, `H Load Change`, `Normal Stress`, `Shear Stress`";
                 $values = "'" . implode("', '", $data['data']) . "'";
             }
             break;
         
         case 4:
-            if (count($data['data']) === 8) {
-                $columns = "`Cell Pressure`, `Pore Pressure`, `Back Pressure`, `Inlet Volume`, `Back Pressure 2`, `Outlet Volume`, `Inlet Volume Change`, `Outlet Volume Change`";
+            if (count($data['data']) === 12) {
+                $columns = "`Cell Pressure`, `Back Pressure`, `Inlet Volume`, `Pore Pressure`, `Back Pressure 2`, `Outlet Volume`, `Inlet Volume Change`, `Outlet Volume Change`, `Gradient Pressure`, `Inlet Flow`, `Outlet Flow`, `Mean Volume`";
                 $values = "'" . implode("', '", $data['data']) . "'";
             }
             break;
@@ -89,8 +89,8 @@ if (
             break;
         
         case 6:
-            if (count($data['data']) === 8) {
-                $columns = "`Cell Pressure`, `Back Pressure`, `Volume Change`, `Pore Pressure`, `B-Value`, `Change Pore Pressure`, `Pore Pressure Dissipation`, `Change in Volume`";
+            if (count($data['data']) === 7) {
+                $columns = "`Cell Pressure`, `Back Pressure`, `Volume Change`, `Pore Pressure`, `B-Value`, `Change Pore Pressure`, `Change in Volume`";
                 $values = "'" . implode("', '", $data['data']) . "'";
             }
             break;
@@ -110,8 +110,36 @@ if (
             break;
 			
 		case 9:
-            if (count($data['data']) === 7) {
-                $columns = "`Cell Pressure`, `Back Pressure`, `Volume Change`, `Pore Pressure`, `Change Pore Pressure`, `Pore Pressure Dissipation`, `Change in Volume`";
+            if (count($data['data']) === 8) {
+                $columns = "`Cell Pressure`, `Back Pressure`, `Volume Change`, `Pore Pressure`, `Change Pore Pressure`, `Pore Pressure Dissipation`, `Change in Volume`, `Volumetric Strain`";
+                $values = "'" . implode("', '", $data['data']) . "'";
+            }
+            break;
+			
+		case 10:
+            if (count($data['data']) === 2) {
+                $columns = "`Vertical Load`, `Vertical Stress`";
+                $values = "'" . implode("', '", $data['data']) . "'";
+            }
+            break;
+			
+		case 11:
+            if (count($data['data']) === 5) {
+                $columns = "`Cell Pressure`, `Back Pressure`, `Pore Pressure`, `B-Value`, `Change Pore Pressure`";
+                $values = "'" . implode("', '", $data['data']) . "'";
+            }
+            break;
+			
+		case 12:
+            if (count($data['data']) === 6) {
+                $columns = "`Cell Pressure`, `Back Pressure`, `Volume Change`, `Pore Pressure`, `Change Pore Pressure`, `Change in Volume`";
+                $values = "'" . implode("', '", $data['data']) . "'";
+            }
+            break;
+			
+		case 13:
+            if (count($data['data']) === 6) {
+                $columns = "`Cell Pressure`, `Back Pressure`, `Volume Change`, `Pore Pressure`, `Change Pore Pressure`, `Change in Volume`";
                 $values = "'" . implode("', '", $data['data']) . "'";
             }
             break;

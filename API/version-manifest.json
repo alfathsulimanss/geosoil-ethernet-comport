@@ -1,0 +1,65 @@
+{
+  "exe": {
+    "fileName": "GeoLogic.exe",
+    "versions": [
+      {
+        "number": 1,
+        "uploadDate": "2026-08-04T08:17:00.493803Z",
+        "remotePath": "versions/GeoLogic_v001.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 13058560,
+        "googleFileId": "1p0nQoSyujz4lYscU6VCje-7qlh3joSTZ"
+      },
+      {
+        "number": 2,
+        "uploadDate": "2026-08-04T08:18:11.200133Z",
+        "remotePath": "versions/GeoLogic_v002.exe",
+        "fileName": "GeoLogic.exe",
+        "fileSize": 13058560,
+        "googleFileId": "1mcxPK1l3RjaCrhSPEnx9cwfh87AiLmRK"
+      }
+    ]
+  },
+  "aliases": {
+    "fileName": "GeoLogic.aliases",
+    "versions": [
+      {
+        "number": 1,
+        "uploadDate": "2026-08-04T08:17:03.014579Z",
+        "remotePath": "versions/GeoLogic_v001.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1v3BAA5Kqhpm5UmySmowMoqK-xCkqrZte"
+      },
+      {
+        "number": 2,
+        "uploadDate": "2026-08-04T08:18:13.416702Z",
+        "remotePath": "versions/GeoLogic_v002.aliases",
+        "fileName": "GeoLogic.aliases",
+        "fileSize": 38,
+        "googleFileId": "1pjtyASWT3rwQdnOGHeR0E6b9MT07rek5"
+      }
+    ]
+  },
+  "ini": {
+    "fileName": "GeoLogic.ini",
+    "versions": [
+      {
+        "number": 1,
+        "uploadDate": "2026-08-04T08:17:05.562449Z",
+        "remotePath": "versions/GeoLogic_v001.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1uKVVp5t211Z8B3FH3xiZpDO_zO5dVQk-"
+      },
+      {
+        "number": 2,
+        "uploadDate": "2026-08-04T08:18:16.570471Z",
+        "remotePath": "versions/GeoLogic_v002.ini",
+        "fileName": "GeoLogic.ini",
+        "fileSize": 320,
+        "googleFileId": "1fzBguhfC8jevpk_uZmJk9GUkFwpm3nv6"
+      }
+    ]
+  }
+}

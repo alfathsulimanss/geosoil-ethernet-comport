@@ -1,62 +1,21 @@
-print("SCRIPT STARTED", flush=True)
-
 import subprocess
 import csv
-import pymysql
+import configparser
 import time
 import os
 
-# Database configuration
-db_config = {
-    "host": "127.0.0.1",
-    "user": "root",
-    "password": "",
-    "database": "projectdata",
-    "connect_timeout": 5,
-    "auth_plugin": "mysql_native_password"
-}
-
 # Paths (use raw strings to avoid escape issues)
-csv_file = r"D:\Geologic\data\ping_results.csv"
-stop_file = r"D:\Geologic\data\stop_ping.txt"
+ini_file = r"F:\Geosoil Drive\geosoil-ethernet-comport\data\Device.ini"
+csv_file = r"F:\Geosoil Drive\geosoil-ethernet-comport\data\ping_results.csv"
+stop_file = r"F:\Geosoil Drive\geosoil-ethernet-comport\data\stop_ping.txt"
 
 # Interval between ping cycles (seconds)
 interval = 1
 
-def get_db_connection():
-    """Create a MySQL database connection (PyMySQL)"""
-    try:
-        conn = pymysql.connect(
-            host=db_config["host"],
-            user=db_config["user"],
-            password=db_config["password"],
-            database=db_config["database"],
-            connect_timeout=db_config["connect_timeout"],
-            cursorclass=pymysql.cursors.Cursor
-        )
-        return conn
-    except Exception as err:
-        print(f"Database connection error: {err}", flush=True)
-        return None
-
 def read_devices():
-    """Read devices from MySQL database"""
-    conn = get_db_connection()
-    if not conn:
-        print("Failed to connect to database. Retrying...", flush=True)
-        return []
-
-    try:
-        with conn.cursor() as cursor:
-            query = "SELECT SNIP, devicename FROM device"
-            cursor.execute(query)
-            devices = cursor.fetchall()
-            return devices
-    except Exception as err:
-        print(f"Error reading from database: {err}", flush=True)
-        return []
-    finally:
-        conn.close()
+    config = configparser.ConfigParser()
+    config.read(ini_file)
+    return [(ip, config[ip].get("Device Name", "Unknown")) for ip in config.sections()]
 
 def is_online(ip, ping_counts=[1,2,4]):
     error_strings = [
@@ -114,10 +73,10 @@ try:
             os.remove(stop_file)
             break
 
-        # Read devices from database
+        # Read devices from INI
         devices = read_devices()
         if not devices:
-            print("No devices found in database!", flush=True)
+            print("No devices found in INI file!", flush=True)
             time.sleep(interval)
             continue
 
