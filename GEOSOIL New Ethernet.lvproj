@@ -391,7 +391,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/ralfsuliman/Desktop/EXE/Geosoil New Controller Multi Comm</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{FEADE620-7DED-4497-8ED4-6A56AAE1F777}</Property>
-				<Property Name="Bld_version.build" Type="Int">338</Property>
+				<Property Name="Bld_version.build" Type="Int">341</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">GeoLogic.exe</Property>
@@ -413,7 +413,7 @@
 				<Property Name="Destination[4].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">5</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Documents/favicon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C6D92A9D-3FE4-45CE-902F-1DF977BAAE83}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5CD6C939-C8D6-46CF-B526-09DDB1A1C621}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
@@ -728,11 +728,9 @@
 				<Property Name="Source[52].itemID" Type="Ref">/My Computer/data/Plan Template</Property>
 				<Property Name="Source[52].type" Type="Str">Container</Property>
 				<Property Name="Source[53].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[53].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[53].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[53].destinationIndex" Type="Int">4</Property>
 				<Property Name="Source[53].itemID" Type="Ref">/My Computer/API</Property>
-				<Property Name="Source[53].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[53].type" Type="Str">Container</Property>
 				<Property Name="Source[54].destinationIndex" Type="Int">4</Property>
 				<Property Name="Source[54].itemID" Type="Ref">/My Computer/API/.env</Property>
